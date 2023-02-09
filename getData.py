@@ -50,10 +50,3 @@ def putWordEntriesTogether(list):
 
 with open('english_words.json', 'w', encoding='utf-8') as f:
   json.dump(putWordEntriesTogether(lst), f)
-
-# print(putWordEntriesTogether(lst[0:9]))
-# print(len(lst))
-        
-# print('length: ', len(lst))
-# print(*lst[4:9], sep='\n')
-# print(lst[9])
