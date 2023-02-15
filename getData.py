@@ -43,13 +43,8 @@ def putWordEntriesTogether(list):
       This function makes a new list of dicts with the following form:
       {word: word, defs:[[noun, def1], [verb, def2]], synonyms: [syn1, syn2]}'''
   print(f'Sorting {len(lst)} words')
-  onePercent = len(lst)//100
-  wordCounter = 0
   newList = []
   for word in range(len(list)):
-    wordCounter += 1
-    if wordCounter % onePercent == 0:
-      print(f'{wordCounter//onePercent}% of words processed')
     if len(newList) == 0:
       newList.append({"word": lst[word]["word"], "definitions": [[lst[word]["pos"], lst[word]["definition"][0]]], "synonyms": lst[word]["synonyms"]})
     elif list[word]["word"] == newList[-1]["word"]:
