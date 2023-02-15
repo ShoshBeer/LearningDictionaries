@@ -15,22 +15,22 @@ Method:
 
 englishDict = wf.get_frequency_dict('en')
 topWords = wf.top_n_list('en', 10000)
-words = []
-with open("english_words_from_full_list.json", "r", encoding="utf-8") as f:
+words = {}
+with open("english_words_from_full_list_v2.json", "r", encoding="utf-8") as f:
   for dictionary in f: 
     data = json.loads(dictionary)
     wordCount = 0
     for commonWord in topWords:
       wordCount += 1
       if (wordCount % 100 == 0):
-        print(f'{wordCount // 100}% combed')
+        print(f'{wordCount // 100}% processed')
       for word in data:
         if commonWord == word["word"]:
           word["frequency"] = englishDict[commonWord]
-          words.append(word)
+          words[commonWord] = word
           break
 
-with open('english_words_frequencies.json', 'w', encoding='utf-8') as f:
+with open('english_words_frequencies__dict_v2.json', 'w', encoding='utf-8') as f:
   json.dump(words, f)
 
 

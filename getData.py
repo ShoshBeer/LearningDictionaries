@@ -4,6 +4,14 @@ import json
   
 lst = []
 releventKeys = ["word", "pos", "lang_code"]
+exclusions = [
+  "obsolete", "rare", "archaic", 
+  "regional", "dialectal",
+  "abbreviation", "initialism", "colloquial", "slang", 
+  "simple past", "simple present", "future tense", "plural of",
+  "misspelling", "alternative form", "alternative spelling", "alternative letter", 
+  "script ", "greek", "phonetic"
+]
 with open("kaikki.org-dictionary-English-words.json", "r", encoding="utf-8") as f:
   # there are 1,194,876 lines in this file
   print(f'Reading 1,194,876 lines')
@@ -17,15 +25,18 @@ with open("kaikki.org-dictionary-English-words.json", "r", encoding="utf-8") as 
     if ' ' in data["word"]:
       #skip multi-word phrases
       pass
-    elif data["pos"] not in "noun verb adj adv":
-      #only take nouns, verbs, adjectives, and adverbs
+    elif len(data["word"]) < 3:
+      #no 1 or 2 letter words for English, may have to adjust for other languages
+      pass
+    elif data["pos"] not in "noun verb adj":
+      #only take nouns, verbs, adjectives. May add in adverbs in later developments.
       pass
     elif data["senses"][0].get("raw_glosses") == None:
       #idk what this takes out, the senses array has "raw_glosses" and "glosses" and they look like the same thing and seem like definitions
       #for some reason, some don't have "raw_glosses" so this just prevents an error when grabbing the definition
       #later I can look through the ones without it and check what's being skipped and if the definition is stored elsewhere
       pass
-    elif "obsolete" in data["senses"][0]["raw_glosses"][0]:
+    elif any([x in data["senses"][0]["raw_glosses"][0].casefold() for x in exclusions]) :
       #lotta definitions start with "(obsolete) ..." so this just filters those words out
       pass
     else:
@@ -54,5 +65,5 @@ def putWordEntriesTogether(list):
       newList.append({"word": lst[word]["word"], "definitions": [[lst[word]["pos"], lst[word]["definition"][0]]], "synonyms": lst[word]["synonyms"]})
   return newList
 
-with open('english_words_from_full_list.json', 'w', encoding='utf-8') as f:
+with open('english_words_from_full_list_v2.json', 'w', encoding='utf-8') as f:
   json.dump(putWordEntriesTogether(lst), f)
