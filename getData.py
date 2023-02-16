@@ -8,7 +8,7 @@ exclusions = [
   "obsolete", "rare", "archaic", 
   "regional", "dialectal",
   "abbreviation", "initialism", "colloquial", "slang", 
-  "simple past", "simple present", "future tense", "plural of",
+  "simple past", "past participle", "simple present", "present participle", "future tense", "plural of",
   "misspelling", "alternative form", "alternative spelling", "alternative letter", 
   "script ", "greek", "phonetic"
 ]

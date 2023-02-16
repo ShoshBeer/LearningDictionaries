@@ -379,17 +379,6 @@
     ],
     "frequency": 0.0019054607179632462
   },
-  "been": {
-    "word": "been",
-    "definitions": [
-      [
-        "verb",
-        "past participle of be."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 0.0018620871366628676
-  },
   "would": {
     "word": "would",
     "definitions": [
@@ -1117,10 +1106,6 @@
     "word": "being",
     "definitions": [
       [
-        "verb",
-        "present participle of be"
-      ],
-      [
         "noun",
         "A living creature."
       ]
@@ -1150,10 +1135,6 @@
   "going": {
     "word": "going",
     "definitions": [
-      [
-        "verb",
-        "present participle of go"
-      ],
       [
         "noun",
         "A departure."
@@ -2058,17 +2039,6 @@
     ],
     "synonyms": [],
     "frequency": 0.0005370317963702527
-  },
-  "during": {
-    "word": "during",
-    "definitions": [
-      [
-        "verb",
-        "present participle of dure"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 0.0005248074602497728
   },
   "game": {
     "word": "game",
@@ -3061,10 +3031,6 @@
       [
         "noun",
         "A deed or action, especially when somebody is held responsible for it."
-      ],
-      [
-        "verb",
-        "present participle of do"
       ]
     ],
     "synonyms": [
@@ -3162,10 +3128,6 @@
     "word": "having",
     "definitions": [
       [
-        "verb",
-        "present participle of have"
-      ],
-      [
         "noun",
         "The act of possessing; ownership."
       ]
@@ -3258,10 +3220,6 @@
       [
         "adj",
         "Having completed or finished an activity."
-      ],
-      [
-        "verb",
-        "past participle of do"
       ]
     ],
     "synonyms": [
@@ -3275,10 +3233,6 @@
   "getting": {
     "word": "getting",
     "definitions": [
-      [
-        "verb",
-        "present participle of get"
-      ],
       [
         "noun",
         "The act of obtaining or acquiring; acquisition."
@@ -3340,10 +3294,6 @@
   "looking": {
     "word": "looking",
     "definitions": [
-      [
-        "verb",
-        "present participle of look"
-      ],
       [
         "noun",
         "The act of one who looks; a glance."
@@ -3753,10 +3703,6 @@
       [
         "noun",
         "The act of forming, causing, or constituting; workmanship; construction."
-      ],
-      [
-        "verb",
-        "present participle of make"
       ]
     ],
     "synonyms": [],
@@ -4060,17 +4006,6 @@
     "synonyms": [],
     "frequency": 0.0003388441561392024
   },
-  "including": {
-    "word": "including",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of include"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 0.0003311311214825911
-  },
   "music": {
     "word": "music",
     "definitions": [
@@ -4106,10 +4041,6 @@
   "seen": {
     "word": "seen",
     "definitions": [
-      [
-        "verb",
-        "past participle of see"
-      ],
       [
         "noun",
         "The letter \u0633 in the Arabic script."
@@ -4590,10 +4521,6 @@
       [
         "adj",
         "In a liquid state; melted or molten."
-      ],
-      [
-        "verb",
-        "past participle of rin"
       ]
     ],
     "synonyms": [],
@@ -4740,10 +4667,6 @@
         "Difficult to endure; arduous."
       ],
       [
-        "verb",
-        "present participle of try"
-      ],
-      [
         "noun",
         "(philosophy) The act by which one tries something; an attempt."
       ]
@@ -4765,10 +4688,6 @@
   "using": {
     "word": "using",
     "definitions": [
-      [
-        "verb",
-        "present participle of use"
-      ],
       [
         "noun",
         "use; utilization"
@@ -4827,10 +4746,6 @@
       [
         "noun",
         "A group of followers, attendants or admirers; an entourage."
-      ],
-      [
-        "verb",
-        "present participle of follow"
       ]
     ],
     "synonyms": [
@@ -5044,10 +4959,6 @@
       [
         "noun",
         "(usually in the plural) Operation; action."
-      ],
-      [
-        "verb",
-        "present participle of work"
       ],
       [
         "adj",
@@ -5482,10 +5393,6 @@
     "word": "given",
     "definitions": [
       [
-        "verb",
-        "past participle of give"
-      ],
-      [
         "noun",
         "A condition that is assumed to be true without further evaluation."
       ],
@@ -5675,10 +5582,6 @@
   "coming": {
     "word": "coming",
     "definitions": [
-      [
-        "verb",
-        "present participle of come"
-      ],
       [
         "noun",
         "The act of arriving; an arrival."
@@ -5981,10 +5884,6 @@
       [
         "noun",
         "Any fact or situation which is known or familiar."
-      ],
-      [
-        "verb",
-        "past participle of know"
       ]
     ],
     "synonyms": [],
@@ -6123,10 +6022,6 @@
       [
         "noun",
         "The act by which something is taken."
-      ],
-      [
-        "verb",
-        "present participle of take"
       ]
     ],
     "synonyms": [
@@ -6544,10 +6439,6 @@
       [
         "noun",
         "(gerund of play) An occasion on which something, such as a song or show, is played."
-      ],
-      [
-        "verb",
-        "present participle of play"
       ]
     ],
     "synonyms": [],
@@ -6556,10 +6447,6 @@
   "saying": {
     "word": "saying",
     "definitions": [
-      [
-        "verb",
-        "present participle of say"
-      ],
       [
         "noun",
         "A proverb or maxim."
@@ -7247,10 +7134,6 @@
     "word": "fucking",
     "definitions": [
       [
-        "verb",
-        "present participle of fuck"
-      ],
-      [
         "noun",
         "(vulgar) An act of sexual intercourse, especially one lacking passion or a feeling of sincere love."
       ],
@@ -7553,10 +7436,6 @@
       [
         "adj",
         "Infatuated; fond of or attracted to."
-      ],
-      [
-        "verb",
-        "past participle of take"
       ]
     ],
     "synonyms": [],
@@ -8048,10 +7927,6 @@
     "word": "living",
     "definitions": [
       [
-        "verb",
-        "present participle of live"
-      ],
-      [
         "adj",
         "Having life; alive."
       ],
@@ -8170,10 +8045,6 @@
       [
         "noun",
         "(uncountable) The act or process by which something is built; construction."
-      ],
-      [
-        "verb",
-        "present participle of build"
       ]
     ],
     "synonyms": [
@@ -8309,10 +8180,6 @@
       [
         "noun",
         "The action of the verb talk."
-      ],
-      [
-        "verb",
-        "present participle of talk"
       ]
     ],
     "synonyms": [],
@@ -8357,10 +8224,6 @@
   "according": {
     "word": "according",
     "definitions": [
-      [
-        "verb",
-        "present participle of accord."
-      ],
       [
         "adj",
         "Agreeing; in agreement or harmony; harmonious."
@@ -9243,10 +9106,6 @@
       [
         "noun",
         "Thought; gerund of think."
-      ],
-      [
-        "verb",
-        "present participle of think"
       ]
     ],
     "synonyms": [],
@@ -9501,10 +9360,6 @@
   "running": {
     "word": "running",
     "definitions": [
-      [
-        "verb",
-        "Present participle of run."
-      ],
       [
         "adj",
         "Moving or advancing at a run."
@@ -10894,10 +10749,6 @@
     "word": "training",
     "definitions": [
       [
-        "verb",
-        "present participle of train"
-      ],
-      [
         "noun",
         "Action of the verb to train."
       ]
@@ -11024,10 +10875,6 @@
   "gone": {
     "word": "gone",
     "definitions": [
-      [
-        "verb",
-        "past participle of go"
-      ],
       [
         "adj",
         "Away, having left."
@@ -11668,10 +11515,6 @@
     "word": "giving",
     "definitions": [
       [
-        "verb",
-        "present participle of give"
-      ],
-      [
         "adj",
         "having the tendency to give; generous"
       ],
@@ -11712,10 +11555,6 @@
       [
         "noun",
         "(gerund, uncountable) The act of persons or things that meet."
-      ],
-      [
-        "verb",
-        "present participle of meet"
       ]
     ],
     "synonyms": [],
@@ -11909,10 +11748,6 @@
   "reading": {
     "word": "reading",
     "definitions": [
-      [
-        "verb",
-        "present participle of read"
-      ],
       [
         "noun",
         "The process of interpreting written language."
@@ -12328,10 +12163,6 @@
       [
         "noun",
         "Sensation, particularly through the skin."
-      ],
-      [
-        "verb",
-        "present participle of feel"
       ]
     ],
     "synonyms": [],
@@ -13131,10 +12962,6 @@
     "word": "amazing",
     "definitions": [
       [
-        "verb",
-        "present participle of amaze"
-      ],
-      [
         "adj",
         "Causing wonder and amazement; very surprising."
       ]
@@ -13477,10 +13304,6 @@
     "word": "born",
     "definitions": [
       [
-        "verb",
-        "past participle of bear; given birth to."
-      ],
-      [
         "adj",
         "Having from birth (or as if from birth) a certain quality or character; innate; inherited."
       ]
@@ -13822,10 +13645,6 @@
       [
         "adj",
         "Of, relating, or characteristic of writing (i.e., of that which has been written)."
-      ],
-      [
-        "verb",
-        "past participle of write"
       ]
     ],
     "synonyms": [],
@@ -14557,10 +14376,6 @@
     "word": "starting",
     "definitions": [
       [
-        "verb",
-        "present participle of start"
-      ],
-      [
         "noun",
         "The act of something that starts."
       ]
@@ -14610,10 +14425,6 @@
       [
         "noun",
         "(uncountable) Graphism of symbols such as letters that express some meaning."
-      ],
-      [
-        "verb",
-        "present participle of write"
       ]
     ],
     "synonyms": [
@@ -14869,17 +14680,6 @@
     "synonyms": [],
     "frequency": 0.0001148153621496883
   },
-  "waiting": {
-    "word": "waiting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of wait"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 0.0001148153621496883
-  },
   "ways": {
     "word": "ways",
     "definitions": [
@@ -15034,10 +14834,6 @@
   "missing": {
     "word": "missing",
     "definitions": [
-      [
-        "verb",
-        "present participle of miss"
-      ],
       [
         "adj",
         "Not able to be located; gone, misplaced."
@@ -15600,10 +15396,6 @@
   "seeing": {
     "word": "seeing",
     "definitions": [
-      [
-        "verb",
-        "present participle of see"
-      ],
       [
         "adj",
         "Having vision; not blind."
@@ -16283,10 +16075,6 @@
         "(not comparable) That moves or move."
       ],
       [
-        "verb",
-        "present participle of move"
-      ],
-      [
         "noun",
         "(uncountable) The relocation of goods"
       ]
@@ -16484,10 +16272,6 @@
   "watching": {
     "word": "watching",
     "definitions": [
-      [
-        "verb",
-        "present participle of watch"
-      ],
       [
         "noun",
         "The act of one who watches."
@@ -17008,10 +16792,6 @@
         "(uncountable) The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states."
       ],
       [
-        "verb",
-        "present participle of begin"
-      ],
-      [
         "adj",
         "(informal) Of or relating to the first portion of some extended thing."
       ]
@@ -17202,17 +16982,6 @@
     ],
     "frequency": 0.0001
   },
-  "interesting": {
-    "word": "interesting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of interest"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 0.0001
-  },
   "join": {
     "word": "join",
     "definitions": [
@@ -17269,10 +17038,6 @@
   "leading": {
     "word": "leading",
     "definitions": [
-      [
-        "verb",
-        "present participle of lead"
-      ],
       [
         "adj",
         "Providing guidance or direction."
@@ -17732,19 +17497,6 @@
     "synonyms": [],
     "frequency": 9.549925860214369e-05
   },
-  "leaving": {
-    "word": "leaving",
-    "definitions": [
-      [
-        "verb",
-        "present participle of leave"
-      ]
-    ],
-    "synonyms": [
-      "leavyng"
-    ],
-    "frequency": 9.549925860214369e-05
-  },
   "minute": {
     "word": "minute",
     "definitions": [
@@ -17900,10 +17652,6 @@
   "winning": {
     "word": "winning",
     "definitions": [
-      [
-        "verb",
-        "present participle of win"
-      ],
       [
         "adj",
         "That constitutes a win."
@@ -18178,10 +17926,6 @@
     "word": "asking",
     "definitions": [
       [
-        "verb",
-        "present participle of ask"
-      ],
-      [
         "noun",
         "The act or process of posing a question or making a request."
       ],
@@ -18196,10 +17940,6 @@
   "calling": {
     "word": "calling",
     "definitions": [
-      [
-        "verb",
-        "present participle of call"
-      ],
       [
         "noun",
         "A strong urge to become religious."
@@ -19133,10 +18873,6 @@
     "word": "growing",
     "definitions": [
       [
-        "verb",
-        "present participle of grow"
-      ],
-      [
         "noun",
         "growth; increase"
       ],
@@ -19218,10 +18954,6 @@
   "opening": {
     "word": "opening",
     "definitions": [
-      [
-        "verb",
-        "present participle of open"
-      ],
       [
         "adj",
         "Pertaining to the start or beginning of a series of events."
@@ -20040,10 +19772,6 @@
         "Engaged in war or other conflict."
       ],
       [
-        "verb",
-        "present participle of fight"
-      ],
-      [
         "noun",
         "The act or process of contending; violence or conflict."
       ]
@@ -20132,10 +19860,6 @@
       [
         "noun",
         "(uncountable) An act in which something is learned."
-      ],
-      [
-        "verb",
-        "present participle of learn"
       ]
     ],
     "synonyms": [],
@@ -20312,10 +20036,6 @@
   "telling": {
     "word": "telling",
     "definitions": [
-      [
-        "verb",
-        "present participle of tell"
-      ],
       [
         "adj",
         "Having force, or having a marked effect; weighty, effective."
@@ -20656,10 +20376,6 @@
       [
         "noun",
         "One's ability to communicate vocally in a given language."
-      ],
-      [
-        "verb",
-        "present participle of speak"
       ]
     ],
     "synonyms": [],
@@ -20909,10 +20625,6 @@
     "word": "driving",
     "definitions": [
       [
-        "verb",
-        "present participle of drive"
-      ],
-      [
         "adj",
         "That drives (a mechanism or process)."
       ],
@@ -21107,10 +20819,6 @@
     "word": "planning",
     "definitions": [
       [
-        "verb",
-        "present participle of plan"
-      ],
-      [
         "noun",
         "(uncountable) Action of the verb to plan."
       ]
@@ -21130,17 +20838,6 @@
       "prof",
       "Prof."
     ],
-    "frequency": 7.943282347242822e-05
-  },
-  "shown": {
-    "word": "shown",
-    "definitions": [
-      [
-        "verb",
-        "past participle of show"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 7.943282347242822e-05
   },
   "sit": {
@@ -21353,10 +21050,6 @@
       [
         "noun",
         "Something that one owns, especially stocks and bonds."
-      ],
-      [
-        "verb",
-        "present participle of hold"
       ]
     ],
     "synonyms": [],
@@ -21652,10 +21345,6 @@
     "word": "broken",
     "definitions": [
       [
-        "verb",
-        "past participle of break"
-      ],
-      [
         "adj",
         "(of a bone or body part) Fractured; having the bone in pieces."
       ]
@@ -21735,10 +21424,6 @@
   "killing": {
     "word": "killing",
     "definitions": [
-      [
-        "verb",
-        "present participle of kill"
-      ],
       [
         "adj",
         "That literally deprives of life; lethal, deadly, fatal."
@@ -21892,10 +21577,6 @@
   "showing": {
     "word": "showing",
     "definitions": [
-      [
-        "verb",
-        "present participle of show"
-      ],
       [
         "noun",
         "An occasion when something is shown."
@@ -22188,10 +21869,6 @@
         "The denotation, referent, or idea connected with a word, expression, or symbol."
       ],
       [
-        "verb",
-        "present participle of mean"
-      ],
-      [
         "adj",
         "Having a (specified) intention."
       ]
@@ -22462,21 +22139,6 @@
     ],
     "frequency": 7.244359600749906e-05
   },
-  "evening": {
-    "word": "evening",
-    "definitions": [
-      [
-        "verb",
-        "present participle of even"
-      ],
-      [
-        "verb",
-        "present participle of evene"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 7.244359600749906e-05
-  },
   "flight": {
     "word": "flight",
     "definitions": [
@@ -22628,14 +22290,6 @@
     "word": "putting",
     "definitions": [
       [
-        "verb",
-        "present participle of put"
-      ],
-      [
-        "verb",
-        "(golf) present participle of putt"
-      ],
-      [
         "noun",
         "(golf) The action of the verb to putt."
       ]
@@ -22726,10 +22380,6 @@
         "A period during which one is seated for a specific purpose."
       ],
       [
-        "verb",
-        "present participle of sit"
-      ],
-      [
         "adj",
         "Executed from a sitting position."
       ]
@@ -22740,10 +22390,6 @@
   "standing": {
     "word": "standing",
     "definitions": [
-      [
-        "verb",
-        "present participle of stand"
-      ],
       [
         "adj",
         "Erect, not cut down."
@@ -22772,10 +22418,6 @@
   "walking": {
     "word": "walking",
     "definitions": [
-      [
-        "verb",
-        "present participle of walk"
-      ],
       [
         "adj",
         "Incarnate as a human; living."
@@ -22919,10 +22561,6 @@
     "word": "eating",
     "definitions": [
       [
-        "verb",
-        "present participle of eat"
-      ],
-      [
         "adj",
         "Bred to be eaten."
       ],
@@ -23011,10 +22649,6 @@
       [
         "noun",
         "A result of research or an investigation."
-      ],
-      [
-        "verb",
-        "present participle of find"
       ]
     ],
     "synonyms": [
@@ -23078,10 +22712,6 @@
   "losing": {
     "word": "losing",
     "definitions": [
-      [
-        "verb",
-        "present participle of lose"
-      ],
       [
         "adj",
         "That loses or has lost."
@@ -23436,10 +23066,6 @@
       [
         "noun",
         "The mechanical process of eroding or grinding."
-      ],
-      [
-        "verb",
-        "present participle of wear"
       ]
     ],
     "synonyms": [],
@@ -23646,10 +23272,6 @@
       [
         "noun",
         "conformity or harmony."
-      ],
-      [
-        "verb",
-        "present participle of keep"
       ]
     ],
     "synonyms": [],
@@ -24583,10 +24205,6 @@
     "word": "wedding",
     "definitions": [
       [
-        "verb",
-        "present participle of wed"
-      ],
-      [
         "noun",
         "Marriage ceremony; ritual officially celebrating the beginning of a marriage."
       ],
@@ -24604,10 +24222,6 @@
       [
         "adj",
         "Temporarily assuming the duties or authority of another person when they are unable to do their job."
-      ],
-      [
-        "verb",
-        "present participle of act"
       ]
     ],
     "synonyms": [],
@@ -24793,10 +24407,6 @@
       [
         "noun",
         "(uncountable) The sense used to perceive sound."
-      ],
-      [
-        "verb",
-        "present participle of hear"
       ]
     ],
     "synonyms": [],
@@ -25102,10 +24712,6 @@
       [
         "adj",
         "Showing compassion, tolerance, and forbearance."
-      ],
-      [
-        "verb",
-        "present participle of understand"
       ]
     ],
     "synonyms": [],
@@ -25215,10 +24821,6 @@
   "becoming": {
     "word": "becoming",
     "definitions": [
-      [
-        "verb",
-        "present participle of become"
-      ],
       [
         "noun",
         "(chiefly philosophy) The act or process by which something becomes."
@@ -25449,10 +25051,6 @@
       [
         "noun",
         "Action of the verb to sell."
-      ],
-      [
-        "verb",
-        "present participle of sell"
       ]
     ],
     "synonyms": [],
@@ -25636,10 +25234,6 @@
     "word": "engineering",
     "definitions": [
       [
-        "verb",
-        "present participle of engineer"
-      ],
-      [
         "noun",
         "(uncountable) The application of mathematics and the physical sciences to the needs of humanity and the development of technology."
       ]
@@ -25669,10 +25263,6 @@
   "happening": {
     "word": "happening",
     "definitions": [
-      [
-        "verb",
-        "present participle of happen"
-      ],
       [
         "noun",
         "Something that happens."
@@ -26549,10 +26139,6 @@
       [
         "noun",
         "(countable) A portion or serving, especially of food that one takes for oneself, or to which one helps oneself."
-      ],
-      [
-        "verb",
-        "present participle of help"
       ]
     ],
     "synonyms": [],
@@ -26603,17 +26189,6 @@
     "synonyms": [
       "johannes"
     ],
-    "frequency": 6.0255958607435806e-05
-  },
-  "marketing": {
-    "word": "marketing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of market"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 6.0255958607435806e-05
   },
   "produce": {
@@ -26669,10 +26244,6 @@
   "shooting": {
     "word": "shooting",
     "definitions": [
-      [
-        "verb",
-        "present participle of shoot"
-      ],
       [
         "noun",
         "(countable) An instance of shooting with a gun or other weapon."
@@ -26949,10 +26520,6 @@
     "word": "housing",
     "definitions": [
       [
-        "verb",
-        "present participle of house"
-      ],
-      [
         "noun",
         "(uncountable) The activity of enclosing something or providing a residence for someone."
       ]
@@ -27130,10 +26697,6 @@
   "setting": {
     "word": "setting",
     "definitions": [
-      [
-        "verb",
-        "present participle of set"
-      ],
       [
         "noun",
         "The time, place and circumstance in which something (such as a story or picture) is set; context; scenario."
@@ -27380,10 +26943,6 @@
     "word": "changing",
     "definitions": [
       [
-        "verb",
-        "present participle of change"
-      ],
-      [
         "noun",
         "Change; alteration."
       ]
@@ -27496,10 +27055,6 @@
       [
         "adj",
         "Possessing knowledge or understanding; knowledgeable, intelligent."
-      ],
-      [
-        "verb",
-        "present participle of know"
       ],
       [
         "noun",
@@ -27846,10 +27401,6 @@
     "word": "buying",
     "definitions": [
       [
-        "verb",
-        "present participle of buy"
-      ],
-      [
         "noun",
         "The act of making a purchase."
       ]
@@ -27987,10 +27538,6 @@
   "existing": {
     "word": "existing",
     "definitions": [
-      [
-        "verb",
-        "present participle of exist"
-      ],
       [
         "adj",
         "That exists, or has existence, especially that exists now."
@@ -28165,10 +27712,6 @@
       [
         "adj",
         "In operation; that operates."
-      ],
-      [
-        "verb",
-        "present participle and gerund of operate"
       ]
     ],
     "synonyms": [],
@@ -28177,10 +27720,6 @@
   "paying": {
     "word": "paying",
     "definitions": [
-      [
-        "verb",
-        "present participle of pay"
-      ],
       [
         "noun",
         "payment"
@@ -28463,10 +28002,6 @@
     "word": "breaking",
     "definitions": [
       [
-        "verb",
-        "present participle of break"
-      ],
-      [
         "noun",
         "The act by which something is broken."
       ]
@@ -28596,10 +28131,6 @@
       [
         "adj",
         "Having great enthusiasm."
-      ],
-      [
-        "verb",
-        "past participle of excite"
       ]
     ],
     "synonyms": [
@@ -29983,10 +29514,6 @@
     "word": "providing",
     "definitions": [
       [
-        "verb",
-        "present participle of provide"
-      ],
-      [
         "noun",
         "Something provided; a provision."
       ]
@@ -30094,10 +29621,6 @@
       [
         "noun",
         "Something taught by a religious or philosophical authority."
-      ],
-      [
-        "verb",
-        "present participle of teach"
       ]
     ],
     "synonyms": [],
@@ -30216,10 +29739,6 @@
       [
         "adj",
         "Ready to do something that is not (can't be expected as) a matter of course."
-      ],
-      [
-        "verb",
-        "present participle of will"
       ]
     ],
     "synonyms": [
@@ -30344,10 +29863,6 @@
     "word": "bringing",
     "definitions": [
       [
-        "verb",
-        "present participle of bring"
-      ],
-      [
         "noun",
         "The act by which something is brought."
       ]
@@ -30418,10 +29933,6 @@
     "word": "drinking",
     "definitions": [
       [
-        "verb",
-        "present participle of drink"
-      ],
-      [
         "noun",
         "An act or session by which drink is consumed, especially alcoholic beverages."
       ]
@@ -30471,10 +29982,6 @@
       [
         "adj",
         "That flies or can fly."
-      ],
-      [
-        "verb",
-        "present participle of fly"
       ],
       [
         "noun",
@@ -30743,10 +30250,6 @@
       [
         "noun",
         "(uncountable) gerund of spend, expenditure."
-      ],
-      [
-        "verb",
-        "present participle of spend"
       ]
     ],
     "synonyms": [],
@@ -30788,10 +30291,6 @@
       [
         "adj",
         "That supports."
-      ],
-      [
-        "verb",
-        "present participle of support"
       ],
       [
         "noun",
@@ -30843,10 +30342,6 @@
       [
         "noun",
         "(Britain) A turn or deviation from a straight course."
-      ],
-      [
-        "verb",
-        "present participle of turn"
       ]
     ],
     "synonyms": [
@@ -31073,10 +30568,6 @@
   "dating": {
     "word": "dating",
     "definitions": [
-      [
-        "verb",
-        "present participle of date"
-      ],
       [
         "noun",
         "A form of romantic courtship typically between two individuals with the aim of assessing the other's suitability as a partner in an intimate relationship or as a spouse."
@@ -31477,10 +30968,6 @@
   "creating": {
     "word": "creating",
     "definitions": [
-      [
-        "verb",
-        "present participle of create"
-      ],
       [
         "noun",
         "creation"
@@ -31962,10 +31449,6 @@
       [
         "noun",
         "A termination or conclusion."
-      ],
-      [
-        "verb",
-        "present participle of end"
       ]
     ],
     "synonyms": [
@@ -32099,10 +31582,6 @@
         "on the increase."
       ],
       [
-        "verb",
-        "present participle of increase"
-      ],
-      [
         "noun",
         "(knitting) An increase."
       ]
@@ -32230,10 +31709,6 @@
   "shopping": {
     "word": "shopping",
     "definitions": [
-      [
-        "verb",
-        "present participle of shop"
-      ],
       [
         "noun",
         "The process of buying goods or services, or searching for those suitable to buy."
@@ -32380,17 +31855,6 @@
       [
         "adj",
         "Generally approved, believed, or recognized."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 4.677351412871981e-05
-  },
-  "adding": {
-    "word": "adding",
-    "definitions": [
-      [
-        "verb",
-        "present participle of add"
       ]
     ],
     "synonyms": [],
@@ -32613,10 +32077,6 @@
     "word": "grown",
     "definitions": [
       [
-        "verb",
-        "past participle of grow"
-      ],
-      [
         "adj",
         "Covered by growth; overgrown."
       ]
@@ -32637,17 +32097,6 @@
     "synonyms": [
       "obverse"
     ],
-    "frequency": 4.677351412871981e-05
-  },
-  "hoping": {
-    "word": "hoping",
-    "definitions": [
-      [
-        "verb",
-        "present participle of hope"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 4.677351412871981e-05
   },
   "keeps": {
@@ -32680,16 +32129,8 @@
     "word": "lying",
     "definitions": [
       [
-        "verb",
-        "present participle of lie (\u201cto rest in a horizontal position\u201d)."
-      ],
-      [
         "noun",
         "The act of one who lies, or keeps low to the ground."
-      ],
-      [
-        "verb",
-        "present participle of lie (\u201cto intentionally give false information\u201d)."
       ],
       [
         "noun",
@@ -32780,10 +32221,6 @@
   "regarding": {
     "word": "regarding",
     "definitions": [
-      [
-        "verb",
-        "present participle of regard"
-      ],
       [
         "noun",
         "The act by which something is regarded or observed."
@@ -32924,10 +32361,6 @@
       [
         "noun",
         "The act of conducting a test; trialing, proving."
-      ],
-      [
-        "verb",
-        "present participle of test"
       ]
     ],
     "synonyms": [],
@@ -33086,10 +32519,6 @@
     "word": "developing",
     "definitions": [
       [
-        "verb",
-        "present participle and gerund of develop"
-      ],
-      [
         "adj",
         "In the process of development."
       ],
@@ -33149,10 +32578,6 @@
   "falling": {
     "word": "falling",
     "definitions": [
-      [
-        "verb",
-        "present participle of fall"
-      ],
       [
         "noun",
         "gerund of fall"
@@ -33359,10 +32784,6 @@
         "Of something or someone that listens."
       ],
       [
-        "verb",
-        "present participle of listen"
-      ],
-      [
         "noun",
         "An educational exercise involving listening"
       ]
@@ -33496,10 +32917,6 @@
       [
         "noun",
         "Something shared; a point in common."
-      ],
-      [
-        "verb",
-        "present participle of share"
       ]
     ],
     "synonyms": [],
@@ -34200,10 +33617,6 @@
   "considering": {
     "word": "considering",
     "definitions": [
-      [
-        "verb",
-        "present participle of consider"
-      ],
       [
         "noun",
         "Consideration."
@@ -34976,14 +34389,6 @@
       [
         "noun",
         "The process of approaching death; loss of life; death."
-      ],
-      [
-        "verb",
-        "present participle of die"
-      ],
-      [
-        "verb",
-        "(nonstandard) present participle of dye"
       ]
     ],
     "synonyms": [],
@@ -35006,10 +34411,6 @@
       [
         "adj",
         "Having experience and skill in a subject."
-      ],
-      [
-        "verb",
-        "past participle of experience"
       ]
     ],
     "synonyms": [
@@ -35070,10 +34471,6 @@
   "funding": {
     "word": "funding",
     "definitions": [
-      [
-        "verb",
-        "present participle of fund"
-      ],
       [
         "noun",
         "The action of the verb fund."
@@ -35235,10 +34632,6 @@
     "word": "passing",
     "definitions": [
       [
-        "verb",
-        "present participle of pass"
-      ],
-      [
         "adj",
         "That passes away; ephemeral."
       ],
@@ -35253,10 +34646,6 @@
   "remaining": {
     "word": "remaining",
     "definitions": [
-      [
-        "verb",
-        "present participle of remain"
-      ],
       [
         "adj",
         "Which remains, especially after something else has been removed."
@@ -35319,10 +34708,6 @@
   "trading": {
     "word": "trading",
     "definitions": [
-      [
-        "verb",
-        "present participle of trade"
-      ],
       [
         "adj",
         "Carrying on trade or commerce; engaged in trade."
@@ -35408,17 +34793,6 @@
       "zero out"
     ],
     "frequency": 4.265795188015926e-05
-  },
-  "allowing": {
-    "word": "allowing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of allow"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 4.168693834703355e-05
   },
   "champion": {
     "word": "champion",
@@ -35757,10 +35131,6 @@
       [
         "noun",
         "(uncountable, gerund) The act or process of serving."
-      ],
-      [
-        "verb",
-        "present participle of serve"
       ]
     ],
     "synonyms": [
@@ -35920,10 +35290,6 @@
     "word": "voting",
     "definitions": [
       [
-        "verb",
-        "present participle of vote"
-      ],
-      [
         "adj",
         "(finance) Having an associated right for the holder to vote as an owner of business."
       ],
@@ -36039,10 +35405,6 @@
     "word": "carrying",
     "definitions": [
       [
-        "verb",
-        "present participle of carry"
-      ],
-      [
         "noun",
         "Transportation."
       ]
@@ -36053,10 +35415,6 @@
   "chosen": {
     "word": "chosen",
     "definitions": [
-      [
-        "verb",
-        "past participle of choose"
-      ],
       [
         "adj",
         "picked; selected"
@@ -36115,10 +35473,6 @@
       [
         "adj",
         "That is used for cutting."
-      ],
-      [
-        "verb",
-        "present participle of cut"
       ]
     ],
     "synonyms": [
@@ -36202,10 +35556,6 @@
       [
         "noun",
         "One who is intoxicated with alcohol."
-      ],
-      [
-        "verb",
-        "past participle of drink"
       ]
     ],
     "synonyms": [
@@ -36627,16 +35977,9 @@
       [
         "noun",
         "The action of the verb to laugh."
-      ],
-      [
-        "verb",
-        "present participle of laugh"
       ]
     ],
-    "synonyms": [
-      "hilarity",
-      "laughter"
-    ],
+    "synonyms": [],
     "frequency": 4.07380277804113e-05
   },
   "medium": {
@@ -36720,10 +36063,6 @@
   "sending": {
     "word": "sending",
     "definitions": [
-      [
-        "verb",
-        "present participle of send"
-      ],
       [
         "noun",
         "The act by which somebody or something is sent."
@@ -36910,10 +36249,6 @@
       [
         "noun",
         "(chiefly in the plural) A business transaction."
-      ],
-      [
-        "verb",
-        "present participle of deal"
       ]
     ],
     "synonyms": [],
@@ -37126,10 +36461,6 @@
     "word": "offering",
     "definitions": [
       [
-        "verb",
-        "present participle of offer"
-      ],
-      [
         "noun",
         "The act by which something is offered."
       ]
@@ -37140,10 +36471,6 @@
   "painting": {
     "word": "painting",
     "definitions": [
-      [
-        "verb",
-        "present participle of paint"
-      ],
       [
         "noun",
         "(countable) An illustration or artwork done with the use of paint."
@@ -37868,10 +37195,6 @@
     "word": "receiving",
     "definitions": [
       [
-        "verb",
-        "present participle of receive"
-      ],
-      [
         "noun",
         "The act by which something is received; reception."
       ]
@@ -37932,10 +37255,6 @@
         "A reduction in cost or expenditure."
       ],
       [
-        "verb",
-        "present participle of save"
-      ],
-      [
         "adj",
         "Preserving; rescuing."
       ]
@@ -37953,10 +37272,6 @@
       [
         "adj",
         "(music) Smooth and flowing."
-      ],
-      [
-        "verb",
-        "present participle of sing"
       ]
     ],
     "synonyms": [],
@@ -37991,10 +37306,6 @@
   "warning": {
     "word": "warning",
     "definitions": [
-      [
-        "verb",
-        "present participle of warn"
-      ],
       [
         "noun",
         "The action of the verb warn; an instance of warning someone."
@@ -38097,10 +37408,6 @@
   "drawing": {
     "word": "drawing",
     "definitions": [
-      [
-        "verb",
-        "present participle of draw"
-      ],
       [
         "noun",
         "A picture, likeness, diagram or representation, usually drawn on paper."
@@ -38426,10 +37733,6 @@
       [
         "adj",
         "(in combination) That seeks something specified."
-      ],
-      [
-        "verb",
-        "present participle of seek"
       ]
     ],
     "synonyms": [],
@@ -39452,10 +38755,6 @@
       [
         "noun",
         "The act of one who cries; a weeping or shouting."
-      ],
-      [
-        "verb",
-        "present participle of cry"
       ]
     ],
     "synonyms": [],
@@ -39467,17 +38766,6 @@
       [
         "adj",
         "Having a definition or value."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 3.63078054770101e-05
-  },
-  "depending": {
-    "word": "depending",
-    "definitions": [
-      [
-        "verb",
-        "present participle of depend"
       ]
     ],
     "synonyms": [],
@@ -39691,10 +38979,6 @@
       [
         "adj",
         "Used in manufacturing."
-      ],
-      [
-        "verb",
-        "present participle of manufacture"
       ]
     ],
     "synonyms": [],
@@ -39706,10 +38990,6 @@
       [
         "noun",
         "The activity of removing solid valuables from the earth."
-      ],
-      [
-        "verb",
-        "present participle of mine"
       ]
     ],
     "synonyms": [],
@@ -39758,10 +39038,6 @@
   "performing": {
     "word": "performing",
     "definitions": [
-      [
-        "verb",
-        "present participle of perform"
-      ],
       [
         "noun",
         "A performance."
@@ -39873,10 +39149,6 @@
   "sleeping": {
     "word": "sleeping",
     "definitions": [
-      [
-        "verb",
-        "present participle of sleep"
-      ],
       [
         "adj",
         "Asleep."
@@ -40806,10 +40078,6 @@
     "word": "staying",
     "definitions": [
       [
-        "verb",
-        "present participle of stay"
-      ],
-      [
         "noun",
         "A stay or visit."
       ]
@@ -40892,10 +40160,6 @@
       [
         "noun",
         "Communication whose purpose is to influence potential customers about products and services."
-      ],
-      [
-        "verb",
-        "present participle of advertise"
       ]
     ],
     "synonyms": [],
@@ -41054,10 +40318,6 @@
     "word": "driven",
     "definitions": [
       [
-        "verb",
-        "past participle of drive"
-      ],
-      [
         "adj",
         "Obsessed; passionately motivated to achieve goals."
       ]
@@ -41110,10 +40370,6 @@
   "exciting": {
     "word": "exciting",
     "definitions": [
-      [
-        "verb",
-        "present participle of excite"
-      ],
       [
         "adj",
         "creating or producing excitement"
@@ -41336,10 +40592,6 @@
       [
         "noun",
         "(economics, journalism) The creation of reports, as for a business or a journal."
-      ],
-      [
-        "verb",
-        "present participle of report"
       ]
     ],
     "synonyms": [],
@@ -41642,19 +40894,6 @@
     ],
     "frequency": 3.3884415613920276e-05
   },
-  "causing": {
-    "word": "causing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of cause"
-      ]
-    ],
-    "synonyms": [
-      "causeing"
-    ],
-    "frequency": 3.3884415613920276e-05
-  },
   "contest": {
     "word": "contest",
     "definitions": [
@@ -41688,10 +40927,6 @@
   "drawn": {
     "word": "drawn",
     "definitions": [
-      [
-        "verb",
-        "past participle of draw"
-      ],
       [
         "adj",
         "Appearing tired and unwell, as from stress; haggard."
@@ -41752,10 +40987,6 @@
     "word": "hidden",
     "definitions": [
       [
-        "verb",
-        "past participle of hide"
-      ],
-      [
         "adj",
         "Located or positioned out of sight; not visually apparent."
       ]
@@ -41813,10 +41044,6 @@
   "letting": {
     "word": "letting",
     "definitions": [
-      [
-        "verb",
-        "present participle of let"
-      ],
       [
         "noun",
         "(UK) Synonym of tenancy."
@@ -42102,10 +41329,6 @@
       [
         "noun",
         "The condition of someone who suffers; a state of pain or distress."
-      ],
-      [
-        "verb",
-        "present participle of suffer"
       ]
     ],
     "synonyms": [
@@ -42152,10 +41375,6 @@
       [
         "noun",
         "(algebra) A variable (usually x, y or z) whose value is to be found."
-      ],
-      [
-        "verb",
-        "past participle of unknow"
       ]
     ],
     "synonyms": [
@@ -42188,10 +41407,6 @@
   "wondering": {
     "word": "wondering",
     "definitions": [
-      [
-        "verb",
-        "present participle of wonder"
-      ],
       [
         "noun",
         "The mental activity by which one wonders; a query, puzzlement, etc."
@@ -42664,10 +41879,6 @@
     "word": "rising",
     "definitions": [
       [
-        "verb",
-        "present participle of rise"
-      ],
-      [
         "noun",
         "Rebellion."
       ],
@@ -42685,10 +41896,6 @@
       [
         "noun",
         "The transportation of goods."
-      ],
-      [
-        "verb",
-        "present participle of ship"
       ]
     ],
     "synonyms": [],
@@ -42715,10 +41922,6 @@
   "smoking": {
     "word": "smoking",
     "definitions": [
-      [
-        "verb",
-        "present participle of smoke"
-      ],
       [
         "adj",
         "Giving off smoke."
@@ -43237,10 +42440,6 @@
     "word": "recording",
     "definitions": [
       [
-        "verb",
-        "present participle of record"
-      ],
-      [
         "noun",
         "The act of storing sound, video, etc., in a permanent medium."
       ]
@@ -43560,10 +42759,6 @@
     "word": "burning",
     "definitions": [
       [
-        "verb",
-        "present participle of burn"
-      ],
-      [
         "adj",
         "On fire."
       ],
@@ -43611,10 +42806,6 @@
       [
         "noun",
         "The activity of taking part in a dance."
-      ],
-      [
-        "verb",
-        "present participle of dance"
       ]
     ],
     "synonyms": [],
@@ -43695,10 +42886,6 @@
       [
         "noun",
         "The most external portion of exterior siding."
-      ],
-      [
-        "verb",
-        "present participle of face"
       ]
     ],
     "synonyms": [],
@@ -43794,10 +42981,6 @@
   "hanging": {
     "word": "hanging",
     "definitions": [
-      [
-        "verb",
-        "present participle of hang"
-      ],
       [
         "adj",
         "Suspended."
@@ -43921,10 +43104,6 @@
     "word": "outstanding",
     "definitions": [
       [
-        "verb",
-        "present participle of outstand"
-      ],
-      [
         "adj",
         "Prominent or noticeable; standing out from others."
       ]
@@ -43986,10 +43165,6 @@
       [
         "noun",
         "The sport of competing in races."
-      ],
-      [
-        "verb",
-        "present participle of race"
       ]
     ],
     "synonyms": [],
@@ -44141,10 +43316,6 @@
   "visited": {
     "word": "visited",
     "definitions": [
-      [
-        "verb",
-        "past participle of visit"
-      ],
       [
         "adj",
         "That has received a visit or visits."
@@ -44654,10 +43825,6 @@
     "word": "returning",
     "definitions": [
       [
-        "verb",
-        "present participle of return"
-      ],
-      [
         "noun",
         "The act of one who returns; a coming back."
       ]
@@ -44668,10 +43835,6 @@
   "riding": {
     "word": "riding",
     "definitions": [
-      [
-        "verb",
-        "present participle of ride"
-      ],
       [
         "noun",
         "A path cut through woodland."
@@ -44780,10 +43943,6 @@
     "word": "surrounding",
     "definitions": [
       [
-        "verb",
-        "present participle of surround"
-      ],
-      [
         "noun",
         "An outlying area; area in proximity to something"
       ],
@@ -44883,10 +44042,6 @@
         "That wants or desires."
       ],
       [
-        "verb",
-        "present participle of want"
-      ],
-      [
         "noun",
         "The state of wanting something; desire."
       ]
@@ -44933,10 +44088,6 @@
   "continuing": {
     "word": "continuing",
     "definitions": [
-      [
-        "verb",
-        "present participle of continue"
-      ],
       [
         "noun",
         "A continuation."
@@ -45033,10 +44184,6 @@
     "word": "heading",
     "definitions": [
       [
-        "verb",
-        "present participle of head"
-      ],
-      [
         "noun",
         "The title or topic of a document, article, chapter, or of a section thereof."
       ]
@@ -45082,17 +44229,6 @@
       "fail to notice",
       "be ignorant of"
     ],
-    "frequency": 3.0199517204020192e-05
-  },
-  "involving": {
-    "word": "involving",
-    "definitions": [
-      [
-        "verb",
-        "present participle of involve"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 3.0199517204020192e-05
   },
   "lewis": {
@@ -45329,10 +44465,6 @@
       [
         "adj",
         "Of something that follows as the result of something else; resultant."
-      ],
-      [
-        "verb",
-        "present participle of result"
       ]
     ],
     "synonyms": [],
@@ -45659,10 +44791,6 @@
     "word": "clothing",
     "definitions": [
       [
-        "verb",
-        "present participle of clothe"
-      ],
-      [
         "noun",
         "Any of a wide variety of articles, usually made of fabrics, animal hair, animal skin, or some combination thereof, used to cover the human body for warmth, to preserve modesty, or for fashion."
       ]
@@ -45813,10 +44941,6 @@
       [
         "noun",
         "(uncountable) The act of catching fish."
-      ],
-      [
-        "verb",
-        "present participle of fish"
       ]
     ],
     "synonyms": [],
@@ -45979,10 +45103,6 @@
     "word": "joining",
     "definitions": [
       [
-        "verb",
-        "present participle of join"
-      ],
-      [
         "noun",
         "The act or result of joining; a joint or juncture."
       ]
@@ -46034,10 +45154,6 @@
       [
         "adj",
         "Expressing a large amount of love to other people; affectionate."
-      ],
-      [
-        "verb",
-        "present participle of love"
       ]
     ],
     "synonyms": [
@@ -46117,10 +45233,6 @@
     "word": "parking",
     "definitions": [
       [
-        "verb",
-        "present participle of park"
-      ],
-      [
         "noun",
         "The action of the verb to park."
       ]
@@ -46184,17 +45296,11 @@
     "word": "rolling",
     "definitions": [
       [
-        "verb",
-        "present participle of roll"
-      ],
-      [
         "noun",
         "The act by which something is rolled."
       ]
     ],
-    "synonyms": [
-      "rowling"
-    ],
+    "synonyms": [],
     "frequency": 2.951209226666384e-05
   },
   "technique": {
@@ -46399,10 +45505,6 @@
       [
         "adj",
         "Pertaining to the finish or ending of a series of events; occurring at the end or after all others."
-      ],
-      [
-        "verb",
-        "present participle of close"
       ]
     ],
     "synonyms": [],
@@ -46589,10 +45691,6 @@
       [
         "noun",
         "A series of hits or blows directed at a person or object."
-      ],
-      [
-        "verb",
-        "present participle of hit"
       ]
     ],
     "synonyms": [],
@@ -46776,10 +45874,6 @@
       [
         "noun",
         "The action of the verb to process."
-      ],
-      [
-        "verb",
-        "present participle of process"
       ]
     ],
     "synonyms": [],
@@ -46817,10 +45911,6 @@
   "reaching": {
     "word": "reaching",
     "definitions": [
-      [
-        "verb",
-        "present participle of reach"
-      ],
       [
         "noun",
         "The action of one who reaches; an attempt to grasp something by stretching."
@@ -47241,10 +46331,6 @@
       [
         "adj",
         "Designed for culinary purposes"
-      ],
-      [
-        "verb",
-        "present participle of cook"
       ]
     ],
     "synonyms": [
@@ -47255,10 +46341,6 @@
   "covering": {
     "word": "covering",
     "definitions": [
-      [
-        "verb",
-        "present participle of cover"
-      ],
       [
         "noun",
         "(countable) That which covers or conceals; a cover; something spread or laid over or wrapped about another."
@@ -47337,10 +46419,6 @@
   "featuring": {
     "word": "featuring",
     "definitions": [
-      [
-        "verb",
-        "present participle of feature"
-      ],
       [
         "noun",
         "(rap music) A cameo on another performer's track."
@@ -47730,17 +46808,6 @@
     "synonyms": [],
     "frequency": 2.818382931264455e-05
   },
-  "producing": {
-    "word": "producing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of produce"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 2.818382931264455e-05
-  },
   "protest": {
     "word": "protest",
     "definitions": [
@@ -47770,10 +46837,6 @@
   "rating": {
     "word": "rating",
     "definitions": [
-      [
-        "verb",
-        "present participle of rate"
-      ],
       [
         "noun",
         "A position on a scale."
@@ -47869,10 +46932,6 @@
       [
         "adj",
         "Relating to speech"
-      ],
-      [
-        "verb",
-        "past participle of speak"
       ]
     ],
     "synonyms": [],
@@ -48180,16 +47239,9 @@
       [
         "adj",
         "displayed with special treatment"
-      ],
-      [
-        "verb",
-        "past participle of feature"
       ]
     ],
-    "synonyms": [
-      "depicted",
-      "displayed"
-    ],
+    "synonyms": [],
     "frequency": 2.754228703338169e-05
   },
   "fiction": {
@@ -48414,10 +47466,6 @@
     "word": "picking",
     "definitions": [
       [
-        "verb",
-        "present participle of pick"
-      ],
-      [
         "noun",
         "A gathering to pick fruit."
       ]
@@ -48474,10 +47522,6 @@
   "pushing": {
     "word": "pushing",
     "definitions": [
-      [
-        "verb",
-        "present participle of push"
-      ],
       [
         "adj",
         "That pushes forward; pressing, driving."
@@ -48675,10 +47719,6 @@
     "word": "visiting",
     "definitions": [
       [
-        "verb",
-        "present participle of visit"
-      ],
-      [
         "noun",
         "The act of someone or something that visits."
       ]
@@ -48750,10 +47790,6 @@
       [
         "noun",
         "The action by which someone or something is beaten."
-      ],
-      [
-        "verb",
-        "present participle and gerund of beat"
       ]
     ],
     "synonyms": [
@@ -48800,10 +47836,6 @@
         "A pit or hole which has been bored."
       ],
       [
-        "verb",
-        "present participle of bore"
-      ],
-      [
         "adj",
         "Causing boredom or tiredness; making you to feel tired and impatient."
       ]
@@ -48847,10 +47879,6 @@
   "checking": {
     "word": "checking",
     "definitions": [
-      [
-        "verb",
-        "present participle of check"
-      ],
       [
         "noun",
         "(ice hockey) The act of physically keeping an opposing player in check."
@@ -48928,10 +47956,6 @@
   "containing": {
     "word": "containing",
     "definitions": [
-      [
-        "verb",
-        "present participle of contain"
-      ],
       [
         "noun",
         "(in the plural) contents"
@@ -49208,10 +48232,6 @@
     "word": "raising",
     "definitions": [
       [
-        "verb",
-        "present participle of raise"
-      ],
-      [
         "noun",
         "Elevation."
       ]
@@ -49328,10 +48348,6 @@
       [
         "noun",
         "The state of being dizzy or in vertigo."
-      ],
-      [
-        "verb",
-        "present participle of swim"
       ]
     ],
     "synonyms": [],
@@ -49753,24 +48769,9 @@
     "synonyms": [],
     "frequency": 2.6302679918953814e-05
   },
-  "enjoying": {
-    "word": "enjoying",
-    "definitions": [
-      [
-        "verb",
-        "present participle of enjoy"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 2.6302679918953814e-05
-  },
   "entering": {
     "word": "entering",
     "definitions": [
-      [
-        "verb",
-        "present participle of enter"
-      ],
       [
         "noun",
         "action of the verb to enter"
@@ -49795,10 +48796,6 @@
   "expecting": {
     "word": "expecting",
     "definitions": [
-      [
-        "verb",
-        "present participle of expect"
-      ],
       [
         "adj",
         "Of a woman, female animal, or couple, in expectation of giving birth; pregnant."
@@ -49922,10 +48919,6 @@
       [
         "noun",
         "The act of finding and killing a wild animal, either for sport or with the intention of using its parts to make food, clothes, etc."
-      ],
-      [
-        "verb",
-        "present participle of hunt"
       ]
     ],
     "synonyms": [],
@@ -50234,10 +49227,6 @@
       [
         "noun",
         "The action of the verb to study."
-      ],
-      [
-        "verb",
-        "present participle of study"
       ]
     ],
     "synonyms": [],
@@ -50911,10 +49900,6 @@
     "word": "stolen",
     "definitions": [
       [
-        "verb",
-        "past participle of steal"
-      ],
-      [
         "adj",
         "That has been stolen."
       ],
@@ -50923,11 +49908,7 @@
         "(US, MTE, MLE) Something which has been stolen."
       ]
     ],
-    "synonyms": [
-      "hot [\u21d2 thesaurus]",
-      "lifted",
-      "nicked"
-    ],
+    "synonyms": [],
     "frequency": 2.5703957827688645e-05
   },
   "telephone": {
@@ -51095,10 +50076,6 @@
       [
         "adj",
         "Causing irritation or annoyance; troublesome; vexatious."
-      ],
-      [
-        "verb",
-        "present participle of annoy"
       ]
     ],
     "synonyms": [
@@ -51394,10 +50371,6 @@
         "Of which knowledge has been lost; which is no longer remembered."
       ],
       [
-        "verb",
-        "past participle of forget"
-      ],
-      [
         "noun",
         "A person or thing that has been forgotten."
       ]
@@ -51570,10 +50543,6 @@
       [
         "noun",
         "An arrival at a surface, as of an airplane or any descending object."
-      ],
-      [
-        "verb",
-        "present participle of land"
       ]
     ],
     "synonyms": [],
@@ -51603,10 +50572,6 @@
   "managing": {
     "word": "managing",
     "definitions": [
-      [
-        "verb",
-        "present participle of manage"
-      ],
       [
         "noun",
         "management"
@@ -51865,10 +50830,6 @@
       [
         "noun",
         "The act of concluding a contract, especially by an athlete or entertainer with a company."
-      ],
-      [
-        "verb",
-        "present participle of sign"
       ]
     ],
     "synonyms": [],
@@ -51982,10 +50943,6 @@
     "word": "throwing",
     "definitions": [
       [
-        "verb",
-        "present participle of throw"
-      ],
-      [
         "noun",
         "The act by which something is thrown."
       ]
@@ -51996,10 +50953,6 @@
   "thrown": {
     "word": "thrown",
     "definitions": [
-      [
-        "verb",
-        "past participle of throw"
-      ],
       [
         "adj",
         "Launched by throwing."
@@ -52204,10 +51157,6 @@
     "word": "cleaning",
     "definitions": [
       [
-        "verb",
-        "present participle of clean"
-      ],
-      [
         "noun",
         "(gerund of clean) The process of making something clean."
       ]
@@ -52294,10 +51243,6 @@
     "word": "fallen",
     "definitions": [
       [
-        "verb",
-        "past participle of fall"
-      ],
-      [
         "adj",
         "Having dropped by the force of gravity."
       ],
@@ -52366,10 +51311,6 @@
       [
         "noun",
         "A touching, controlling, managing, using, take care of, etc., with the hand or hands, or as with the hands."
-      ],
-      [
-        "verb",
-        "present participle of handle"
       ]
     ],
     "synonyms": [],
@@ -52767,10 +51708,6 @@
   "posting": {
     "word": "posting",
     "definitions": [
-      [
-        "verb",
-        "present participle of post"
-      ],
       [
         "noun",
         "(chiefly Britain) The place where a soldier or airman is posted for duty; the time spent there."
@@ -53841,10 +52778,6 @@
       [
         "adj",
         "That tends to improve someone or something (especially (dated) to educate or morally better a person)."
-      ],
-      [
-        "verb",
-        "present participle of improve"
       ]
     ],
     "synonyms": [
@@ -53941,10 +52874,6 @@
       [
         "noun",
         "(broadcasting) The designing, scheduling or planning of a radio or television program/programme."
-      ],
-      [
-        "verb",
-        "present participle of program"
       ]
     ],
     "synonyms": [],
@@ -53956,10 +52885,6 @@
       [
         "noun",
         "The industry of publishing, including the production and distribution of books, magazines, web sites, newspapers, etc."
-      ],
-      [
-        "verb",
-        "present participle of publish"
       ]
     ],
     "synonyms": [],
@@ -54318,17 +53243,6 @@
     ],
     "frequency": 2.290867652767775e-05
   },
-  "begun": {
-    "word": "begun",
-    "definitions": [
-      [
-        "verb",
-        "past participle of begin"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 2.290867652767775e-05
-  },
   "behaviour": {
     "word": "behaviour",
     "definitions": [
@@ -54561,10 +53475,6 @@
     "word": "gaming",
     "definitions": [
       [
-        "verb",
-        "present participle of game"
-      ],
-      [
         "noun",
         "Ellipsis of videogaming."
       ]
@@ -54767,10 +53677,6 @@
     "word": "reducing",
     "definitions": [
       [
-        "verb",
-        "present participle of reduce"
-      ],
-      [
         "adj",
         "(chemistry) That causes reduction."
       ]
@@ -54802,10 +53708,6 @@
   "representing": {
     "word": "representing",
     "definitions": [
-      [
-        "verb",
-        "present participle of represent"
-      ],
       [
         "noun",
         "An act of representation."
@@ -54852,10 +53754,6 @@
       [
         "noun",
         "The process of keeping score in a sport or contest."
-      ],
-      [
-        "verb",
-        "present participle of score"
       ]
     ],
     "synonyms": [],
@@ -54875,10 +53773,6 @@
   "searching": {
     "word": "searching",
     "definitions": [
-      [
-        "verb",
-        "present participle of search"
-      ],
       [
         "adj",
         "(of an investigation, etc.) Thorough."
@@ -54956,10 +53850,6 @@
       [
         "noun",
         "The business of managing a bank."
-      ],
-      [
-        "verb",
-        "present participle of bank"
       ]
     ],
     "synonyms": [],
@@ -55552,10 +54442,6 @@
     "word": "pulling",
     "definitions": [
       [
-        "verb",
-        "present participle of pull"
-      ],
-      [
         "noun",
         "The act by which something is pulled."
       ]
@@ -55566,10 +54452,6 @@
   "referring": {
     "word": "referring",
     "definitions": [
-      [
-        "verb",
-        "present participle of refer"
-      ],
       [
         "noun",
         "The act by which somebody or something is referred; a reference."
@@ -55656,10 +54538,6 @@
   "screaming": {
     "word": "screaming",
     "definitions": [
-      [
-        "verb",
-        "present participle of scream"
-      ],
       [
         "adj",
         "Loud, sharp, and piercing to the ear."
@@ -56212,10 +55090,6 @@
     "word": "monitoring",
     "definitions": [
       [
-        "verb",
-        "present participle of monitor"
-      ],
-      [
         "noun",
         "The carrying out of surveillance on, or continuous or regular observation of, an environment or people in order to detect signals, movements or changes of state or quality."
       ]
@@ -56484,10 +55358,6 @@
       [
         "adj",
         "Pertaining to to upcome"
-      ],
-      [
-        "verb",
-        "present participle of upcome"
       ]
     ],
     "synonyms": [],
@@ -56656,10 +55526,6 @@
     "word": "claiming",
     "definitions": [
       [
-        "verb",
-        "present participle of claim"
-      ],
-      [
         "noun",
         "The act of making a claim."
       ]
@@ -56772,21 +55638,6 @@
       [
         "noun",
         "An intersection where roads, lines, or tracks cross."
-      ],
-      [
-        "verb",
-        "present participle of cross"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 2.1379620895022323e-05
-  },
-  "defending": {
-    "word": "defending",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of defend"
       ]
     ],
     "synonyms": [],
@@ -56821,10 +55672,6 @@
   "dropping": {
     "word": "dropping",
     "definitions": [
-      [
-        "verb",
-        "present participle of drop"
-      ],
       [
         "noun",
         "The act of something that drops or falls."
@@ -57104,10 +55951,6 @@
     "word": "preparing",
     "definitions": [
       [
-        "verb",
-        "present participle of prepare"
-      ],
-      [
         "noun",
         "preparation"
       ]
@@ -57182,10 +56025,6 @@
       [
         "adj",
         "Having been proved; having proved its value or truth."
-      ],
-      [
-        "verb",
-        "(proscribed) past participle of prove"
       ]
     ],
     "synonyms": [],
@@ -57350,10 +56189,6 @@
   "struggling": {
     "word": "struggling",
     "definitions": [
-      [
-        "verb",
-        "present participle of struggle"
-      ],
       [
         "noun",
         "The act of one who struggles."
@@ -57834,10 +56669,6 @@
       [
         "adj",
         "Having undergone the process of freezing; in ice form."
-      ],
-      [
-        "verb",
-        "past participle of freeze"
       ]
     ],
     "synonyms": [],
@@ -57846,10 +56677,6 @@
   "hiding": {
     "word": "hiding",
     "definitions": [
-      [
-        "verb",
-        "present participle of hide"
-      ],
       [
         "noun",
         "(uncountable) A state of concealment."
@@ -57948,10 +56775,6 @@
         "As listed or shown on a listing."
       ],
       [
-        "verb",
-        "present participle of list"
-      ],
-      [
         "noun",
         "The action of the verb to list."
       ]
@@ -57999,10 +56822,6 @@
       [
         "noun",
         "Suckling, such as breastfeeding."
-      ],
-      [
-        "verb",
-        "present participle of nurse"
       ]
     ],
     "synonyms": [],
@@ -58446,10 +57265,6 @@
       [
         "noun",
         "(Canada, US) A physician on the staff of a hospital, especially the principal one that supervises a patient's care."
-      ],
-      [
-        "verb",
-        "present participle of attend"
       ]
     ],
     "synonyms": [],
@@ -58558,10 +57373,6 @@
       [
         "adj",
         "Causing concern; worrying."
-      ],
-      [
-        "verb",
-        "present participle of concern"
       ],
       [
         "noun",
@@ -59633,10 +58444,6 @@
     "word": "failing",
     "definitions": [
       [
-        "verb",
-        "present participle of fail"
-      ],
-      [
         "noun",
         "weakness; defect"
       ]
@@ -59647,10 +58454,6 @@
   "finishing": {
     "word": "finishing",
     "definitions": [
-      [
-        "verb",
-        "present participle of finish"
-      ],
       [
         "noun",
         "The act of completing something."
@@ -59805,17 +58608,6 @@
       "figure of speech",
       "locution"
     ],
-    "frequency": 1.9952623149688786e-05
-  },
-  "protecting": {
-    "word": "protecting",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of protect"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1.9952623149688786e-05
   },
   "racial": {
@@ -60137,10 +58929,6 @@
     "word": "accounting",
     "definitions": [
       [
-        "verb",
-        "present participle of account"
-      ],
-      [
         "noun",
         "(business) The development and use of a system for recording and analyzing the financial transactions and financial status of an individual or a business."
       ]
@@ -60177,10 +58965,6 @@
       [
         "adj",
         "Carrying out an attack."
-      ],
-      [
-        "verb",
-        "present participle of attack"
       ]
     ],
     "synonyms": [],
@@ -60347,10 +59131,6 @@
   "coaching": {
     "word": "coaching",
     "definitions": [
-      [
-        "verb",
-        "present participle of coach"
-      ],
       [
         "noun",
         "The process by which someone is coached or tutored; instruction."
@@ -60872,10 +59652,6 @@
       [
         "noun",
         "The equipment used to provide illumination; the illumination so provided."
-      ],
-      [
-        "verb",
-        "present participle of light"
       ]
     ],
     "synonyms": [
@@ -61065,10 +59841,6 @@
       [
         "noun",
         "An order or a decision on a point of law from someone in authority."
-      ],
-      [
-        "verb",
-        "present participle and gerund of rule"
       ]
     ],
     "synonyms": [
@@ -61138,10 +59910,6 @@
     "word": "stopping",
     "definitions": [
       [
-        "verb",
-        "present participle of stop"
-      ],
-      [
         "noun",
         "The act of something that stops; a halt."
       ]
@@ -61187,17 +59955,6 @@
       [
         "noun",
         "An account of an asserted fact or circumstance; a rumour; a report, especially an idle or malicious story; a piece of gossip or slander; a lie."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.9498445997580456e-05
-  },
-  "timing": {
-    "word": "timing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of time"
       ]
     ],
     "synonyms": [],
@@ -61339,10 +60096,6 @@
   "breathing": {
     "word": "breathing",
     "definitions": [
-      [
-        "verb",
-        "present participle of breathe"
-      ],
       [
         "noun",
         "The act of respiration; a single instance of this."
@@ -61546,10 +60299,6 @@
   "feeding": {
     "word": "feeding",
     "definitions": [
-      [
-        "verb",
-        "present participle of feed"
-      ],
       [
         "noun",
         "(uncountable) The act or process of giving food."
@@ -61865,26 +60614,11 @@
       [
         "noun",
         "(uncountable) The process or business of producing printed material by means of inked type and a printing press or similar technology."
-      ],
-      [
-        "verb",
-        "present participle of print"
       ]
     ],
     "synonyms": [
       "imprintery"
     ],
-    "frequency": 1.9054607179632484e-05
-  },
-  "promoting": {
-    "word": "promoting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of promote"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1.9054607179632484e-05
   },
   "pump": {
@@ -62101,10 +60835,6 @@
     "word": "surprising",
     "definitions": [
       [
-        "verb",
-        "present participle of surprise"
-      ],
-      [
         "adj",
         "Causing surprise."
       ],
@@ -62223,17 +60953,6 @@
     ],
     "frequency": 1.8620871366628657e-05
   },
-  "attempting": {
-    "word": "attempting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of attempt"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.8620871366628657e-05
-  },
   "auction": {
     "word": "auction",
     "definitions": [
@@ -62263,10 +60982,6 @@
   "challenging": {
     "word": "challenging",
     "definitions": [
-      [
-        "verb",
-        "present participle of challenge"
-      ],
       [
         "adj",
         "Difficult, hard to do."
@@ -62351,10 +61066,6 @@
       [
         "noun",
         "a count"
-      ],
-      [
-        "verb",
-        "present participle of count"
       ]
     ],
     "synonyms": [
@@ -62478,10 +61189,6 @@
     "word": "editing",
     "definitions": [
       [
-        "verb",
-        "present participle of edit"
-      ],
-      [
         "noun",
         "An act or instance of something being edited."
       ]
@@ -62497,10 +61204,6 @@
       [
         "noun",
         "(ceramics) The process of applying heat or fire, especially to clay, etc., to produce pottery."
-      ],
-      [
-        "verb",
-        "present participle of fire"
       ]
     ],
     "synonyms": [],
@@ -62833,10 +61536,6 @@
         "Having an effect that stuns."
       ],
       [
-        "verb",
-        "present participle of stun"
-      ],
-      [
         "noun",
         "The act by which a person or animal is physically stunned."
       ]
@@ -62847,10 +61546,6 @@
   "traveling": {
     "word": "traveling",
     "definitions": [
-      [
-        "verb",
-        "present participle of travel"
-      ],
       [
         "noun",
         "(basketball) A violation committed by progressing while holding the ball instead of dribbling it."
@@ -62866,10 +61561,6 @@
   "treating": {
     "word": "treating",
     "definitions": [
-      [
-        "verb",
-        "present participle of treat"
-      ],
       [
         "noun",
         "treatment"
@@ -63117,10 +61808,6 @@
   "choosing": {
     "word": "choosing",
     "definitions": [
-      [
-        "verb",
-        "present participle of choose"
-      ],
       [
         "noun",
         "The act of making a choice."
@@ -63621,10 +62308,6 @@
     "word": "removing",
     "definitions": [
       [
-        "verb",
-        "present participle of remove"
-      ],
-      [
         "noun",
         "removal"
       ]
@@ -63798,15 +62481,9 @@
       [
         "adj",
         "Damaged and shabby as a result of much use."
-      ],
-      [
-        "verb",
-        "past participle of wear"
       ]
     ],
-    "synonyms": [
-      "worne"
-    ],
+    "synonyms": [],
     "frequency": 1.8197008586099827e-05
   },
   "yea": {
@@ -63869,10 +62546,6 @@
   "arguing": {
     "word": "arguing",
     "definitions": [
-      [
-        "verb",
-        "present participle of argue"
-      ],
       [
         "noun",
         "argument"
@@ -63971,10 +62644,6 @@
       [
         "noun",
         "The action of the verb to focus."
-      ],
-      [
-        "verb",
-        "present participle of focus."
       ]
     ],
     "synonyms": [],
@@ -64023,10 +62692,6 @@
       [
         "noun",
         "A meeting or get-together; a party or social function."
-      ],
-      [
-        "verb",
-        "present participle of gather"
       ],
       [
         "adj",
@@ -64154,10 +62819,6 @@
       [
         "noun",
         "The act of doing maintenance."
-      ],
-      [
-        "verb",
-        "present participle of maintain"
       ]
     ],
     "synonyms": [],
@@ -64425,10 +63086,6 @@
     "word": "suggesting",
     "definitions": [
       [
-        "verb",
-        "present participle of suggest"
-      ],
-      [
         "noun",
         "suggestion"
       ]
@@ -64442,10 +63099,6 @@
       [
         "noun",
         "The act or process by which something is tracked."
-      ],
-      [
-        "verb",
-        "present participle of track"
       ]
     ],
     "synonyms": [
@@ -64578,10 +63231,6 @@
   "applying": {
     "word": "applying",
     "definitions": [
-      [
-        "verb",
-        "present participle of apply"
-      ],
       [
         "noun",
         "The act of applying; an application."
@@ -65464,10 +64113,6 @@
     "word": "assuming",
     "definitions": [
       [
-        "verb",
-        "present participle of assume"
-      ],
-      [
         "noun",
         "An assumption."
       ],
@@ -65489,10 +64134,6 @@
       [
         "adj",
         "(music) Providing support for the main performer."
-      ],
-      [
-        "verb",
-        "present participle of back"
       ]
     ],
     "synonyms": [],
@@ -65740,17 +64381,6 @@
     ],
     "frequency": 1.698243652461746e-05
   },
-  "describing": {
-    "word": "describing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of describe"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.698243652461746e-05
-  },
   "directions": {
     "word": "directions",
     "definitions": [
@@ -65780,27 +64410,12 @@
     ],
     "frequency": 1.698243652461746e-05
   },
-  "discussing": {
-    "word": "discussing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of discuss"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.698243652461746e-05
-  },
   "disgusting": {
     "word": "disgusting",
     "definitions": [
       [
         "adj",
         "Causing disgust; repulsive; distasteful."
-      ],
-      [
-        "verb",
-        "present participle of disgust"
       ]
     ],
     "synonyms": [
@@ -65829,17 +64444,6 @@
       "imposing",
       "prevalent"
     ],
-    "frequency": 1.698243652461746e-05
-  },
-  "earning": {
-    "word": "earning",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of earn"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1.698243652461746e-05
   },
   "essay": {
@@ -65883,10 +64487,6 @@
     "word": "explaining",
     "definitions": [
       [
-        "verb",
-        "present participle of explain"
-      ],
-      [
         "noun",
         "explanation"
       ]
@@ -65915,10 +64515,6 @@
       [
         "noun",
         "The process where the cells in the body regenerate and repair themselves."
-      ],
-      [
-        "verb",
-        "present participle of heal"
       ]
     ],
     "synonyms": [],
@@ -65927,10 +64523,6 @@
   "hiring": {
     "word": "hiring",
     "definitions": [
-      [
-        "verb",
-        "present participle of hire"
-      ],
       [
         "noun",
         "The act by which an employee is hired."
@@ -65953,10 +64545,6 @@
   "jumping": {
     "word": "jumping",
     "definitions": [
-      [
-        "verb",
-        "present participle and gerund of jump"
-      ],
       [
         "noun",
         "The act of performing a jump."
@@ -66270,10 +64858,6 @@
       [
         "noun",
         "(uncountable) The action of the verb to steal, theft."
-      ],
-      [
-        "verb",
-        "present participle of steal"
       ]
     ],
     "synonyms": [],
@@ -66422,10 +65006,6 @@
     "word": "bearing",
     "definitions": [
       [
-        "verb",
-        "present participle of bear"
-      ],
-      [
         "adj",
         "(in combination) That bears (some specified thing)."
       ],
@@ -66556,10 +65136,6 @@
       [
         "adj",
         "Being in the state of competition (often unintentionally)."
-      ],
-      [
-        "verb",
-        "present participle of compete"
       ]
     ],
     "synonyms": [],
@@ -67214,10 +65790,6 @@
         "Flowing or moving in continuous succession, like fluid in a stream."
       ],
       [
-        "verb",
-        "present participle of stream"
-      ],
-      [
         "noun",
         "Movement as a stream."
       ]
@@ -67270,10 +65842,6 @@
   "touching": {
     "word": "touching",
     "definitions": [
-      [
-        "verb",
-        "present participle of touch"
-      ],
       [
         "adj",
         "Provoking sadness and pity; that can cause sadness or heartbreak among witnesses to a sad event or situation."
@@ -67407,10 +65975,6 @@
       [
         "adj",
         "Defeated."
-      ],
-      [
-        "verb",
-        "past participle of beat"
       ]
     ],
     "synonyms": [],
@@ -67452,10 +66016,6 @@
       [
         "adj",
         "Distended, swollen, or inflated."
-      ],
-      [
-        "verb",
-        "past participle of blow"
       ]
     ],
     "synonyms": [],
@@ -67744,10 +66304,6 @@
       [
         "adj",
         "Pertaining to the agricultural business."
-      ],
-      [
-        "verb",
-        "present participle of farm"
       ]
     ],
     "synonyms": [],
@@ -67778,10 +66334,6 @@
         "(horticulture) The art of raising plants at an earlier season than is normal, especially by using a hotbed"
       ],
       [
-        "verb",
-        "present participle of force"
-      ],
-      [
         "adj",
         "(bridge) Pertaining to a bid which requires partner to continue bidding rather than pass."
       ]
@@ -67792,10 +66344,6 @@
   "forming": {
     "word": "forming",
     "definitions": [
-      [
-        "verb",
-        "present participle of form"
-      ],
       [
         "noun",
         "The act by which something is formed; formation."
@@ -68208,10 +66756,6 @@
     "word": "relating",
     "definitions": [
       [
-        "verb",
-        "present participle of relate"
-      ],
-      [
         "noun",
         "The act of relating, or forming or identifying relationships; relation."
       ]
@@ -68499,10 +67043,6 @@
     "word": "blowing",
     "definitions": [
       [
-        "verb",
-        "present participle of blow"
-      ],
-      [
         "noun",
         "The act of one who blows, or that which blows."
       ]
@@ -68578,10 +67118,6 @@
         "(of a person) Kind, sensitive, or empathetic."
       ],
       [
-        "verb",
-        "present participle of care"
-      ],
-      [
         "noun",
         "The act of one who cares."
       ]
@@ -68599,10 +67135,6 @@
       [
         "noun",
         "The action of the verb catch."
-      ],
-      [
-        "verb",
-        "present participle of catch"
       ]
     ],
     "synonyms": [],
@@ -68628,10 +67160,6 @@
   "cheating": {
     "word": "cheating",
     "definitions": [
-      [
-        "verb",
-        "present participle of cheat"
-      ],
       [
         "noun",
         "An act of deception, fraud, trickery, imposture, imposition or infidelity."
@@ -68924,10 +67452,6 @@
     "word": "kidding",
     "definitions": [
       [
-        "verb",
-        "present participle of kid"
-      ],
-      [
         "noun",
         "The action of the verb kid."
       ]
@@ -69111,10 +67635,6 @@
       [
         "noun",
         "The action of the verb to point."
-      ],
-      [
-        "verb",
-        "present participle of point"
       ]
     ],
     "synonyms": [],
@@ -69248,10 +67768,6 @@
       [
         "adj",
         "Making a strong impression."
-      ],
-      [
-        "verb",
-        "present participle of strike"
       ],
       [
         "noun",
@@ -69746,10 +68262,6 @@
         "Becoming prominent; emergent; rising."
       ],
       [
-        "verb",
-        "present participle of emerge"
-      ],
-      [
         "noun",
         "emergence"
       ]
@@ -69805,10 +68317,6 @@
     "word": "filling",
     "definitions": [
       [
-        "verb",
-        "present participle of fill"
-      ],
-      [
         "adj",
         "Of food, that satisfies the appetite by filling the stomach."
       ],
@@ -69829,10 +68337,6 @@
       [
         "noun",
         "The action of the verb to film."
-      ],
-      [
-        "verb",
-        "present participle of film"
       ]
     ],
     "synonyms": [],
@@ -69977,17 +68481,6 @@
     "synonyms": [],
     "frequency": 1.5488166189124828e-05
   },
-  "participating": {
-    "word": "participating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of participate"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.5488166189124828e-05
-  },
   "pie": {
     "word": "pie",
     "definitions": [
@@ -70110,10 +68603,6 @@
     "word": "ranging",
     "definitions": [
       [
-        "verb",
-        "present participle of range"
-      ],
-      [
         "noun",
         "The act of one who ranges."
       ]
@@ -70124,10 +68613,6 @@
   "ranking": {
     "word": "ranking",
     "definitions": [
-      [
-        "verb",
-        "present participle of rank"
-      ],
       [
         "adj",
         "(in combination) Having a specified rank."
@@ -70239,10 +68724,6 @@
     "word": "spreading",
     "definitions": [
       [
-        "verb",
-        "present participle of spread"
-      ],
-      [
         "noun",
         "The act by which something is spread."
       ]
@@ -70298,10 +68779,6 @@
   "threatening": {
     "word": "threatening",
     "definitions": [
-      [
-        "verb",
-        "present participle of threaten"
-      ],
       [
         "adj",
         "Presenting a threat; menacing; frightening."
@@ -70470,10 +68947,6 @@
   "accepting": {
     "word": "accepting",
     "definitions": [
-      [
-        "verb",
-        "present participle of accept"
-      ],
       [
         "adj",
         "Characterized by acceptance."
@@ -70710,10 +69183,6 @@
       [
         "noun",
         "The overhead closure of a room."
-      ],
-      [
-        "verb",
-        "present participle of ceil"
       ]
     ],
     "synonyms": [],
@@ -70816,10 +69285,6 @@
       [
         "noun",
         "A hobby including seeking, locating, acquiring, organizing, cataloging, displaying, storing, and maintaining whatever items are of interest to the individual collector."
-      ],
-      [
-        "verb",
-        "present participle of collect"
       ]
     ],
     "synonyms": [],
@@ -71040,10 +69505,6 @@
         "That floats or float."
       ],
       [
-        "verb",
-        "present participle of float"
-      ],
-      [
         "noun",
         "The motion of something that floats."
       ]
@@ -71121,10 +69582,6 @@
       [
         "adj",
         "Causing heat."
-      ],
-      [
-        "verb",
-        "present participle of heat"
       ]
     ],
     "synonyms": [],
@@ -71698,10 +70155,6 @@
         "That approaches or approach."
       ],
       [
-        "verb",
-        "present participle of approach"
-      ],
-      [
         "noun",
         "The act of coming closer; an approach."
       ]
@@ -71796,20 +70249,12 @@
     "word": "boxing",
     "definitions": [
       [
-        "verb",
-        "present participle of box"
-      ],
-      [
         "noun",
         "(sports) A sport where two opponents punch each other with gloved fists to head and torso; the object being to score more points by the end of the match or by knockout, or technical knockout."
       ],
       [
         "noun",
         "Material used for making boxes or casing."
-      ],
-      [
-        "verb",
-        "present participle of box"
       ]
     ],
     "synonyms": [
@@ -71823,10 +70268,6 @@
     "word": "celebrating",
     "definitions": [
       [
-        "verb",
-        "present participle of celebrate"
-      ],
-      [
         "noun",
         "celebration"
       ]
@@ -71837,10 +70278,6 @@
   "charging": {
     "word": "charging",
     "definitions": [
-      [
-        "verb",
-        "present participle of charge"
-      ],
       [
         "noun",
         "(countable) An act or process of charging (as of a battery)."
@@ -71987,10 +70424,6 @@
         "(chiefly Britain) Exerting control over a person or thing."
       ],
       [
-        "verb",
-        "present participle of control"
-      ],
-      [
         "noun",
         "The act of exerting control."
       ]
@@ -72135,26 +70568,11 @@
       [
         "noun",
         "(medicine) Material applied to a wound for protection or therapy."
-      ],
-      [
-        "verb",
-        "present participle of dress"
       ]
     ],
     "synonyms": [
       "forcemeat"
     ],
-    "frequency": 1.4791083881682072e-05
-  },
-  "expanding": {
-    "word": "expanding",
-    "definitions": [
-      [
-        "verb",
-        "present participle of expand"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1.4791083881682072e-05
   },
   "genre": {
@@ -72465,10 +70883,6 @@
     "word": "placing",
     "definitions": [
       [
-        "verb",
-        "present participle of place"
-      ],
-      [
         "noun",
         "The action by which something is placed; placement; positioning."
       ]
@@ -72730,10 +71144,6 @@
       [
         "noun",
         "(finance) The entity from whose performance a derivative derives its value."
-      ],
-      [
-        "verb",
-        "present participle of underlie"
       ]
     ],
     "synonyms": [],
@@ -72786,17 +71196,6 @@
       [
         "adj",
         "recognized as having value"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.445439770745928e-05
-  },
-  "arriving": {
-    "word": "arriving",
-    "definitions": [
-      [
-        "verb",
-        "present participle of arrive"
       ]
     ],
     "synonyms": [],
@@ -72886,17 +71285,6 @@
       [
         "noun",
         "A public building or room for gambling."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.445439770745928e-05
-  },
-  "connecting": {
-    "word": "connecting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of connect"
       ]
     ],
     "synonyms": [],
@@ -73084,10 +71472,6 @@
     "word": "hosting",
     "definitions": [
       [
-        "verb",
-        "present participle of host"
-      ],
-      [
         "noun",
         "(computing) Running and maintaining a computer system on someone's behalf."
       ]
@@ -73190,38 +71574,12 @@
     ],
     "frequency": 1.445439770745928e-05
   },
-  "introducing": {
-    "word": "introducing",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of introduce"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.445439770745928e-05
-  },
   "kicking": {
     "word": "kicking",
     "definitions": [
       [
         "noun",
         "The action of the verb to kick."
-      ],
-      [
-        "verb",
-        "present participle of kick"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.445439770745928e-05
-  },
-  "laying": {
-    "word": "laying",
-    "definitions": [
-      [
-        "verb",
-        "present participle of lay"
       ]
     ],
     "synonyms": [],
@@ -73621,10 +71979,6 @@
     "word": "sporting",
     "definitions": [
       [
-        "verb",
-        "present participle of sport"
-      ],
-      [
         "adj",
         "(not comparable) Pertaining to sports"
       ],
@@ -73695,10 +72049,6 @@
   "travelling": {
     "word": "travelling",
     "definitions": [
-      [
-        "verb",
-        "present participle of travel"
-      ],
       [
         "noun",
         "The act of one who travels; a journey."
@@ -73780,10 +72130,6 @@
     "word": "appearing",
     "definitions": [
       [
-        "verb",
-        "present participle of appear"
-      ],
-      [
         "noun",
         "appearance; act of coming into view"
       ]
@@ -73826,10 +72172,6 @@
     "word": "believing",
     "definitions": [
       [
-        "verb",
-        "present participle of believe"
-      ],
-      [
         "noun",
         "The act or process of having faith, trust, or confidence in."
       ]
@@ -73868,10 +72210,6 @@
   "casting": {
     "word": "casting",
     "definitions": [
-      [
-        "verb",
-        "present participle of cast"
-      ],
       [
         "noun",
         "The act or process of selecting actors, singers, dancers, models, etc."
@@ -74079,10 +72417,6 @@
   "embarrassing": {
     "word": "embarrassing",
     "definitions": [
-      [
-        "verb",
-        "present participle of embarrass"
-      ],
       [
         "noun",
         "The action of the verb to embarrass; embarrassment."
@@ -74303,17 +72637,6 @@
     "synonyms": [],
     "frequency": 1.4125375446227555e-05
   },
-  "replacing": {
-    "word": "replacing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of replace"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.4125375446227555e-05
-  },
   "salad": {
     "word": "salad",
     "definitions": [
@@ -74353,10 +72676,6 @@
       [
         "noun",
         "(uncountable) Mesh material that is used to screen (as in a \"screen door\")."
-      ],
-      [
-        "verb",
-        "present participle of screen"
       ]
     ],
     "synonyms": [],
@@ -74372,10 +72691,6 @@
       [
         "noun",
         "The action of the verb to smile."
-      ],
-      [
-        "verb",
-        "present participle of smile"
       ]
     ],
     "synonyms": [],
@@ -74437,10 +72752,6 @@
       [
         "noun",
         "statement"
-      ],
-      [
-        "verb",
-        "present participle of state"
       ]
     ],
     "synonyms": [],
@@ -74765,10 +73076,6 @@
       [
         "noun",
         "An item (usually rope, tape, or string) used to hold two or more things together."
-      ],
-      [
-        "verb",
-        "present participle of bind"
       ]
     ],
     "synonyms": [
@@ -74915,10 +73222,6 @@
       [
         "noun",
         "Eating dinner as a social function."
-      ],
-      [
-        "verb",
-        "present participle of dine"
       ]
     ],
     "synonyms": [],
@@ -74941,10 +73244,6 @@
       [
         "adj",
         "supporting by giving encouragement"
-      ],
-      [
-        "verb",
-        "present participle of encourage"
       ],
       [
         "noun",
@@ -75595,23 +73894,8 @@
     "word": "releasing",
     "definitions": [
       [
-        "verb",
-        "present participle of release"
-      ],
-      [
         "noun",
         "The act by which something is released."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.3803842646028839e-05
-  },
-  "requiring": {
-    "word": "requiring",
-    "definitions": [
-      [
-        "verb",
-        "present participle of require"
       ]
     ],
     "synonyms": [],
@@ -75672,10 +73956,6 @@
   "staring": {
     "word": "staring",
     "definitions": [
-      [
-        "verb",
-        "present participle of stare"
-      ],
       [
         "noun",
         "The act of one who stares."
@@ -75822,10 +74102,6 @@
   "wrestling": {
     "word": "wrestling",
     "definitions": [
-      [
-        "verb",
-        "present participle of wrestle"
-      ],
       [
         "noun",
         "A sport where two opponents attempt to subdue each other in bare-handed grappling using techniques of leverage, holding, and pressure points."
@@ -76096,17 +74372,6 @@
     "synonyms": [],
     "frequency": 1.3489628825916533e-05
   },
-  "comparing": {
-    "word": "comparing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of compare"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.3489628825916533e-05
-  },
   "consciousness": {
     "word": "consciousness",
     "definitions": [
@@ -76159,10 +74424,6 @@
     "word": "corresponding",
     "definitions": [
       [
-        "verb",
-        "present participle of correspond"
-      ],
-      [
         "noun",
         "A correspondence; the situation where things correspond or match."
       ],
@@ -76210,10 +74471,6 @@
       [
         "adj",
         "Requiring much endurance, strength, or patience."
-      ],
-      [
-        "verb",
-        "present participle of demand"
       ]
     ],
     "synonyms": [],
@@ -76280,10 +74537,6 @@
     "word": "eaten",
     "definitions": [
       [
-        "verb",
-        "past participle of eat"
-      ],
-      [
         "adj",
         "(especially in combination) That has been consumed by eating."
       ]
@@ -76308,10 +74561,6 @@
       [
         "adj",
         "That engages the attention; engrossing, interesting; enthralling."
-      ],
-      [
-        "verb",
-        "present participle of engage"
       ]
     ],
     "synonyms": [
@@ -76332,10 +74581,6 @@
       [
         "adj",
         "Having interesting qualities; captivating; attractive."
-      ],
-      [
-        "verb",
-        "present participle of fascinate"
       ]
     ],
     "synonyms": [],
@@ -76344,10 +74589,6 @@
   "financing": {
     "word": "financing",
     "definitions": [
-      [
-        "verb",
-        "present participle of finance"
-      ],
       [
         "noun",
         "(finance, business) A transaction that provides funds for a business."
@@ -76399,10 +74640,6 @@
   "gaining": {
     "word": "gaining",
     "definitions": [
-      [
-        "verb",
-        "present participle of gain"
-      ],
       [
         "noun",
         "Gain; profit."
@@ -77066,10 +75303,6 @@
       [
         "noun",
         "(countable) The action of the verb to wash"
-      ],
-      [
-        "verb",
-        "present participle of wash"
       ]
     ],
     "synonyms": [],
@@ -77163,10 +75396,6 @@
     "word": "blocking",
     "definitions": [
       [
-        "verb",
-        "present participle of block"
-      ],
-      [
         "noun",
         "The act by which something is blocked; an obstruction."
       ]
@@ -77231,10 +75460,6 @@
     "word": "chasing",
     "definitions": [
       [
-        "verb",
-        "present participle of chase"
-      ],
-      [
         "noun",
         "Engraved or embossed decoration."
       ]
@@ -77248,10 +75473,6 @@
       [
         "noun",
         "(uncountable) The sport of climbing, ascending a wall or a rock or another object using available holds, generally with the safety of a rope and belayer."
-      ],
-      [
-        "verb",
-        "present participle of climb"
       ],
       [
         "adj",
@@ -77275,10 +75496,6 @@
   "complaining": {
     "word": "complaining",
     "definitions": [
-      [
-        "verb",
-        "present participle of complain"
-      ],
       [
         "noun",
         "The act by which someone complains; a complaint."
@@ -77484,17 +75701,6 @@
     "synonyms": [],
     "frequency": 1.3182567385564074e-05
   },
-  "governing": {
-    "word": "governing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of govern"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.3182567385564074e-05
-  },
   "ham": {
     "word": "ham",
     "definitions": [
@@ -77641,17 +75847,6 @@
       [
         "adj",
         "Under strain or deprivation."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.3182567385564074e-05
-  },
-  "preventing": {
-    "word": "preventing",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of prevent"
       ]
     ],
     "synonyms": [],
@@ -77876,10 +76071,6 @@
         "Inducing worry."
       ],
       [
-        "verb",
-        "present participle of worry"
-      ],
-      [
         "noun",
         "The act of worrying or harassing somebody."
       ]
@@ -78076,17 +76267,6 @@
     "synonyms": [],
     "frequency": 1.2882495516931348e-05
   },
-  "deciding": {
-    "word": "deciding",
-    "definitions": [
-      [
-        "verb",
-        "present participle of decide"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.2882495516931348e-05
-  },
   "defender": {
     "word": "defender",
     "definitions": [
@@ -78197,10 +76377,6 @@
       [
         "adj",
         "Very amusing; that entertains."
-      ],
-      [
-        "verb",
-        "present participle of entertain"
       ]
     ],
     "synonyms": [],
@@ -78209,10 +76385,6 @@
   "establishing": {
     "word": "establishing",
     "definitions": [
-      [
-        "verb",
-        "present participle of establish"
-      ],
       [
         "noun",
         "The act by which something is established; establishment."
@@ -78422,10 +76594,6 @@
     "word": "hurting",
     "definitions": [
       [
-        "verb",
-        "present participle of hurt"
-      ],
-      [
         "noun",
         "A sensation that hurts."
       ]
@@ -78458,10 +76626,6 @@
     "word": "investing",
     "definitions": [
       [
-        "verb",
-        "present participle of invest"
-      ],
-      [
         "noun",
         "The act of something being invested; an investment."
       ]
@@ -78492,10 +76656,6 @@
       [
         "adj",
         "Persisting for an extended period of time."
-      ],
-      [
-        "verb",
-        "present participle of last"
       ]
     ],
     "synonyms": [
@@ -78557,10 +76717,6 @@
   "mixing": {
     "word": "mixing",
     "definitions": [
-      [
-        "verb",
-        "present participle of mix"
-      ],
       [
         "noun",
         "The act, or the result of making a mixture."
@@ -78757,10 +76913,6 @@
         "Showing promise, and likely to develop in a desirable fashion."
       ],
       [
-        "verb",
-        "present participle of promise"
-      ],
-      [
         "noun",
         "The act of making a promise."
       ]
@@ -78931,10 +77083,6 @@
   "wasting": {
     "word": "wasting",
     "definitions": [
-      [
-        "verb",
-        "present participle of waste"
-      ],
       [
         "adj",
         "Causing a waste, or wasting away; causing pronounced loss of body mass."
@@ -79127,10 +77275,6 @@
     "word": "cycling",
     "definitions": [
       [
-        "verb",
-        "present participle of cycle"
-      ],
-      [
         "noun",
         "(uncountable) The activity of riding cycles, especially bicycles (for transport, sport, physical exercise, recreation, tourism...)"
       ],
@@ -79264,10 +77408,6 @@
     "word": "fitting",
     "definitions": [
       [
-        "verb",
-        "present participle of fit"
-      ],
-      [
         "adj",
         "Ready, appropriate, suitable, or in keeping"
       ],
@@ -79277,7 +77417,6 @@
       ]
     ],
     "synonyms": [
-      "fixing to",
       "fittin'",
       "fittin"
     ],
@@ -79474,10 +77613,6 @@
       [
         "noun",
         "(countable, uncountable) The process by which something is loaded."
-      ],
-      [
-        "verb",
-        "present participle of load"
       ]
     ],
     "synonyms": [],
@@ -79500,10 +77635,6 @@
   "matching": {
     "word": "matching",
     "definitions": [
-      [
-        "verb",
-        "present participle of match"
-      ],
       [
         "adj",
         "The same as another; sharing the same design."
@@ -79706,10 +77837,6 @@
         "Inspiring shock; startling."
       ],
       [
-        "verb",
-        "present participle of shock"
-      ],
-      [
         "noun",
         "The application of an electric shock."
       ]
@@ -79851,10 +77978,6 @@
       [
         "noun",
         "The action of dropping bombs from the air."
-      ],
-      [
-        "verb",
-        "present participle of bomb"
       ]
     ],
     "synonyms": [],
@@ -79877,17 +78000,6 @@
       [
         "noun",
         "The American quail or bobwhite, or related species."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.230268770812381e-05
-  },
-  "consisting": {
-    "word": "consisting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of consist"
       ]
     ],
     "synonyms": [],
@@ -79958,23 +78070,8 @@
     "word": "delivering",
     "definitions": [
       [
-        "verb",
-        "present participle of deliver"
-      ],
-      [
         "noun",
         "An act of delivering."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.230268770812381e-05
-  },
-  "destroying": {
-    "word": "destroying",
-    "definitions": [
-      [
-        "verb",
-        "present participle of destroy"
       ]
     ],
     "synonyms": [],
@@ -80114,16 +78211,9 @@
       [
         "noun",
         "The act of subverting (fixing) a vote."
-      ],
-      [
-        "verb",
-        "present participle of fix"
       ]
     ],
-    "synonyms": [
-      "about",
-      "fitting"
-    ],
+    "synonyms": [],
     "frequency": 1.230268770812381e-05
   },
   "flies": {
@@ -80188,17 +78278,6 @@
       "accoll",
       "treasure"
     ],
-    "frequency": 1.230268770812381e-05
-  },
-  "indicating": {
-    "word": "indicating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of indicate"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1.230268770812381e-05
   },
   "indoor": {
@@ -80830,10 +78909,6 @@
     "word": "bleeding",
     "definitions": [
       [
-        "verb",
-        "present participle of bleed"
-      ],
-      [
         "adj",
         "Losing blood"
       ],
@@ -80874,10 +78949,6 @@
       [
         "adj",
         "Of, relating to or used for breeding."
-      ],
-      [
-        "verb",
-        "present participle of breed"
       ]
     ],
     "synonyms": [],
@@ -81058,17 +79129,6 @@
       [
         "noun",
         "A person or company that builds or improves buildings."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.2022644346174132e-05
-  },
-  "contributing": {
-    "word": "contributing",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of contribute"
       ]
     ],
     "synonyms": [],
@@ -81310,10 +79370,6 @@
     "word": "gambling",
     "definitions": [
       [
-        "verb",
-        "present participle of gamble"
-      ],
-      [
         "noun",
         "An activity characterised by a balance between winning and losing that is governed by a mixture of skill and chance, usually with money wagered on the outcome."
       ]
@@ -81401,24 +79457,9 @@
     ],
     "frequency": 1.2022644346174132e-05
   },
-  "investigating": {
-    "word": "investigating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of investigate"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.2022644346174132e-05
-  },
   "lacking": {
     "word": "lacking",
     "definitions": [
-      [
-        "verb",
-        "present participle of lack"
-      ],
       [
         "noun",
         "The absence of something; a lack."
@@ -81574,10 +79615,6 @@
     "word": "overwhelming",
     "definitions": [
       [
-        "verb",
-        "present participle of overwhelm"
-      ],
-      [
         "adj",
         "Overpowering, staggering, or irresistibly strong."
       ],
@@ -81671,17 +79708,6 @@
     "synonyms": [],
     "frequency": 1.2022644346174132e-05
   },
-  "presenting": {
-    "word": "presenting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of present"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.2022644346174132e-05
-  },
   "pressing": {
     "word": "pressing",
     "definitions": [
@@ -81692,10 +79718,6 @@
       [
         "noun",
         "The application of pressure by a press or other means."
-      ],
-      [
-        "verb",
-        "present participle of press"
       ]
     ],
     "synonyms": [],
@@ -81749,10 +79771,6 @@
     "word": "shaking",
     "definitions": [
       [
-        "verb",
-        "present participle of shake"
-      ],
-      [
         "noun",
         "A movement that shakes."
       ]
@@ -81775,10 +79793,6 @@
     "word": "starring",
     "definitions": [
       [
-        "verb",
-        "present participle of star"
-      ],
-      [
         "noun",
         "The action of the verb to star."
       ],
@@ -81787,9 +79801,7 @@
         "Performing as a star; having the leading role."
       ]
     ],
-    "synonyms": [
-      "featuring"
-    ],
+    "synonyms": [],
     "frequency": 1.2022644346174132e-05
   },
   "subtle": {
@@ -81857,17 +79869,6 @@
       "taste",
       "palate"
     ],
-    "frequency": 1.2022644346174132e-05
-  },
-  "torn": {
-    "word": "torn",
-    "definitions": [
-      [
-        "verb",
-        "past participle of tear (rip, rend, speed)."
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1.2022644346174132e-05
   },
   "tragic": {
@@ -81952,10 +79953,6 @@
   "viewing": {
     "word": "viewing",
     "definitions": [
-      [
-        "verb",
-        "present participle of view"
-      ],
       [
         "noun",
         "An instance of viewing something."
@@ -82053,10 +80050,6 @@
       [
         "adj",
         "Producing or causing strong feelings and emotions."
-      ],
-      [
-        "verb",
-        "present participle of affect"
       ]
     ],
     "synonyms": [],
@@ -82091,10 +80084,6 @@
   "answering": {
     "word": "answering",
     "definitions": [
-      [
-        "verb",
-        "present participle of answer"
-      ],
       [
         "noun",
         "The act of giving an answer."
@@ -82146,10 +80135,6 @@
   "avoiding": {
     "word": "avoiding",
     "definitions": [
-      [
-        "verb",
-        "present participle and gerund of avoid"
-      ],
       [
         "noun",
         "Avoidance."
@@ -82310,10 +80295,6 @@
         "Pleasant, charismatic."
       ],
       [
-        "verb",
-        "present participle of charm"
-      ],
-      [
         "noun",
         "The casting of a magical charm."
       ]
@@ -82331,10 +80312,6 @@
       [
         "noun",
         "(literally) The process or act of calculation."
-      ],
-      [
-        "verb",
-        "present participle of compute"
       ]
     ],
     "synonyms": [
@@ -82352,17 +80329,6 @@
       [
         "noun",
         "A substance that is in a condensed form."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.1748975549395302e-05
-  },
-  "conducting": {
-    "word": "conducting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of conduct"
       ]
     ],
     "synonyms": [],
@@ -82686,10 +80652,6 @@
   "measuring": {
     "word": "measuring",
     "definitions": [
-      [
-        "verb",
-        "present participle and gerund of measure"
-      ],
       [
         "noun",
         "Act of measurement."
@@ -83045,10 +81007,6 @@
     "word": "responding",
     "definitions": [
       [
-        "verb",
-        "present participle of respond"
-      ],
-      [
         "noun",
         "response"
       ]
@@ -83271,10 +81229,6 @@
     "word": "addressing",
     "definitions": [
       [
-        "verb",
-        "present participle of address"
-      ],
-      [
         "noun",
         "A process of putting a person's name and address on an item of mail"
       ]
@@ -83367,10 +81321,6 @@
       [
         "noun",
         "Some kind of divine or supernatural aid, or reward."
-      ],
-      [
-        "verb",
-        "present participle of bless"
       ]
     ],
     "synonyms": [],
@@ -83566,24 +81516,9 @@
     ],
     "frequency": 1.1481536214968817e-05
   },
-  "completing": {
-    "word": "completing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of complete"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.1481536214968817e-05
-  },
   "consulting": {
     "word": "consulting",
     "definitions": [
-      [
-        "verb",
-        "present participle and gerund of consult"
-      ],
       [
         "noun",
         "Short for consulting physician."
@@ -83595,10 +81530,6 @@
   "cooling": {
     "word": "cooling",
     "definitions": [
-      [
-        "verb",
-        "present participle of cool"
-      ],
       [
         "noun",
         "Refrigeration."
@@ -83800,10 +81731,6 @@
       [
         "noun",
         "The action of the verb explore."
-      ],
-      [
-        "verb",
-        "present participle of explore"
       ]
     ],
     "synonyms": [],
@@ -84020,10 +81947,6 @@
       [
         "noun",
         "The action or process by which something is lifted; elevation"
-      ],
-      [
-        "verb",
-        "present participle of lift"
       ]
     ],
     "synonyms": [
@@ -84079,10 +82002,6 @@
     "word": "packing",
     "definitions": [
       [
-        "verb",
-        "present participle of pack"
-      ],
-      [
         "noun",
         "The action of putting things together, especially of putting clothes into a suitcase for a journey."
       ]
@@ -84113,10 +82032,6 @@
       [
         "noun",
         "The act of imagining; make-believe"
-      ],
-      [
-        "verb",
-        "present participle of pretend"
       ]
     ],
     "synonyms": [],
@@ -84169,10 +82084,6 @@
   "purchasing": {
     "word": "purchasing",
     "definitions": [
-      [
-        "verb",
-        "present participle of purchase"
-      ],
       [
         "noun",
         "An act or process of making a purchase."
@@ -84388,10 +82299,6 @@
     "word": "switching",
     "definitions": [
       [
-        "verb",
-        "present participle of switch"
-      ],
-      [
         "noun",
         "Corporal punishment by use of a switch (twig or twigs)."
       ]
@@ -84577,10 +82484,6 @@
       [
         "noun",
         "(uncountable) The feeling that one belongs."
-      ],
-      [
-        "verb",
-        "present participle of belong"
       ]
     ],
     "synonyms": [
@@ -84607,10 +82510,6 @@
   "bowling": {
     "word": "bowling",
     "definitions": [
-      [
-        "verb",
-        "present participle of bowl"
-      ],
       [
         "noun",
         "A game played by rolling a ball down an alley and trying to knock over a triangular group of ten pins; ten-pin bowling/five-pin bowling"
@@ -84749,10 +82648,6 @@
       [
         "adj",
         "Causing distress or worry; upsetting or unsettling."
-      ],
-      [
-        "verb",
-        "present participle of disturb"
       ]
     ],
     "synonyms": [],
@@ -84834,10 +82729,6 @@
       [
         "noun",
         "Any particle that has been removed by a file or similar implement; a shaving."
-      ],
-      [
-        "verb",
-        "present participle of file"
       ]
     ],
     "synonyms": [],
@@ -84879,10 +82770,6 @@
       [
         "noun",
         "(uncountable, physics, chemistry) The change in state of a substance from liquid to solid by cooling to a critically low temperature."
-      ],
-      [
-        "verb",
-        "present participle of freeze"
       ]
     ],
     "synonyms": [
@@ -85039,10 +82926,6 @@
   "judging": {
     "word": "judging",
     "definitions": [
-      [
-        "verb",
-        "present participle and gerund of judge"
-      ],
       [
         "noun",
         "The act of making a judgment."
@@ -85733,10 +83616,6 @@
     "word": "warming",
     "definitions": [
       [
-        "verb",
-        "present participle of warm"
-      ],
-      [
         "noun",
         "A small rise in temperature."
       ]
@@ -85786,10 +83665,6 @@
   "aging": {
     "word": "aging",
     "definitions": [
-      [
-        "verb",
-        "present participle of age"
-      ],
       [
         "noun",
         "The process of becoming older or more mature."
@@ -85916,10 +83791,6 @@
   "clearing": {
     "word": "clearing",
     "definitions": [
-      [
-        "verb",
-        "present participle of clear"
-      ],
       [
         "noun",
         "The act or process of making or becoming clear."
@@ -86058,28 +83929,6 @@
     "synonyms": [],
     "frequency": 1.0964781961431852e-05
   },
-  "experiencing": {
-    "word": "experiencing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of experience"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.0964781961431852e-05
-  },
-  "extending": {
-    "word": "extending",
-    "definitions": [
-      [
-        "verb",
-        "present participle of extend"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.0964781961431852e-05
-  },
   "finale": {
     "word": "finale",
     "definitions": [
@@ -86109,10 +83958,6 @@
   "freaking": {
     "word": "freaking",
     "definitions": [
-      [
-        "verb",
-        "present participle of freak"
-      ],
       [
         "noun",
         "(dated) A streak or variegation in a pattern."
@@ -86168,10 +84013,6 @@
     "word": "ignoring",
     "definitions": [
       [
-        "verb",
-        "present participle of ignore"
-      ],
-      [
         "noun",
         "The act by which something is ignored."
       ]
@@ -86200,10 +84041,6 @@
       [
         "adj",
         "Providing inspiration; encouraging; stimulating."
-      ],
-      [
-        "verb",
-        "present participle of inspire"
       ],
       [
         "noun",
@@ -86254,10 +84091,6 @@
   "joking": {
     "word": "joking",
     "definitions": [
-      [
-        "verb",
-        "present participle of joke"
-      ],
       [
         "noun",
         "The act of telling or engaging in jokes."
@@ -86385,10 +84218,6 @@
       [
         "adj",
         "That opposes or oppose; on the opposite side."
-      ],
-      [
-        "verb",
-        "present participle of oppose"
       ]
     ],
     "synonyms": [],
@@ -86424,10 +84253,6 @@
     "word": "pricing",
     "definitions": [
       [
-        "verb",
-        "present participle of price"
-      ],
-      [
         "noun",
         "The act of setting a price."
       ]
@@ -86445,10 +84270,6 @@
       [
         "adj",
         "Characterized by questions, inquisitiveness, doubt, or wonder."
-      ],
-      [
-        "verb",
-        "present participle of question"
       ]
     ],
     "synonyms": [],
@@ -86769,10 +84590,6 @@
     "word": "yelling",
     "definitions": [
       [
-        "verb",
-        "present participle of yell"
-      ],
-      [
         "noun",
         "The act of producing a yell."
       ]
@@ -86783,10 +84600,6 @@
   "achieving": {
     "word": "achieving",
     "definitions": [
-      [
-        "verb",
-        "present participle of achieve"
-      ],
       [
         "noun",
         "Achievements, emphasizing the process of accomplishing them."
@@ -87154,10 +84967,6 @@
   "identifying": {
     "word": "identifying",
     "definitions": [
-      [
-        "verb",
-        "present participle of identify"
-      ],
       [
         "noun",
         "An act of identification."
@@ -87593,17 +85402,6 @@
     ],
     "frequency": 1.071519305237607e-05
   },
-  "surviving": {
-    "word": "surviving",
-    "definitions": [
-      [
-        "verb",
-        "present participle of survive"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 1.071519305237607e-05
-  },
   "threshold": {
     "word": "threshold",
     "definitions": [
@@ -87971,10 +85769,6 @@
       [
         "noun",
         "(business) The business or profession of radio and television."
-      ],
-      [
-        "verb",
-        "present participle of broadcast"
       ]
     ],
     "synonyms": [],
@@ -88048,10 +85842,6 @@
       [
         "adj",
         "difficult to understand; not clear as lacking order, chaotic etc"
-      ],
-      [
-        "verb",
-        "present participle of confuse"
       ]
     ],
     "synonyms": [
@@ -88198,10 +85988,6 @@
       [
         "adj",
         "Causing disappointment."
-      ],
-      [
-        "verb",
-        "present participle of disappoint"
       ]
     ],
     "synonyms": [],
@@ -88210,10 +85996,6 @@
   "diving": {
     "word": "diving",
     "definitions": [
-      [
-        "verb",
-        "present participle of dive"
-      ],
       [
         "noun",
         "The action of the verb to dive in any sense."
@@ -88357,10 +86139,6 @@
     "word": "flowing",
     "definitions": [
       [
-        "verb",
-        "present participle of flow"
-      ],
-      [
         "noun",
         "The action of the verb to flow"
       ],
@@ -88403,10 +86181,6 @@
   "functioning": {
     "word": "functioning",
     "definitions": [
-      [
-        "verb",
-        "present participle of function"
-      ],
       [
         "adj",
         "Functional, working"
@@ -88707,10 +86481,6 @@
     "word": "needing",
     "definitions": [
       [
-        "verb",
-        "present participle of need"
-      ],
-      [
         "noun",
         "A need."
       ]
@@ -88721,10 +86491,6 @@
   "ordering": {
     "word": "ordering",
     "definitions": [
-      [
-        "verb",
-        "present participle of order"
-      ],
       [
         "noun",
         "Arrangement in a sequence."
@@ -88755,10 +86521,6 @@
   "pending": {
     "word": "pending",
     "definitions": [
-      [
-        "verb",
-        "present participle of pend"
-      ],
       [
         "adj",
         "Awaiting a conclusion or a confirmation."
@@ -88906,10 +86668,6 @@
   "sticking": {
     "word": "sticking",
     "definitions": [
-      [
-        "verb",
-        "present participle of stick"
-      ],
       [
         "noun",
         "A sequence or arrangement of drum notes to be played with drumsticks."
@@ -89494,10 +87252,6 @@
     "word": "qualifying",
     "definitions": [
       [
-        "verb",
-        "present participle of qualify"
-      ],
-      [
         "noun",
         "A qualification or added condition."
       ]
@@ -89511,10 +87265,6 @@
       [
         "noun",
         "(uncountable) The deduction of inferences or interpretations from premises, abstract thought, ratiocination; (countable) any instance of this, especially as a process leading to an action, motive."
-      ],
-      [
-        "verb",
-        "present participle of reason"
       ]
     ],
     "synonyms": [
@@ -90072,10 +87822,6 @@
         "Describing one who bets or gambles."
       ],
       [
-        "verb",
-        "present participle of bet"
-      ],
-      [
         "noun",
         "The act of placing a bet."
       ]
@@ -90107,10 +87853,6 @@
   "camping": {
     "word": "camping",
     "definitions": [
-      [
-        "verb",
-        "present participle of camp"
-      ],
       [
         "noun",
         "(uncountable) The recreational activity of temporarily living in a tent or similar accommodation, usually in the wilderness."
@@ -90346,17 +88088,6 @@
       "UAV",
       "UAS"
     ],
-    "frequency": 1e-05
-  },
-  "ensuring": {
-    "word": "ensuring",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of ensure"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 1e-05
   },
   "escort": {
@@ -90663,10 +88394,6 @@
     "word": "noting",
     "definitions": [
       [
-        "verb",
-        "present participle of note"
-      ],
-      [
         "noun",
         "A note; a written remark."
       ]
@@ -90813,10 +88540,6 @@
     "word": "proving",
     "definitions": [
       [
-        "verb",
-        "present participle of prove"
-      ],
-      [
         "noun",
         "(homeopathy) Experimentation to determine which substances cause which effects when ingested."
       ]
@@ -90916,10 +88639,6 @@
   "spelling": {
     "word": "spelling",
     "definitions": [
-      [
-        "verb",
-        "present participle of spell"
-      ],
       [
         "noun",
         "(uncountable) The act, practice, ability, or subject of forming words with letters, or of reading the letters of words; orthography."
@@ -91212,10 +88931,6 @@
       [
         "noun",
         "The action performed by a person or thing that digs."
-      ],
-      [
-        "verb",
-        "present participle of dig"
       ]
     ],
     "synonyms": [],
@@ -91313,10 +89028,6 @@
     "word": "expressing",
     "definitions": [
       [
-        "verb",
-        "present participle of express"
-      ],
-      [
         "adj",
         "(biochemistry) That translates or transcribes nucleic acid."
       ]
@@ -91363,10 +89074,6 @@
     "word": "founding",
     "definitions": [
       [
-        "verb",
-        "present participle of found"
-      ],
-      [
         "noun",
         "The establishment of something."
       ],
@@ -91388,17 +89095,6 @@
       [
         "verb",
         "To load (a vehicle or vessel) with freight (cargo); also, to hire or rent out (a vehicle or vessel) to carry cargo or passengers."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 9.772372209558111e-06
-  },
-  "generating": {
-    "word": "generating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of generate"
       ]
     ],
     "synonyms": [],
@@ -91546,10 +89242,6 @@
     "word": "launching",
     "definitions": [
       [
-        "verb",
-        "present participle of launch"
-      ],
-      [
         "noun",
         "The act by which something is launched; a launch."
       ]
@@ -91560,10 +89252,6 @@
   "liking": {
     "word": "liking",
     "definitions": [
-      [
-        "verb",
-        "present participle of like"
-      ],
       [
         "noun",
         "A like; a predilection."
@@ -91701,10 +89389,6 @@
     "word": "practicing",
     "definitions": [
       [
-        "verb",
-        "present participle of practice"
-      ],
-      [
         "adj",
         "Actively engaged in a profession."
       ],
@@ -91724,10 +89408,6 @@
       [
         "noun",
         "An act of saying a prayer."
-      ],
-      [
-        "verb",
-        "present participle of pray"
       ]
     ],
     "synonyms": [],
@@ -91814,23 +89494,8 @@
     "word": "recruiting",
     "definitions": [
       [
-        "verb",
-        "present participle of recruit"
-      ],
-      [
         "noun",
         "The process by which a person is recruited; recruitment."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 9.772372209558111e-06
-  },
-  "refusing": {
-    "word": "refusing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of refuse"
       ]
     ],
     "synonyms": [],
@@ -91900,10 +89565,6 @@
     "word": "sailing",
     "definitions": [
       [
-        "verb",
-        "present participle of sail"
-      ],
-      [
         "adj",
         "Travelling by ship."
       ],
@@ -91970,17 +89631,6 @@
       "snitch",
       "tell tales"
     ],
-    "frequency": 9.772372209558111e-06
-  },
-  "solving": {
-    "word": "solving",
-    "definitions": [
-      [
-        "verb",
-        "present participle of solve"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 9.772372209558111e-06
   },
   "sore": {
@@ -92103,10 +89753,6 @@
       [
         "noun",
         "An instance of targeting."
-      ],
-      [
-        "verb",
-        "present participle of target"
       ]
     ],
     "synonyms": [],
@@ -92503,10 +90149,6 @@
   "compelling": {
     "word": "compelling",
     "definitions": [
-      [
-        "verb",
-        "present participle of compel"
-      ],
       [
         "adj",
         "Strongly or irresistibly evoking interest or attention."
@@ -92948,10 +90590,6 @@
     "word": "mistaken",
     "definitions": [
       [
-        "verb",
-        "past participle of mistake"
-      ],
-      [
         "adj",
         "Erroneous."
       ]
@@ -93223,10 +90861,6 @@
       [
         "noun",
         "A shift or change; a shifting movement."
-      ],
-      [
-        "verb",
-        "present participle of shift"
       ]
     ],
     "synonyms": [],
@@ -93238,10 +90872,6 @@
       [
         "adj",
         "Emitting light."
-      ],
-      [
-        "verb",
-        "present participle of shine"
       ],
       [
         "noun",
@@ -93309,10 +90939,6 @@
       [
         "noun",
         "The motion of something that spins."
-      ],
-      [
-        "verb",
-        "present participle of spin"
       ]
     ],
     "synonyms": [],
@@ -93321,10 +90947,6 @@
   "stepping": {
     "word": "stepping",
     "definitions": [
-      [
-        "verb",
-        "present participle of step"
-      ],
       [
         "noun",
         "The act of taking a step."
@@ -93505,10 +91127,6 @@
       [
         "noun",
         "An act of intimidating a person to do something, especially such repeated coercion."
-      ],
-      [
-        "verb",
-        "present participle of bully"
       ]
     ],
     "synonyms": [],
@@ -93678,10 +91296,6 @@
         "Effective as proof or evidence."
       ],
       [
-        "verb",
-        "present participle of convince"
-      ],
-      [
         "noun",
         "The process by which somebody is convinced."
       ]
@@ -93717,17 +91331,6 @@
     "synonyms": [],
     "frequency": 9.332543007969906e-06
   },
-  "determining": {
-    "word": "determining",
-    "definitions": [
-      [
-        "verb",
-        "present participle of determine"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 9.332543007969906e-06
-  },
   "explosive": {
     "word": "explosive",
     "definitions": [
@@ -93746,10 +91349,6 @@
   "flooding": {
     "word": "flooding",
     "definitions": [
-      [
-        "verb",
-        "present participle of flood"
-      ],
       [
         "noun",
         "An act of flooding; a flood or gush."
@@ -93797,10 +91396,6 @@
       [
         "adj",
         "Discouraging; causing annoyance or anger by excessive difficulty."
-      ],
-      [
-        "verb",
-        "present participle of frustrate"
       ]
     ],
     "synonyms": [
@@ -94006,10 +91601,6 @@
     "word": "kissing",
     "definitions": [
       [
-        "verb",
-        "present participle of kiss"
-      ],
-      [
         "adj",
         "That kisses."
       ],
@@ -94111,10 +91702,6 @@
     "word": "occurring",
     "definitions": [
       [
-        "verb",
-        "present participle of occur"
-      ],
-      [
         "noun",
         "An instance of something occurring; an event or happening."
       ],
@@ -94129,10 +91716,6 @@
   "organizing": {
     "word": "organizing",
     "definitions": [
-      [
-        "verb",
-        "present participle of organize"
-      ],
       [
         "noun",
         "The act or process by which something is organized."
@@ -94214,17 +91797,6 @@
     "synonyms": [],
     "frequency": 9.332543007969906e-06
   },
-  "realizing": {
-    "word": "realizing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of realize"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 9.332543007969906e-06
-  },
   "resign": {
     "word": "resign",
     "definitions": [
@@ -94242,10 +91814,6 @@
       [
         "adj",
         "Informative."
-      ],
-      [
-        "verb",
-        "present participle of reveal"
       ],
       [
         "noun",
@@ -94386,10 +91954,6 @@
       [
         "noun",
         "The action of the verb to shout."
-      ],
-      [
-        "verb",
-        "present participle of shout"
       ]
     ],
     "synonyms": [],
@@ -94564,10 +92128,6 @@
     "word": "varying",
     "definitions": [
       [
-        "verb",
-        "present participle of vary"
-      ],
-      [
         "noun",
         "(computer graphics) A kind of variable, used by a fragment shader, that interpolates values across a primitive, so as to produce gradient effects etc."
       ]
@@ -94632,10 +92192,6 @@
   "boarding": {
     "word": "boarding",
     "definitions": [
-      [
-        "verb",
-        "present participle of board"
-      ],
       [
         "noun",
         "The act of people getting aboard a ship aircraft, train, bus, etc.; embarkation."
@@ -94945,10 +92501,6 @@
     "word": "defining",
     "definitions": [
       [
-        "verb",
-        "present participle of define"
-      ],
-      [
         "adj",
         "Serving to define or distinguish."
       ]
@@ -95080,10 +92632,6 @@
       [
         "adj",
         "Not allowed; specifically disallowed."
-      ],
-      [
-        "verb",
-        "past participle of forbid"
       ]
     ],
     "synonyms": [
@@ -95179,10 +92727,6 @@
       [
         "noun",
         "linkage"
-      ],
-      [
-        "verb",
-        "present participle of link"
       ]
     ],
     "synonyms": [],
@@ -95276,10 +92820,6 @@
   "packaging": {
     "word": "packaging",
     "definitions": [
-      [
-        "verb",
-        "present participle of package"
-      ],
       [
         "noun",
         "The act of packing something."
@@ -95427,10 +92967,6 @@
   "pursuing": {
     "word": "pursuing",
     "definitions": [
-      [
-        "verb",
-        "present participle of pursue"
-      ],
       [
         "noun",
         "pursuit"
@@ -95939,10 +93475,6 @@
         "Having appeal; attractive."
       ],
       [
-        "verb",
-        "present participle of appeal"
-      ],
-      [
         "noun",
         "The act of making an appeal."
       ]
@@ -96253,10 +93785,6 @@
     "word": "denying",
     "definitions": [
       [
-        "verb",
-        "present participle of deny"
-      ],
-      [
         "noun",
         "The act of one who denies something; a denial."
       ]
@@ -96529,10 +94057,6 @@
     "word": "licensing",
     "definitions": [
       [
-        "verb",
-        "present participle of license"
-      ],
-      [
         "noun",
         "A giving of license to do something; sanction."
       ]
@@ -96557,10 +94081,6 @@
       [
         "noun",
         "A limitation."
-      ],
-      [
-        "verb",
-        "present participle of limit"
       ]
     ],
     "synonyms": [],
@@ -96596,10 +94116,6 @@
       [
         "noun",
         "The action of marking."
-      ],
-      [
-        "verb",
-        "present participle of mark"
       ]
     ],
     "synonyms": [],
@@ -96823,10 +94339,6 @@
     "word": "rushing",
     "definitions": [
       [
-        "verb",
-        "present participle of rush"
-      ],
-      [
         "noun",
         "A rapid surging motion."
       ],
@@ -97042,10 +94554,6 @@
       [
         "adj",
         "Frightening or intimidating."
-      ],
-      [
-        "verb",
-        "present participle of terrify"
       ]
     ],
     "synonyms": [
@@ -97098,10 +94606,6 @@
       [
         "adj",
         "Occurring during wakefulness."
-      ],
-      [
-        "verb",
-        "present participle of wake"
       ],
       [
         "noun",
@@ -97289,10 +94793,6 @@
     "word": "citing",
     "definitions": [
       [
-        "verb",
-        "present participle of cite"
-      ],
-      [
         "noun",
         "Citation."
       ]
@@ -97362,10 +94862,6 @@
   "dreaming": {
     "word": "dreaming",
     "definitions": [
-      [
-        "verb",
-        "present participle of dream"
-      ],
       [
         "noun",
         "An instance of dreaming; a dream or reverie."
@@ -97469,10 +94965,6 @@
     "word": "grinding",
     "definitions": [
       [
-        "verb",
-        "present participle of grind"
-      ],
-      [
         "noun",
         "The action of grinding together or crushing into small particles."
       ],
@@ -97507,10 +94999,6 @@
       [
         "noun",
         "The act of making a guess; estimate or prediction; foresight."
-      ],
-      [
-        "verb",
-        "present participle of guess"
       ]
     ],
     "synonyms": [],
@@ -97764,10 +95252,6 @@
     "word": "modeling",
     "definitions": [
       [
-        "verb",
-        "present participle of model"
-      ],
-      [
         "noun",
         "The art of sculpting models from clay etc. to create a representation of something."
       ]
@@ -97797,10 +95281,6 @@
   "networking": {
     "word": "networking",
     "definitions": [
-      [
-        "verb",
-        "present participle of network"
-      ],
       [
         "noun",
         "The use of computer networks."
@@ -98000,10 +95480,6 @@
   "remembering": {
     "word": "remembering",
     "definitions": [
-      [
-        "verb",
-        "present participle of remember"
-      ],
       [
         "noun",
         "The act by which something is remembered."
@@ -98332,10 +95808,6 @@
     "word": "wishing",
     "definitions": [
       [
-        "verb",
-        "present participle of wish"
-      ],
-      [
         "noun",
         "The act of making a wish."
       ]
@@ -98459,10 +95931,6 @@
       [
         "noun",
         "The act of one who begs."
-      ],
-      [
-        "verb",
-        "present participle of beg"
       ]
     ],
     "synonyms": [],
@@ -98737,10 +96205,6 @@
     "word": "drilling",
     "definitions": [
       [
-        "verb",
-        "present participle of drill"
-      ],
-      [
         "noun",
         "Act of drilling."
       ],
@@ -98848,10 +96312,6 @@
   "imaging": {
     "word": "imaging",
     "definitions": [
-      [
-        "verb",
-        "present participle of image"
-      ],
       [
         "noun",
         "The technique or practice of creating images of otherwise invisible aspects of an object, especially of body parts."
@@ -99019,17 +96479,6 @@
     "synonyms": [],
     "frequency": 8.51138038202376e-06
   },
-  "obtaining": {
-    "word": "obtaining",
-    "definitions": [
-      [
-        "verb",
-        "present participle of obtain"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 8.51138038202376e-06
-  },
   "occupy": {
     "word": "occupy",
     "definitions": [
@@ -99158,10 +96607,6 @@
     "word": "reflecting",
     "definitions": [
       [
-        "verb",
-        "present participle of reflect"
-      ],
-      [
         "noun",
         "An instance of reflection"
       ],
@@ -99223,27 +96668,12 @@
       [
         "adj",
         "That satisfies, gratifies or pleases; that removes any feeling of lack."
-      ],
-      [
-        "verb",
-        "present participle and gerund of satisfy"
       ]
     ],
     "synonyms": [
       "satiating",
       "satiating"
     ],
-    "frequency": 8.51138038202376e-06
-  },
-  "securing": {
-    "word": "securing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of secure"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 8.51138038202376e-06
   },
   "siege": {
@@ -99333,10 +96763,6 @@
   "steering": {
     "word": "steering",
     "definitions": [
-      [
-        "verb",
-        "present participle of steer"
-      ],
       [
         "noun",
         "Equipment used to control direction; something used to steer."
@@ -99568,10 +96994,6 @@
     "word": "baking",
     "definitions": [
       [
-        "verb",
-        "present participle of bake."
-      ],
-      [
         "adj",
         "That bakes."
       ],
@@ -99651,10 +97073,6 @@
       [
         "adj",
         "That cracks; that produces a sharp sound as of something splitting or breaking."
-      ],
-      [
-        "verb",
-        "present participle of crack"
       ]
     ],
     "synonyms": [],
@@ -99763,10 +97181,6 @@
     "word": "enabling",
     "definitions": [
       [
-        "verb",
-        "present participle of enable"
-      ],
-      [
         "noun",
         "An act or an instance of something being enabled."
       ]
@@ -99829,17 +97243,6 @@
     ],
     "frequency": 8.31763771102671e-06
   },
-  "excluding": {
-    "word": "excluding",
-    "definitions": [
-      [
-        "verb",
-        "present participle of exclude"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 8.31763771102671e-06
-  },
   "fierce": {
     "word": "fierce",
     "definitions": [
@@ -99857,10 +97260,6 @@
   "forgetting": {
     "word": "forgetting",
     "definitions": [
-      [
-        "verb",
-        "present participle of forget"
-      ],
       [
         "noun",
         "The mental act by which something is forgotten."
@@ -100393,10 +97792,6 @@
     "word": "reviewing",
     "definitions": [
       [
-        "verb",
-        "present participle of review"
-      ],
-      [
         "noun",
         "The act by which something is reviewed, or thought about again; a mental review."
       ]
@@ -100843,10 +98238,6 @@
       [
         "noun",
         "The sound or action of a click."
-      ],
-      [
-        "verb",
-        "present participle of click"
       ]
     ],
     "synonyms": [],
@@ -100892,10 +98283,6 @@
   "damaging": {
     "word": "damaging",
     "definitions": [
-      [
-        "verb",
-        "present participle of damage"
-      ],
       [
         "adj",
         "Harmful; injurious; causing damage."
@@ -101145,17 +98532,6 @@
       [
         "noun",
         "(medicine) Protective resistance against disease."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 8.128305161640995e-06
-  },
-  "implementing": {
-    "word": "implementing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of implement"
       ]
     ],
     "synonyms": [],
@@ -101655,17 +99031,6 @@
     "synonyms": [],
     "frequency": 8.128305161640995e-06
   },
-  "sung": {
-    "word": "sung",
-    "definitions": [
-      [
-        "verb",
-        "past participle of sing"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 8.128305161640995e-06
-  },
   "territorial": {
     "word": "territorial",
     "definitions": [
@@ -102147,10 +99512,6 @@
     "word": "combining",
     "definitions": [
       [
-        "verb",
-        "present participle of combine"
-      ],
-      [
         "noun",
         "The act by which things are combined or brought together."
       ]
@@ -102193,17 +99554,6 @@
       [
         "noun",
         "The act of coordinating, making different people or things work together for a goal or effect."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 7.943282347242822e-06
-  },
-  "directing": {
-    "word": "directing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of direct"
       ]
     ],
     "synonyms": [],
@@ -102508,10 +99858,6 @@
         "Deceptive or tending to mislead or create a false impression, even if technically true."
       ],
       [
-        "verb",
-        "present participle of mislead"
-      ],
-      [
         "noun",
         "A deception that misleads."
       ]
@@ -102777,10 +100123,6 @@
         "Conducive to relaxation; helping one to relax."
       ],
       [
-        "verb",
-        "present participle of relax"
-      ],
-      [
         "noun",
         "The process by which something is relaxed."
       ]
@@ -102933,10 +100275,6 @@
         "Emitting a sound."
       ],
       [
-        "verb",
-        "present participle of sound"
-      ],
-      [
         "noun",
         "Test made with a probe or sonde."
       ]
@@ -103040,10 +100378,6 @@
     "word": "sworn",
     "definitions": [
       [
-        "verb",
-        "past participle of swear"
-      ],
-      [
         "adj",
         "Given or declared under oath."
       ]
@@ -103054,10 +100388,6 @@
   "trafficking": {
     "word": "trafficking",
     "definitions": [
-      [
-        "verb",
-        "present participle of traffic"
-      ],
       [
         "noun",
         "Clipping of human trafficking."
@@ -103212,10 +100542,6 @@
       [
         "adj",
         "removed from circulation"
-      ],
-      [
-        "verb",
-        "past participle of withdraw"
       ]
     ],
     "synonyms": [],
@@ -103235,10 +100561,6 @@
   "aiming": {
     "word": "aiming",
     "definitions": [
-      [
-        "verb",
-        "present participle of aim"
-      ],
       [
         "noun",
         "The act of one who aims."
@@ -103444,10 +100766,6 @@
       [
         "noun",
         "The process of modifying a person or animal's behaviour."
-      ],
-      [
-        "verb",
-        "present participle of condition"
       ]
     ],
     "synonyms": [],
@@ -103456,10 +100774,6 @@
   "consuming": {
     "word": "consuming",
     "definitions": [
-      [
-        "verb",
-        "present participle of consume"
-      ],
       [
         "adj",
         "Holding one's attention or interest."
@@ -103489,10 +100803,6 @@
       [
         "noun",
         "Assistance (especially from a professional) in the resolution of personal difficulties."
-      ],
-      [
-        "verb",
-        "present participle of counsel"
       ]
     ],
     "synonyms": [],
@@ -103514,10 +100824,6 @@
   "designing": {
     "word": "designing",
     "definitions": [
-      [
-        "verb",
-        "present participle of design"
-      ],
       [
         "adj",
         "artful; scheming"
@@ -103776,10 +101082,6 @@
         "Short and interrupted, broken, jerky; hacky."
       ],
       [
-        "verb",
-        "present participle of hack"
-      ],
-      [
         "noun",
         "(computing) Playful solving of technical work that requires deep understanding, especially of a computer system."
       ]
@@ -103804,20 +101106,6 @@
       "inheritor",
       "inheritor",
       "successor"
-    ],
-    "frequency": 7.76247116628691e-06
-  },
-  "highlighted": {
-    "word": "highlighted",
-    "definitions": [
-      [
-        "verb",
-        "past participle of highlight"
-      ]
-    ],
-    "synonyms": [
-      "hilited",
-      "highlit"
     ],
     "frequency": 7.76247116628691e-06
   },
@@ -103943,10 +101231,6 @@
       [
         "noun",
         "A tendency or propensity."
-      ],
-      [
-        "verb",
-        "present participle of lean"
       ]
     ],
     "synonyms": [],
@@ -104110,10 +101394,6 @@
       [
         "adj",
         "That rests; that is not in action or in the process of growth."
-      ],
-      [
-        "verb",
-        "present participle of rest"
       ]
     ],
     "synonyms": [
@@ -104238,10 +101518,6 @@
       [
         "adj",
         "Working for a short time in different places."
-      ],
-      [
-        "verb",
-        "present participle of tour"
       ],
       [
         "noun",
@@ -104416,10 +101692,6 @@
       [
         "noun",
         "The act of accusing or assigning culpability to."
-      ],
-      [
-        "verb",
-        "present participle of blame"
       ]
     ],
     "synonyms": [],
@@ -104555,23 +101827,8 @@
     "word": "committing",
     "definitions": [
       [
-        "verb",
-        "present participle of commit"
-      ],
-      [
         "noun",
         "The act by which something is committed."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 7.585775750291836e-06
-  },
-  "comprising": {
-    "word": "comprising",
-    "definitions": [
-      [
-        "verb",
-        "present participle of comprise"
       ]
     ],
     "synonyms": [],
@@ -104647,10 +101904,6 @@
       [
         "adj",
         "Having something attributed to oneself."
-      ],
-      [
-        "verb",
-        "past participle of credit"
       ]
     ],
     "synonyms": [],
@@ -104879,10 +102132,6 @@
     "word": "knocking",
     "definitions": [
       [
-        "verb",
-        "present participle of knock"
-      ],
-      [
         "noun",
         "An act in which something is knocked on, or the sound thus produced"
       ]
@@ -104911,10 +102160,6 @@
       [
         "noun",
         "A covering for the inside surface of something."
-      ],
-      [
-        "verb",
-        "present participle of line"
       ]
     ],
     "synonyms": [],
@@ -104954,10 +102199,6 @@
       [
         "noun",
         "The process of making maps."
-      ],
-      [
-        "verb",
-        "present participle of map"
       ]
     ],
     "synonyms": [],
@@ -105020,10 +102261,6 @@
       [
         "noun",
         "The process of giving names to things."
-      ],
-      [
-        "verb",
-        "present participle of name"
       ],
       [
         "adj",
@@ -105246,10 +102483,6 @@
     "word": "sucking",
     "definitions": [
       [
-        "verb",
-        "present participle of suck"
-      ],
-      [
         "noun",
         "An act of sucking."
       ]
@@ -105468,17 +102701,6 @@
       "bowling alley",
       "lane"
     ],
-    "frequency": 7.413102413009177e-06
-  },
-  "announcing": {
-    "word": "announcing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of announce"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 7.413102413009177e-06
   },
   "appetite": {
@@ -105751,10 +102973,6 @@
     "word": "examining",
     "definitions": [
       [
-        "verb",
-        "present participle of examine"
-      ],
-      [
         "noun",
         "examination"
       ]
@@ -105848,10 +103066,6 @@
     "word": "hiking",
     "definitions": [
       [
-        "verb",
-        "present participle of hike"
-      ],
-      [
         "noun",
         "Walking in the countryside for pleasure or sport."
       ]
@@ -105928,10 +103142,6 @@
       [
         "noun",
         "The action of, or an instance of the action of the verb to lend."
-      ],
-      [
-        "verb",
-        "present participle of lend"
       ]
     ],
     "synonyms": [],
@@ -106054,10 +103264,6 @@
       [
         "adj",
         "(American spelling) Situated or living nearby or adjacent to."
-      ],
-      [
-        "verb",
-        "(American spelling) present participle of neighbor"
       ]
     ],
     "synonyms": [],
@@ -106121,10 +103327,6 @@
       [
         "noun",
         "The process of raising and educating a child from birth until adulthood."
-      ],
-      [
-        "verb",
-        "present participle of parent"
       ]
     ],
     "synonyms": [],
@@ -106326,10 +103528,6 @@
   "sliding": {
     "word": "sliding",
     "definitions": [
-      [
-        "verb",
-        "present participle of slide"
-      ],
       [
         "noun",
         "The motion of something that slides."
@@ -106674,10 +103872,6 @@
     "word": "advancing",
     "definitions": [
       [
-        "verb",
-        "present participle of advance"
-      ],
-      [
         "noun",
         "The act of proceeding forward; an advance."
       ]
@@ -106771,10 +103965,6 @@
   "booking": {
     "word": "booking",
     "definitions": [
-      [
-        "verb",
-        "present participle of book"
-      ],
       [
         "noun",
         "The act or process of writing something down in a book or books, e.g. in accounting."
@@ -107206,10 +104396,6 @@
         "Alluring; tempting; attractive."
       ],
       [
-        "verb",
-        "present participle of invite"
-      ],
-      [
         "noun",
         "invitation"
       ]
@@ -107389,17 +104575,6 @@
     ],
     "frequency": 7.244359600749906e-06
   },
-  "manning": {
-    "word": "manning",
-    "definitions": [
-      [
-        "verb",
-        "present participle of man"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 7.244359600749906e-06
-  },
   "maple": {
     "word": "maple",
     "definitions": [
@@ -107565,10 +104740,6 @@
         "That continues to mount; steadily accumulating."
       ],
       [
-        "verb",
-        "present participle of mount"
-      ],
-      [
         "noun",
         "Something mounted; an attachment."
       ]
@@ -107635,10 +104806,6 @@
   "pouring": {
     "word": "pouring",
     "definitions": [
-      [
-        "verb",
-        "present participle of pour"
-      ],
       [
         "noun",
         "The act by which something is poured."
@@ -107752,17 +104919,6 @@
     "synonyms": [
       "semiring"
     ],
-    "frequency": 7.244359600749906e-06
-  },
-  "risen": {
-    "word": "risen",
-    "definitions": [
-      [
-        "verb",
-        "past participle of rise"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 7.244359600749906e-06
   },
   "scroll": {
@@ -107999,10 +105155,6 @@
       [
         "adj",
         "Present together."
-      ],
-      [
-        "verb",
-        "present participle of accompany"
       ],
       [
         "noun",
@@ -108322,10 +105474,6 @@
       [
         "adj",
         "causing devastation"
-      ],
-      [
-        "verb",
-        "present participle of devastate"
       ]
     ],
     "synonyms": [],
@@ -108803,10 +105951,6 @@
     "word": "settling",
     "definitions": [
       [
-        "verb",
-        "present participle of settle"
-      ],
-      [
         "noun",
         "The act of one who, or that which, settles; the act of establishing oneself, of colonizing, subsiding, adjusting, etc."
       ]
@@ -108913,10 +106057,6 @@
       [
         "adj",
         "Requiring a high level of effort or performance."
-      ],
-      [
-        "verb",
-        "present participle of stretch"
       ]
     ],
     "synonyms": [],
@@ -109029,17 +106169,6 @@
     "synonyms": [
       "pregraduate"
     ],
-    "frequency": 7.079457843841373e-06
-  },
-  "undertaken": {
-    "word": "undertaken",
-    "definitions": [
-      [
-        "verb",
-        "past participle of undertake"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 7.079457843841373e-06
   },
   "uranium": {
@@ -109172,10 +106301,6 @@
       [
         "noun",
         "The act of someone who bats."
-      ],
-      [
-        "verb",
-        "present participle of bat"
       ]
     ],
     "synonyms": [],
@@ -109217,10 +106342,6 @@
     "word": "commanding",
     "definitions": [
       [
-        "verb",
-        "present participle of command"
-      ],
-      [
         "adj",
         "Tending to give commands, authoritarian."
       ],
@@ -109237,10 +106358,6 @@
   "crashing": {
     "word": "crashing",
     "definitions": [
-      [
-        "verb",
-        "present participle of crash"
-      ],
       [
         "noun",
         "The sound or action of something that crashes."
@@ -109545,17 +106662,6 @@
     "synonyms": [],
     "frequency": 6.9183097091893625e-06
   },
-  "hating": {
-    "word": "hating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of hate"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.9183097091893625e-06
-  },
   "heel": {
     "word": "heel",
     "definitions": [
@@ -109696,17 +106802,6 @@
     "synonyms": [],
     "frequency": 6.9183097091893625e-06
   },
-  "owning": {
-    "word": "owning",
-    "definitions": [
-      [
-        "verb",
-        "present participle of own"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.9183097091893625e-06
-  },
   "pains": {
     "word": "pains",
     "definitions": [
@@ -109746,10 +106841,6 @@
       [
         "noun",
         "The administration of a poison."
-      ],
-      [
-        "verb",
-        "present participle of poison"
       ]
     ],
     "synonyms": [],
@@ -109769,10 +106860,6 @@
   "recovering": {
     "word": "recovering",
     "definitions": [
-      [
-        "verb",
-        "present participle of recover"
-      ],
       [
         "noun",
         "The process or the instance of recovery."
@@ -109795,10 +106882,6 @@
   "repeating": {
     "word": "repeating",
     "definitions": [
-      [
-        "verb",
-        "present participle of repeat"
-      ],
       [
         "adj",
         "That repeats; repetitive."
@@ -109850,10 +106933,6 @@
     "word": "skating",
     "definitions": [
       [
-        "verb",
-        "present participle of skate"
-      ],
-      [
         "noun",
         "The action of moving along a surface (ice or ground) using skates."
       ]
@@ -109864,10 +106943,6 @@
   "skiing": {
     "word": "skiing",
     "definitions": [
-      [
-        "verb",
-        "present participle of ski"
-      ],
       [
         "noun",
         "(sports) A group of sports utilizing skis as primary equipment."
@@ -110085,10 +107160,6 @@
       [
         "noun",
         "Assigning or classification by type."
-      ],
-      [
-        "verb",
-        "present participle of type"
       ]
     ],
     "synonyms": [],
@@ -110160,10 +107231,6 @@
     "word": "weighing",
     "definitions": [
       [
-        "verb",
-        "present participle of weigh"
-      ],
-      [
         "noun",
         "The process by which something is weighed."
       ],
@@ -110200,10 +107267,6 @@
   "agreeing": {
     "word": "agreeing",
     "definitions": [
-      [
-        "verb",
-        "present participle of agree"
-      ],
       [
         "noun",
         "An agreement."
@@ -110318,10 +107381,6 @@
     "word": "cheering",
     "definitions": [
       [
-        "verb",
-        "present participle and gerund of cheer"
-      ],
-      [
         "noun",
         "A cheer."
       ]
@@ -110343,10 +107402,6 @@
   "commenting": {
     "word": "commenting",
     "definitions": [
-      [
-        "verb",
-        "present participle of comment"
-      ],
       [
         "noun",
         "The making of a comment; commentary."
@@ -110410,10 +107465,6 @@
     "word": "crushing",
     "definitions": [
       [
-        "verb",
-        "present participle of crush"
-      ],
-      [
         "adj",
         "That crushes; overwhelming."
       ],
@@ -110463,10 +107514,6 @@
     "word": "declining",
     "definitions": [
       [
-        "verb",
-        "present participle and gerund of decline"
-      ],
-      [
         "noun",
         "decline"
       ]
@@ -110480,10 +107527,6 @@
       [
         "adj",
         "Causing depression or sadness."
-      ],
-      [
-        "verb",
-        "present participle of depress"
       ]
     ],
     "synonyms": [],
@@ -110612,10 +107655,6 @@
   "flown": {
     "word": "flown",
     "definitions": [
-      [
-        "verb",
-        "past participle of fly"
-      ],
       [
         "adj",
         "(theater) Suspended in the flies."
@@ -110757,10 +107796,6 @@
       [
         "noun",
         "(baseball) A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game."
-      ],
-      [
-        "verb",
-        "present participle of inn"
       ]
     ],
     "synonyms": [],
@@ -110995,10 +108030,6 @@
     "word": "polling",
     "definitions": [
       [
-        "verb",
-        "present participle of poll"
-      ],
-      [
         "noun",
         "(computing) A technique that continually interrogates a peripheral or service to see if it has data to transfer."
       ]
@@ -111012,10 +108043,6 @@
       [
         "noun",
         "The act or sound of something that pops."
-      ],
-      [
-        "verb",
-        "present participle of pop"
       ]
     ],
     "synonyms": [],
@@ -111149,10 +108176,6 @@
       [
         "noun",
         "The action of refresh; refreshment given or received."
-      ],
-      [
-        "verb",
-        "present participle of refresh"
       ]
     ],
     "synonyms": [],
@@ -111281,10 +108304,6 @@
   "sinking": {
     "word": "sinking",
     "definitions": [
-      [
-        "verb",
-        "present participle of sink"
-      ],
       [
         "noun",
         "The process by which something sinks, or is sunk."
@@ -111780,10 +108799,6 @@
     "word": "declaring",
     "definitions": [
       [
-        "verb",
-        "present participle of declare"
-      ],
-      [
         "noun",
         "The act of making something known; announcing; proclaiming"
       ]
@@ -111863,10 +108878,6 @@
     "word": "discovering",
     "definitions": [
       [
-        "verb",
-        "present participle of discover"
-      ],
-      [
         "noun",
         "A discovery."
       ]
@@ -111899,10 +108910,6 @@
       [
         "noun",
         "gerund of drag: an instance of something being dragged."
-      ],
-      [
-        "verb",
-        "present participle of drag"
       ]
     ],
     "synonyms": [],
@@ -112192,10 +109199,6 @@
     "word": "marching",
     "definitions": [
       [
-        "verb",
-        "present participle of march"
-      ],
-      [
         "noun",
         "An action described by the verb \"to march\"."
       ],
@@ -112224,17 +109227,6 @@
       [
         "noun",
         "A mechanical, thin, flat flexible part that can deform or vibrate when excited by an external force."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.606934480075964e-06
-  },
-  "messing": {
-    "word": "messing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of mess"
       ]
     ],
     "synonyms": [],
@@ -112652,10 +109644,6 @@
   "strengthening": {
     "word": "strengthening",
     "definitions": [
-      [
-        "verb",
-        "present participle of strengthen"
-      ],
       [
         "noun",
         "The process by which something is strengthened."
@@ -113149,10 +110137,6 @@
     "word": "bidding",
     "definitions": [
       [
-        "verb",
-        "present participle of bid"
-      ],
-      [
         "noun",
         "That which one is bidden to do; a command."
       ]
@@ -113214,10 +110198,6 @@
       [
         "noun",
         "The process of encoding or decoding."
-      ],
-      [
-        "verb",
-        "present participle of code"
       ]
     ],
     "synonyms": [],
@@ -113772,10 +110752,6 @@
       [
         "noun",
         "A plant (or clipping) that has been freshly planted."
-      ],
-      [
-        "verb",
-        "present participle of plant"
       ]
     ],
     "synonyms": [],
@@ -113837,10 +110813,6 @@
     "word": "pumping",
     "definitions": [
       [
-        "verb",
-        "present participle of pump"
-      ],
-      [
         "noun",
         "The act by which something is pumped."
       ]
@@ -113869,17 +110841,6 @@
       [
         "noun",
         "The act of relying (on or in someone or something); trust."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.456542290346549e-06
-  },
-  "relying": {
-    "word": "relying",
-    "definitions": [
-      [
-        "verb",
-        "present participle of rely"
       ]
     ],
     "synonyms": [],
@@ -113951,17 +110912,6 @@
       "maggoted",
       "spoiled"
     ],
-    "frequency": 6.456542290346549e-06
-  },
-  "selecting": {
-    "word": "selecting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of select"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 6.456542290346549e-06
   },
   "shah": {
@@ -114130,24 +111080,9 @@
     "synonyms": [],
     "frequency": 6.456542290346549e-06
   },
-  "acquiring": {
-    "word": "acquiring",
-    "definitions": [
-      [
-        "verb",
-        "present participle and gerund of acquire"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.30957344480193e-06
-  },
   "admitting": {
     "word": "admitting",
     "definitions": [
-      [
-        "verb",
-        "present participle of admit"
-      ],
       [
         "noun",
         "An act of admission; an allowing to enter."
@@ -114233,10 +111168,6 @@
     "word": "balancing",
     "definitions": [
       [
-        "verb",
-        "present participle of balance"
-      ],
-      [
         "noun",
         "An action wherein someone balances or something is balanced"
       ]
@@ -114247,10 +111178,6 @@
   "banning": {
     "word": "banning",
     "definitions": [
-      [
-        "verb",
-        "present participle of ban"
-      ],
       [
         "noun",
         "The act by which something is banned; a prohibition."
@@ -114800,10 +111727,6 @@
     "word": "melting",
     "definitions": [
       [
-        "verb",
-        "present participle of melt"
-      ],
-      [
         "adj",
         "Which is melting, dissolving or liquefying."
       ],
@@ -114821,10 +111744,6 @@
       [
         "noun",
         "gerund of message: the transmission of messages."
-      ],
-      [
-        "verb",
-        "present participle of message"
       ]
     ],
     "synonyms": [],
@@ -115039,17 +111958,6 @@
     "synonyms": [],
     "frequency": 6.30957344480193e-06
   },
-  "requesting": {
-    "word": "requesting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of request"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.30957344480193e-06
-  },
   "restrict": {
     "word": "restrict",
     "definitions": [
@@ -115077,10 +111985,6 @@
       [
         "adj",
         "introverted, liking privacy and seclusion."
-      ],
-      [
-        "verb",
-        "present participle of retire"
       ],
       [
         "noun",
@@ -115448,10 +112352,6 @@
       [
         "noun",
         "Travelling without preset route; roaming."
-      ],
-      [
-        "verb",
-        "present participle of wander"
       ]
     ],
     "synonyms": [],
@@ -115495,10 +112395,6 @@
   "assisting": {
     "word": "assisting",
     "definitions": [
-      [
-        "verb",
-        "present participle of assist"
-      ],
       [
         "noun",
         "assistance; help given"
@@ -115786,17 +112682,6 @@
       [
         "noun",
         "A submunicipal administrative unit of a city in North or South Korea."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.165950018614822e-06
-  },
-  "eliminating": {
-    "word": "eliminating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of eliminate"
       ]
     ],
     "synonyms": [],
@@ -116353,10 +113238,6 @@
       [
         "noun",
         "The act or process by which something is rendered."
-      ],
-      [
-        "verb",
-        "present participle of render"
       ]
     ],
     "synonyms": [],
@@ -116459,10 +113340,6 @@
     "word": "starving",
     "definitions": [
       [
-        "verb",
-        "present participle of starve"
-      ],
-      [
         "noun",
         "starvation"
       ]
@@ -116528,10 +113405,6 @@
     "word": "sweeping",
     "definitions": [
       [
-        "verb",
-        "present participle of sweep"
-      ],
-      [
         "noun",
         "(countable) An instance of sweeping."
       ],
@@ -116553,10 +113426,6 @@
         "The act or motion of that which swings."
       ],
       [
-        "verb",
-        "present participle of swing"
-      ],
-      [
         "adj",
         "(informal) Fine, good, successful."
       ]
@@ -116567,10 +113436,6 @@
   "tearing": {
     "word": "tearing",
     "definitions": [
-      [
-        "verb",
-        "present participle of tear"
-      ],
       [
         "noun",
         "The act by which something is torn; a laceration."
@@ -116661,17 +113526,6 @@
       [
         "noun",
         "Academia."
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.025595860743581e-06
-  },
-  "adopting": {
-    "word": "adopting",
-    "definitions": [
-      [
-        "verb",
-        "present participle of adopt"
       ]
     ],
     "synonyms": [],
@@ -117122,17 +113976,6 @@
     "synonyms": [],
     "frequency": 6.025595860743581e-06
   },
-  "exposing": {
-    "word": "exposing",
-    "definitions": [
-      [
-        "verb",
-        "present participle of expose"
-      ]
-    ],
-    "synonyms": [],
-    "frequency": 6.025595860743581e-06
-  },
   "faint": {
     "word": "faint",
     "definitions": [
@@ -117356,10 +114199,6 @@
     "word": "lowering",
     "definitions": [
       [
-        "verb",
-        "present participle of lower"
-      ],
-      [
         "noun",
         "The act of something being lowered."
       ],
@@ -117412,17 +114251,6 @@
     "synonyms": [
       "ramshackle"
     ],
-    "frequency": 6.025595860743581e-06
-  },
-  "negotiating": {
-    "word": "negotiating",
-    "definitions": [
-      [
-        "verb",
-        "present participle of negotiate"
-      ]
-    ],
-    "synonyms": [],
     "frequency": 6.025595860743581e-06
   },
   "negotiation": {
@@ -117709,10 +114537,6 @@
         "Of or pertaining to something that retains something else, as with a retaining wall."
       ],
       [
-        "verb",
-        "present participle of retain"
-      ],
-      [
         "noun",
         "The act by which something or someone is retained; a retention."
       ]
@@ -117805,10 +114629,6 @@
       [
         "adj",
         "Resembling the sound of something being split or ripped."
-      ],
-      [
-        "verb",
-        "present participle of split"
       ]
     ],
     "synonyms": [],
@@ -118184,10 +115004,6 @@
   "biting": {
     "word": "biting",
     "definitions": [
-      [
-        "verb",
-        "present participle of bite"
-      ],
       [
         "noun",
         "An instance of something being bitten."
