@@ -6,7 +6,7 @@ import wordfreq as wf
 from PyMultiDictionary import MultiDictionary, DICT_EDUCALINGO #only supports half the languages that wordfreq does :(
 
 dictionary = MultiDictionary()
-print(dictionary.meaning('en', 'suffice', dictionary=DICT_EDUCALINGO))
+print(dictionary.synonym('en', 'association', dictionary=DICT_EDUCALINGO))
 
 # def makeDict(language, max_length, file='freqDictTest.json'):
 #   constructedDictionary = {} #can use random.choice(list(dictionary.values())) to get a random word from the dictionary
