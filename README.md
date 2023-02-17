@@ -6,13 +6,13 @@
 ## Revise Current Process
 
 1. Download dictionary data from kaikki Wikitonary in target languages
-2. Rewrite getData.py to be function that takes file name and language
+2. Rewrite getData.py to be function that takes file name, language
    - Removes phrases with spaces
    - Filters nouns, verbs, and adjectives
-     - Must examine the data in other langugages to see if json is also in that language
-   - Creates list of dictionary objects with definition and synonyms
-3. Next function in getData.py puts adjacent identical words into one dictionary object of the form: <br>`{word: word, defs:[[noun, def1], [verb, def2]], synonyms: [syn1, syn2]}`
+   - Puts adjacent identical words into one dictionary object
+   - Creates list of dictionary objects with definition and synonyms in the form: <br>`{word: word, defs:[[noun, def1], [verb, def2]], synonyms: [syn1, syn2]}`
 4. At this point, the list of dictionary objects is written to a new file in JSON format
+   - Can search here for English definitions of related words
 5. Rewrite frequencyDict.py to generic function that takes filename and language parameter
    - wordfreq.get_frequency_dict(language)
    - wordfreq.top_n_list(language, 10000)
