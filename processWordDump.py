@@ -37,35 +37,11 @@ def makeLearningDict(filename, wordsToExclude, minWordLength = 3, POStoInclude =
             if not any([x in data["senses"][sense]["glosses"][0].casefold() for x in wordsToExclude]):
               roughList[-1]["definitions"].append([data["pos"], data["senses"][sense]["glosses"][0]])
 
-          if "synonyms" in data["senses"][sense]:
-            for synonym in data["senses"][sense]["synonyms"]:
-              if synonym["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in synonym["word"] and not any(synonym["word"] in similarWords for similarWords in roughList[-1]["related words"]):
-                roughList[-1]["related words"].append(["synonym", synonym["word"]])
-          
-          if "hypermyns" in data["senses"][sense]:
-            for hypernym in data["senses"][sense]["hypermyns"]:
-              if hypernym["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in hypernym["word"] and not any(hypernym["word"] in similarWords for similarWords in roughList[-1]["related words"]):
-                roughList[-1]["related words"].append(["hypernym", hypernym["word"]])
-
-          if "hyponyms" in data["senses"][sense]:
-            for hyponym in data["senses"][sense]["hyponyms"]:
-              if hyponym["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in hyponym["word"] and not any(hyponym["word"] in similarWords for similarWords in roughList[-1]["related words"]):
-                roughList[-1]["related words"].append(["hyponym", hyponym["word"]])
-
-          if "meronyms" in data["senses"][sense]:
-            for meronym in data["senses"][sense]["meronyms"]:
-              if meronym["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in meronym["word"] and not any(meronym["word"] in similarWords for similarWords in roughList[-1]["related words"]):
-                roughList[-1]["related words"].append(["meronym", meronym["word"]])
-
-          if "antonyms" in data["senses"][sense]:
-            for antonym in data["senses"][sense]["antonyms"]:
-              if antonym["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in antonym["word"] and not any(antonym["word"] in similarWords for similarWords in roughList[-1]["related words"]):
-                roughList[-1]["related words"].append(["antonym", antonym["word"]])
-
-          if "related" in data["senses"][sense]:
-            for related in data["senses"][sense]["related"]:
-              if related["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in related["word"] and not any(related["word"] in similarWords for similarWords in roughList[-1]["related words"]):
-                roughList[-1]["related words"].append(["related", related["word"]])
+          for relationship in ["synonyms", "hypermyns", "hyponyms", "meronyms", "antonyms", "related"]:
+            if relationship in data["senses"][sense]:
+              for relatedWord in data["senses"][sense][relationship]:
+                if relatedWord["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in relatedWord["word"] and not any(relatedWord["word"] in similarWords for similarWords in roughList[-1]["related words"]):
+                  roughList[-1]["related words"].append([relationship[:-1], relatedWord["word"]])
 
         if len(roughList[-1]["definitions"]) == 0:
           # These are some really weird and obscure words, so just going to filter these out (words without any glosses or raw_glosses in any sense for any POS)
