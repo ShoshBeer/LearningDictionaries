@@ -1,31 +1,6 @@
 import wordfreq as wf
-
-words = [['synonym', 'piece'], ['synonym', 'portion'], ['synonym', 'component'], ['synonym', 'element'], ['hyponym', 'fraction [⇒ thesaurus]'], ['hyponym', 'constituent'], ['hyponym', 'piece [⇒ thesaurus]'], ['hyponym', 'section'], ['hyponym', 'division'], ['hyponym', 'ingredient'], ['synonym', 'faction'], ['synonym', 'position'], ['synonym', 'role'], ['synonym', 'shed'], ['synonym', 'shoad'], ['synonym', 'shode'], ['synonym', 'chelek']]
-
-dict = {"word": {"word": "wub", "related words": words}, 
-"butt": {"word": "butt", "related words": [["synonym", "ass"], ["relate", "hole"]]}}
-
-def noSpaces(partWord):
-  return False if ' ' in partWord[1] else True
-
-filteredWords = list(filter(noSpaces, words))
-
-dict["word"]["related words"] = filteredWords
-print(dict)
-
-# for relatedWord in range(len(words)):
-#   # print(words[commonWord]["related words"][relatedWord][1])
-#   print(relatedWord, words[relatedWord][1])
-#   if ' ' in words[relatedWord][1]:
-#     words.pop(relatedWord)
-
-# print(words)
-
-# testrelated = [["synonym", "love"], ["synonym", "like"], ["hypernym", "feeling"]]
-# testWord = "feel"
-
-# if any(testWord in relatedEntry for relatedEntry in testrelated):
-#   print('yes, this works')
+from PyMultiDictionary import MultiDictionary, DICT_EDUCALINGO
+from PyMultiDictionary._dictionary import InvalidLangCode, _CACHED_SOUPS
 
 # print('especially', wf.word_frequency('especially', 'en'))
 # print('those', wf.word_frequency('those', 'en'))
@@ -38,6 +13,12 @@ print(dict)
 # print('specifically', wf.word_frequency('specifically', 'en'))
 # print('usually', wf.word_frequency('usually', 'en'))
 
+dictionary = MultiDictionary()
+nice = dictionary.synonym('en', 'nice')
+for syn in nice:
+  print(syn, wf.word_frequency(syn, 'en'))
+
+
 # exclusions = [
 #           "obsolete", "rare", "archaic", 
 #           "regional", "dialectal",
@@ -47,15 +28,5 @@ print(dict)
 #           "script ", "greek", "phonetic"
 #         ]
 
-# exampleDef = "The name of the Latin-script letter U."
-# moreExample = "(obsolete) At the same time; simultaneously."
-
-# print(moreExample.casefold())
-# if any([x in moreExample.casefold() for x in exclusions]):
-#   print("casefold: found exclusion")
-
-# print(wf.tokenize(moreExample, 'en'))
-# if any([x in wf.tokenize(moreExample, 'en') for x in exclusions]):
-#   print("tokenize: found exclusion")
 
 #filter out numbers and etc and eg
