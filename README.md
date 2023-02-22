@@ -38,7 +38,7 @@
 ---
 
  - Remove duplicate synonyms
- - Add words from definitions to synonyms or new related words key'
+ - Add words from definitions to synonyms or new related words key
   - Find data with words and their associated frequencies
     - Prefereably from source with multiple languages so can reuse funcitons
     - Thank you wordfreq!!

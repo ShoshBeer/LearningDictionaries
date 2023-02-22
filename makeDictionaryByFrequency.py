@@ -4,7 +4,7 @@ from PyMultiDictionary._dictionary import InvalidLangCode
 import json
 
 '''
-Given the dictionary in the file english_words_from_full_list.json, this component will use the wordfreq module to make a more suitable word database for the Talking Circles game.
+Given the file with the dictionary created by makeLearningDict(), this component will use the wordfreq module to make a more suitable word database for the Talking Circles game.
 Method:
 1. Use top_n_list for specified language to return the top 10 000 words in that langugae
 2. For each of those top words, look for it in the dictionary
@@ -50,18 +50,14 @@ def makeGameDict(filename, languageCode):
             words[commonWord] = word
             words[commonWord]["frequency"] = frequencyDict[commonWord]
 
-            if eduWords and len(words[commonWord]["related words"]) < 10:
-              # try:
-                EduSynonyms = dictionary.synonym(languageCode, commonWord, dictionary=DICT_EDUCALINGO)
+            if eduWords:
+              EduSynonyms = dictionary.synonym(languageCode, commonWord, dictionary=DICT_EDUCALINGO)
 
-                if len(EduSynonyms) > 0:
-                  for synonym in EduSynonyms:
-                    words[commonWord]["related words"].append(["synonym", synonym])
-              
-              # except InvalidLangCode:
-              #   pass
+              if len(EduSynonyms) > 0:
+                for synonym in EduSynonyms:
+                  words[commonWord]["related words"].append(["synonym", synonym])
 
-            words[commonWord]["related words"] = list(filter(filterBadRW, words[commonWord]["related words"]))
+            # words[commonWord]["related words"] = list(filter(filterBadRW, words[commonWord]["related words"]))
 
             if len(words[commonWord]["related words"]) == 0:
               noRW += 1
@@ -78,5 +74,5 @@ if __name__ == "__main__":
 
   print(f'No RW: {noRW}, 1-4 RW: {fewRW}, 5+ RW: {manyRW}.')
 
-  with open('test_freq_function.json', 'w', encoding='utf-8') as f:
+  with open('test_freq_function_no_RW_filter.json', 'w', encoding='utf-8') as f:
     json.dump(words, f)
