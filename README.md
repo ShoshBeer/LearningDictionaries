@@ -6,27 +6,27 @@
 ## Revise Current Process
 
 1. Download dictionary data from kaikki Wikitonary in target languages
-2. Rewrite getData.py to be function that takes file name, exclusion words, mininum number of letters, and parts of speech to include
-   - Removes phrases with spaces
-   - Filters to specified parts of speech (default nouns, verbs, and adjectives) and words that meet minimum length (default 3)
-   - Puts adjacent identical words into one dictionary object
-   - Related words are filtered if they contain or are contained by the entry word and duplicates are not added to the related words list
-   - Creates list of dictionary objects with definition and related words in the form: <br>`{word: word, definitions:[[noun, def1], [verb, def2]], related words: [[synonym, word1], [hypernym, word2], [antonym, word3]]}`
-4. At this point, the list of dictionary objects is written to a new file in JSON format
-   - Can search here for English definitions of related words
-   - Maybe will change to dictionary format for faster word lookup
-5. Rewrite frequencyDict.py to generic function that takes filename and language parameter
-   - wordfreq.get_frequency_dict(language)
-   - wordfreq.top_n_list(language, 10000)
-   - For each of the most common words, look for that word in the JSON dictionary and if it's there, add the frequency rating to the entry and add the entry to the new dictionary object
-   - Write new dictionary with frequencies to new file
-6. Rewrite relatedWords.py as function with language parameter
-   - Loop through dictionary with frequencies
-   - All related words should be filtered to prevent overlap with target word and other related words, certain frequency ranges, certain POS, multi word phrases?
-      - Option: pull synonyms from PyMultiDictionary Educalingo and add to related words list
-      - Option: add synonyms to related word list
-      - Option: add filtered definition words to related word list
-7. Dictionary with related words should be filtered to words that have enough related words, and definitions should be added for each from earlier kaikki word list
+2. processWordDump.py has function: `makeLearningDict(filename, wordsToExclude, minWordLength, POStoInclude)`
+    - Removes phrases with spaces
+    - Filters to specified parts of speech (default nouns, verbs, and adjectives) and words that meet minimum length (default 3)
+    - Puts adjacent identical words into one dictionary object
+    - Related words are filtered if they contain or are contained by the entry word and duplicates are not added to the related words list
+    - Creates list of dictionary objects with definition and related words in the form: <br>`{word: word, definitions:[[noun, def1], [verb, def2]], related words: [[synonym, word1], [hypernym, word2], [antonym, word3]]}`
+    - Return new list of words
+    - Makes sense to write to a new file for getting related words defs later
+    - **May change to dictionary format for faster word lookup**
+3. makeDictionaryByFrequency.py has function: `makeGameDict(filename, languageCode)`
+    - For each of the most common words retrieved by `wordfreq`, look for that word in the JSON dictionary and if it's there:
+      - Add the frequency rating to the entry and add the entry to the new dictionary object
+      - Add synonyms from Educalingo to related words in the new dictionary using `PyMultiDictionary`
+      - Option for more related words: add select words from definitions
+    - Return new dictionary
+4. processRelatedWords.py has function `processRelatedWords(filename)`
+    - Related words with spaces and below a frequency threshold are filtered
+      - May add frequency of each for sorting related words by relevance later
+    - Dictionary is filtered to words with 5+ related words
+    - Definitions are retrieved for related words
+    - Return new dictionary
 
 ## Current Data Enhancements
 
