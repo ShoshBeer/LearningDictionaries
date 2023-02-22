@@ -6,7 +6,7 @@ def makeLearningDict(filename, wordsToExclude, minWordLength = 3, POStoInclude =
 
   roughList = []
   with open(filename, "r", encoding="utf-8") as f:
-    # Can grab the language code from any word and return it to use in the frequency processing rather than manual input
+    langCode = json.loads(f.readline())["lang_code"]
     print(f'Reading {totalLines} total lines.')
     tenPercent = totalLines//10
     currentLine = 0
@@ -40,14 +40,16 @@ def makeLearningDict(filename, wordsToExclude, minWordLength = 3, POStoInclude =
           for relationship in ["synonyms", "hypermyns", "hyponyms", "meronyms", "antonyms", "related"]:
             if relationship in data["senses"][sense]:
               for relatedWord in data["senses"][sense][relationship]:
-                if relatedWord["word"].casefold() not in roughList[-1]["word"] and roughList[-1]["word"] not in relatedWord["word"].casefold() and not any(relatedWord["word"].casefold() in similarWord.casefold() for similarWord in roughList[-1]["related words"]):
-                  roughList[-1]["related words"].append([relationship[:-1], relatedWord["word"]])
+                if relatedWord["word"].casefold() not in roughList[-1]["word"] and \
+                   roughList[-1]["word"] not in relatedWord["word"].casefold() and \
+                   not any(relatedWord["word"].casefold() in similarWord[1].casefold() for similarWord in roughList[-1]["related words"]):
+                      roughList[-1]["related words"].append([relationship[:-1], relatedWord["word"]])
 
         if len(roughList[-1]["definitions"]) == 0:
           # These are some really weird and obscure words, so just going to filter these out (words without any glosses or raw_glosses in any sense for any POS)
           roughList.pop(-1)
 
-  return roughList
+  return roughList, langCode
 
 if __name__ == "__main__":
   excluded = [
@@ -59,7 +61,7 @@ if __name__ == "__main__":
             "script ", "greek", "phonetic"
           ]
 
-  roughList = makeLearningDict("kaikki.org-dictionary-English-words.json", excluded)
+  [roughList, langCode] = makeLearningDict("kaikki.org-dictionary-English-words.json", excluded)
 
   with open('test_new_function_more_defs.json', 'w', encoding='utf-8') as f:
     json.dump(roughList, f)
