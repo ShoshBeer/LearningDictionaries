@@ -40,7 +40,7 @@ def makeLearningDict(filename, wordsToExclude, minWordLength = 3, POStoInclude =
           for relationship in ["synonyms", "hypermyns", "hyponyms", "meronyms", "antonyms", "related"]:
             if relationship in data["senses"][sense]:
               for relatedWord in data["senses"][sense][relationship]:
-                if relatedWord["word"] not in roughList[-1]["word"] and roughList[-1]["word"] not in relatedWord["word"] and not any(relatedWord["word"] in similarWords for similarWords in roughList[-1]["related words"]):
+                if relatedWord["word"].casefold() not in roughList[-1]["word"] and roughList[-1]["word"] not in relatedWord["word"].casefold() and not any(relatedWord["word"].casefold() in similarWord.casefold() for similarWord in roughList[-1]["related words"]):
                   roughList[-1]["related words"].append([relationship[:-1], relatedWord["word"]])
 
         if len(roughList[-1]["definitions"]) == 0:

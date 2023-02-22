@@ -23,21 +23,10 @@ def makeGameDict(filename, languageCode):
   words = {}
   eduWords = True if languageCode in eduSupportedLangs else False
 
-  def filterBadRW(type_word):
-    keeping = True
-    if ' ' in type_word[1]:
-      keeping = False
-    elif wf.word_frequency(type_word[1], languageCode) < 0.00001:
-      keeping = False
-    return keeping
-  
   with open(filename, "r", encoding="utf-8") as f:
     for lexicon in f: 
       unfilteredWordList = json.loads(lexicon)
       wordCount = 0
-      noRW = 0
-      fewRW = 0
-      manyRW = 0
 
       for commonWord in commonWords:
 
@@ -55,24 +44,17 @@ def makeGameDict(filename, languageCode):
 
               if len(EduSynonyms) > 0:
                 for synonym in EduSynonyms:
-                  words[commonWord]["related words"].append(["synonym", synonym])
+                  if synonym.casefold() not in words[commonWord]["word"] and \
+                    words[commonWord]["word"] not in synonym.casefold() and \
+                    not any(synonym.casefold() in similarWord.casefold() for similarWord in words[commonWord]["related words"]):
+                    words[commonWord]["related words"].append(["synonym", synonym])
 
-            # words[commonWord]["related words"] = list(filter(filterBadRW, words[commonWord]["related words"]))
-
-            if len(words[commonWord]["related words"]) == 0:
-              noRW += 1
-            elif len(words[commonWord]["related words"]) < 5:
-              fewRW += 1
-            else:
-              manyRW += 1
             break
       
-  return words, noRW, fewRW, manyRW
+  return words
 
 if __name__ == "__main__":
-  [words, noRW, fewRW, manyRW] = makeGameDict("test_new_function_more_defs.json", 'en')
-
-  print(f'No RW: {noRW}, 1-4 RW: {fewRW}, 5+ RW: {manyRW}.')
+  words = makeGameDict("test_new_function_more_defs.json", 'en')
 
   with open('test_freq_function_no_RW_filter.json', 'w', encoding='utf-8') as f:
     json.dump(words, f)
