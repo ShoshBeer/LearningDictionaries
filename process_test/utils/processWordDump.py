@@ -56,8 +56,13 @@ if __name__ == "__main__":
             "obsolete", "rare", "archaic", 
             "regional", "dialectal",
             "abbreviation", "initialism", "colloquial", "slang", 
-            "simple past", "past participle", "simple present", "present participle", "future tense", "plural of", "plural future"
-            "misspelling", "alternative form", "alternative spelling", "alternative letter", 
+            "simple past", "past participle", 
+            "simple present", "present participle", 
+            "future tense", "imperative", "first-person", "third-person",
+            "plural of", "plural future", "singular present",
+            "genitive", "dative", "accusative", "nominative", "all-case",
+            "feminine", "masculine", "neuter", "all-gender",
+            "misspelling", "alternative form", "alternative spelling", "defective spelling", "alternative letter", 
             "script ", "greek", "phonetic"
           ]
 
