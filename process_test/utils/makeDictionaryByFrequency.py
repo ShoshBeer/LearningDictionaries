@@ -46,7 +46,7 @@ def makeGameDict(filename, languageCode):
                 for synonym in EduSynonyms:
                   if synonym.casefold() not in words[commonWord]["word"] and \
                     words[commonWord]["word"] not in synonym.casefold() and \
-                    not any(synonym.casefold() in similarWord.casefold() for similarWord in words[commonWord]["related words"]):
+                    not any(synonym.casefold() in similarWord[1].casefold() for similarWord in words[commonWord]["related words"]):
                     words[commonWord]["related words"].append(["synonym", synonym])
 
             break
