@@ -1,6 +1,6 @@
 {
-  "\u05d0\u05d3\u05d5\u05dd": {
-    "word": "\u05d0\u05d3\u05d5\u05dd",
+  "אדום": {
+    "word": "אדום",
     "definitions": [
       [
         "adj",
@@ -14,181 +14,181 @@
     "related words": [
       [
         "relate",
-        "\u05dc\u05b8\u05d1\u05b8\u05df",
+        "לָבָן",
         0.000162
       ],
       [
         "relate",
-        "\u05d0\u05e4\u05d5\u05e8",
+        "אפור",
         1.58e-05
       ],
       [
         "relate",
-        "\u05e9\u05d7\u05d5\u05e8",
+        "שחור",
         0.00011
       ],
       [
         "relate",
-        "\u05e9\u05b8\u05c1\u05d7\u05b9\u05e8",
+        "שָׁחֹר",
         4.37e-05
       ],
       [
         "relate",
-        "\u05d0\u05b8\u05d3\u05b9\u05dd",
+        "אָדֹם",
         0.000977
       ],
       [
         "relate",
-        "\u05db\u05b8\u05bc\u05ea\u05b9\u05dd",
+        "כָּתֹם",
         1.15e-05
       ],
       [
         "relate",
-        "\u05d7\u05d5\u05bc\u05dd",
+        "חוּם",
         6.61e-05
       ],
       [
         "relate",
-        "\u05e6\u05d4\u05d5\u05d1",
+        "צהוב",
         2.82e-05
       ],
       [
         "relate",
-        "\u05e7\u05e8\u05b6\u05dd",
+        "קרֶם",
         1.7e-05
       ],
       [
         "relate",
-        "\u05d9\u05e8\u05d5\u05e7",
+        "ירוק",
         4.68e-05
       ],
       [
         "relate",
-        "\u05ea\u05b0\u05bc\u05db\u05b5\u05dc\u05b6\u05ea",
+        "תְּכֵלֶת",
         1.1e-05
       ],
       [
         "relate",
-        "\u05db\u05d7\u05d5\u05dc",
+        "כחול",
         5.5e-05
       ],
       [
         "relate",
-        "\u05e1\u05d2\u05d5\u05dc",
+        "סגול",
         1.48e-05
       ],
       [
         "relate",
-        "\u05e1\u05b8\u05d2\u05b9\u05dc",
+        "סָגֹל",
         5.13e-05
       ],
       [
         "relate",
-        "\u05d5\u05e8\u05d5\u05d3",
+        "ורוד",
         1.48e-05
       ],
       [
         "relate",
-        "\u05d5\u05b8\u05e8\u05b9\u05d3",
+        "וָרֹד",
         1.15e-05
       ]
     ],
     "frequency": 9.772372209558111e-05
   },
-  "\u05db\u05d7\u05d5\u05dc": {
-    "word": "\u05db\u05d7\u05d5\u05dc",
+  "כחול": {
+    "word": "כחול",
     "definitions": [
       [
         "adj",
-        "blue, a darker shade than \u05ea\u05b0\u05bc\u05db\u05b5\u05dc\u05b6\u05ea (tch\u00e9let)"
+        "blue, a darker shade than תְּכֵלֶת (tchélet)"
       ]
     ],
     "related words": [
       [
         "relate",
-        "\u05dc\u05b8\u05d1\u05b8\u05df",
+        "לָבָן",
         0.000162
       ],
       [
         "relate",
-        "\u05d0\u05e4\u05d5\u05e8",
+        "אפור",
         1.58e-05
       ],
       [
         "relate",
-        "\u05e9\u05d7\u05d5\u05e8",
+        "שחור",
         0.00011
       ],
       [
         "relate",
-        "\u05e9\u05b8\u05c1\u05d7\u05b9\u05e8",
+        "שָׁחֹר",
         4.37e-05
       ],
       [
         "relate",
-        "\u05d0\u05d3\u05d5\u05dd",
+        "אדום",
         9.77e-05
       ],
       [
         "relate",
-        "\u05d0\u05b8\u05d3\u05b9\u05dd",
+        "אָדֹם",
         0.000977
       ],
       [
         "relate",
-        "\u05db\u05b8\u05bc\u05ea\u05b9\u05dd",
+        "כָּתֹם",
         1.15e-05
       ],
       [
         "relate",
-        "\u05d7\u05d5\u05bc\u05dd",
+        "חוּם",
         6.61e-05
       ],
       [
         "relate",
-        "\u05e6\u05d4\u05d5\u05d1",
+        "צהוב",
         2.82e-05
       ],
       [
         "relate",
-        "\u05e7\u05e8\u05b6\u05dd",
+        "קרֶם",
         1.7e-05
       ],
       [
         "relate",
-        "\u05d9\u05e8\u05d5\u05e7",
+        "ירוק",
         4.68e-05
       ],
       [
         "relate",
-        "\u05ea\u05b0\u05bc\u05db\u05b5\u05dc\u05b6\u05ea",
+        "תְּכֵלֶת",
         1.1e-05
       ],
       [
         "relate",
-        "\u05e1\u05d2\u05d5\u05dc",
+        "סגול",
         1.48e-05
       ],
       [
         "relate",
-        "\u05e1\u05b8\u05d2\u05b9\u05dc",
+        "סָגֹל",
         5.13e-05
       ],
       [
         "relate",
-        "\u05d5\u05e8\u05d5\u05d3",
+        "ורוד",
         1.48e-05
       ],
       [
         "relate",
-        "\u05d5\u05b8\u05e8\u05b9\u05d3",
+        "וָרֹד",
         1.15e-05
       ]
     ],
     "frequency": 5.495408738576248e-05
   },
-  "\u05e6\u05d4\u05d5\u05d1": {
-    "word": "\u05e6\u05d4\u05d5\u05d1",
+  "צהוב": {
+    "word": "צהוב",
     "definitions": [
       [
         "adj",
@@ -198,89 +198,89 @@
     "related words": [
       [
         "relate",
-        "\u05dc\u05b8\u05d1\u05b8\u05df",
+        "לָבָן",
         0.000162
       ],
       [
         "relate",
-        "\u05d0\u05e4\u05d5\u05e8",
+        "אפור",
         1.58e-05
       ],
       [
         "relate",
-        "\u05e9\u05d7\u05d5\u05e8",
+        "שחור",
         0.00011
       ],
       [
         "relate",
-        "\u05e9\u05b8\u05c1\u05d7\u05b9\u05e8",
+        "שָׁחֹר",
         4.37e-05
       ],
       [
         "relate",
-        "\u05d0\u05d3\u05d5\u05dd",
+        "אדום",
         9.77e-05
       ],
       [
         "relate",
-        "\u05d0\u05b8\u05d3\u05b9\u05dd",
+        "אָדֹם",
         0.000977
       ],
       [
         "relate",
-        "\u05db\u05b8\u05bc\u05ea\u05b9\u05dd",
+        "כָּתֹם",
         1.15e-05
       ],
       [
         "relate",
-        "\u05d7\u05d5\u05bc\u05dd",
+        "חוּם",
         6.61e-05
       ],
       [
         "relate",
-        "\u05e7\u05e8\u05b6\u05dd",
+        "קרֶם",
         1.7e-05
       ],
       [
         "relate",
-        "\u05d9\u05e8\u05d5\u05e7",
+        "ירוק",
         4.68e-05
       ],
       [
         "relate",
-        "\u05ea\u05b0\u05bc\u05db\u05b5\u05dc\u05b6\u05ea",
+        "תְּכֵלֶת",
         1.1e-05
       ],
       [
         "relate",
-        "\u05db\u05d7\u05d5\u05dc",
+        "כחול",
         5.5e-05
       ],
       [
         "relate",
-        "\u05e1\u05d2\u05d5\u05dc",
+        "סגול",
         1.48e-05
       ],
       [
         "relate",
-        "\u05e1\u05b8\u05d2\u05b9\u05dc",
+        "סָגֹל",
         5.13e-05
       ],
       [
         "relate",
-        "\u05d5\u05e8\u05d5\u05d3",
+        "ורוד",
         1.48e-05
       ],
       [
         "relate",
-        "\u05d5\u05b8\u05e8\u05b9\u05d3",
+        "וָרֹד",
         1.15e-05
       ]
     ],
     "frequency": 2.818382931264455e-05
   },
-  "\u05d4\u05ea\u05e4\u05d8\u05e8": {
-    "word": "\u05d4\u05ea\u05e4\u05d8\u05e8",
+  "התפטר": {
+    "word": "התפטר",
     "definitions": [
       [
         "verb",
@@ -290,38 +290,38 @@
     "related words": [
       [
         "relate",
-        "\u05e4\u05d9\u05d8\u05e8",
+        "פיטר",
         3.89e-05
       ],
       [
         "relate",
-        "\u05e4\u05b4\u05bc\u05d8\u05b5\u05bc\u05e8",
+        "פִּטֵּר",
         1.12e-05
       ],
       [
         "relate",
-        "\u05e4\u05d5\u05d8\u05e8",
+        "פוטר",
         2.4e-05
       ],
       [
         "relate",
-        "\u05e4\u05bb\u05bc\u05d8\u05b7\u05bc\u05e8",
+        "פֻּטַּר",
         1.12e-05
       ],
       [
         "relate",
-        "\u05d4\u05b4\u05ea\u05b0\u05e4\u05bb\u05bc\u05d8\u05b7\u05bc\u05e8",
+        "הִתְפֻּטַּר",
         1.23e-05
       ]
     ],
     "frequency": 1.230268770812381e-05
   },
-  "\u05d7\u05e8\u05e9": {
-    "word": "\u05d7\u05e8\u05e9",
+  "חרש": {
+    "word": "חרש",
     "definitions": [
       [
         "verb",
-        "To plow, plough: \u05e2\u05d1\u05d3 \u05d0\u05ea \u05d4\u05d0\u05d3\u05de\u05d4 \u05d1\u05de\u05d7\u05e8\u05e9\u05d4."
+        "To plow, plough: עבד את האדמה במחרשה."
       ],
       [
         "verb",
@@ -353,50 +353,50 @@
       ],
       [
         "noun",
-        "defective spelling of \u05d7\u05d9\u05e8\u05e9: A (male) deaf person, a non-hearing person."
+        "defective spelling of חירש: A (male) deaf person, a non-hearing person."
       ],
       [
         "noun",
-        "surreptitiously: \u05dc\u05d7\u05e9, \u05d3\u05d1\u05e8 \u05e1\u05d5\u05d3, \u05d4\u05e0\u05e2\u05e9\u05d4 \u05d1\u05d7\u05e9\u05d0\u05d9."
+        "surreptitiously: לחש, דבר סוד, הנעשה בחשאי."
       ],
       [
         "noun",
-        "defective spelling of \u05d7\u05d5\u05b9\u05e8\u05b6\u05e9\u05c1: a grove, a wood, a thicket: an area with many trees."
+        "defective spelling of חוֹרֶשׁ: a grove, a wood, a thicket: an area with many trees."
       ],
       [
         "noun",
-        "(biblical) Alternative spelling of \u05d7\u05b6\u05e8\u05b6\u05e1 (\u201cclay, ceramics, earthenware\u201d)."
+        "(biblical) Alternative spelling of חֶרֶס (“clay, ceramics, earthenware”)."
       ]
     ],
     "related words": [
       [
         "synonym",
-        "\u05e2\u05b4\u05d1\u05b5\u05bc\u05d3",
+        "עִבֵּד",
         0.000112
       ],
       [
         "relate",
-        "\u05d0\u05d5\u05de\u05df",
+        "אומן",
         2e-05
       ],
       [
         "relate",
-        "\u05d0\u05bb\u05de\u05b8\u05bc\u05df",
+        "אֻמָּן",
         7.76e-05
       ],
       [
         "relate",
-        "\u05e0\u05b7\u05e4\u05b8\u05bc\u05d7",
+        "נַפָּח",
         1.48e-05
       ],
       [
         "synonym",
-        "\u05d9\u05b7\u05e2\u05b7\u05e8",
+        "יַעַר",
         2.34e-05
       ],
       [
         "relate",
-        "\u05e2\u05b5\u05e5",
+        "עֵץ",
         0.000123
       ]
     ],

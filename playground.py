@@ -1,23 +1,105 @@
 import wordfreq as wf
-from PyMultiDictionary import MultiDictionary, DICT_EDUCALINGO
-from PyMultiDictionary._dictionary import InvalidLangCode, _CACHED_SOUPS
+import json
 
-# print('especially', wf.word_frequency('especially', 'en'))
-# print('those', wf.word_frequency('those', 'en'))
-# print('under', wf.word_frequency('under', 'en'))
-# print('including', wf.word_frequency('including', 'en'))
-# print('whose', wf.word_frequency('whose', 'en'))
-# print('having', wf.word_frequency('having', 'en'))
-# print('certain', wf.word_frequency('certain', 'en'))
-# print('relating', wf.word_frequency('relating', 'en'))
-# print('specifically', wf.word_frequency('specifically', 'en'))
-# print('usually', wf.word_frequency('usually', 'en'))
+with open('extra_smooth_dict_de.json', 'r', encoding="utf-8") as f:
+  words = json.load(f)
+  count = 0
+  for word in words:
+    count += 1
 
-dictionary = MultiDictionary()
-nice = dictionary.synonym('en', 'nice')
-for syn in nice:
-  print(syn, wf.word_frequency(syn, 'en'))
+print(count)
+      
 
+# processedWords = {}
+# # with open('fine_dict_de.json', 'r', encoding="utf-8") as b_f:
+# #   bigDict = json.load(b_f)
+# countBeforeDefs = 0
+# countAfterDefs = 0
+# with open('fine_dict_de.json', "r", encoding="utf-8") as f:
+#   wordsToProccess = json.load(f)
+
+#   def filterBadRW(type_word):
+#     if ' ' in type_word[1]:
+#       return False
+#     type_word.append(wf.word_frequency(type_word[1], "en"))
+#     if type_word[2] < 0.00001:
+#       return False
+#     return True
+
+#   for word in wordsToProccess:
+#     countBeforeDefs += 1
+#     processedWords[word] = wordsToProccess[word]
+#     processedWords[word]["related words"] = list(filter(filterBadRW, processedWords[word]["related words"]))
+
+#     if len(processedWords[word]["related words"]) < 5:
+#       countBeforeDefs -= 1
+#       del processedWords[word]
+
+  # for word in processedWords:
+  #   countAfterDefs += 1
+  #   for relatedWord in processedWords[word]["related words"]:
+  #     if relatedWord[1] in processedWords:
+  #       pass
+  #     elif relatedWord[1] in wordsToProccess:
+  #       # print(wordsToProccess[relatedWord[1]]["definitions"])
+  #       relatedWord.append(wordsToProccess[relatedWord[1]]["definitions"])
+  #     else:
+  #       processedWords[word]["related words"].remove(relatedWord)
+      
+   
+    # if len(processedWords[word]["related words"]) < 5:
+    #   countAfterDefs -= 1
+    #   del processedWords[word]
+    
+    
+
+# with open('test_RW_defs.json', 'w', encoding="utf-8") as def_f:
+#   json.dump(processedWords, def_f)
+
+# print(countBeforeDefs, countAfterDefs)
+
+
+      # for relatedWord in proccessedWords[word]["related words"]:
+      #   if proccessedWords[relatedWord[1]]:
+      #     pass
+      #   elif bigDict[relatedWord[1]]:
+      #     relatedWord.append(bigDict[relatedWord[1]]["definitions"])
+      #   else:
+      #     proccessedWords[word]["related words"].remove(relatedWord)
+      
+
+# def filterBadDefs(POS_def):
+#   if any([x in POS_def[1].casefold() for x in wordsToExclude]):
+#     return False
+#   return True
+
+# wordsToExclude = [
+#             "obsolete", "rare", "archaic", 
+#             "regional", "dialectal",
+#             "abbreviation", "initialism", "colloquial", "slang", 
+#             "simple past", "past participle", 
+#             "simple present", "present participle", 
+#             "future tense", "imperative", "first-person", "third-person",
+#             "plural of", "plural future", "singular present",
+#             "genitive", "dative", "accusative", "nominative", "all-case",
+#             "feminine", "masculine", "neuter", "all-gender",
+#             "misspelling", "alternative form", "alternative spelling", "defective spelling", "alternative letter", 
+#             "script ", "greek", "phonetic"
+#           ]
+# langCode = 'de'
+# with open('smooth_dict_de.json', "r", encoding="utf-8") as f:
+#   extraSmoothDict = {}
+#   wordsToProccess = json.load(f)
+#   for word in wordsToProccess:
+#     extraSmoothDict[word] = wordsToProccess[word]
+#     extraSmoothDict[word]["definitions"] = list(filter(filterBadDefs, extraSmoothDict[word]["definitions"]))
+
+#     if len(extraSmoothDict[word]["definitions"]) == 0:
+#       del extraSmoothDict[word]
+
+
+
+# test_freq_function_no_RW_filter.json: No RW: 954, 1-4 RW: 502, 5+ RW: 5161.
 
 # exclusions = [
 #           "obsolete", "rare", "archaic", 
