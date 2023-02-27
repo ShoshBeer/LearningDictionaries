@@ -1,6 +1,5 @@
 import wordfreq as wf
 from PyMultiDictionary import MultiDictionary, DICT_EDUCALINGO
-from PyMultiDictionary._dictionary import InvalidLangCode
 import json
 
 '''
@@ -25,7 +24,7 @@ def makeGameDict(filename, languageCode):
 
   with open(filename, "r", encoding="utf-8") as f:
     for lexicon in f: 
-      unfilteredWordList = json.loads(lexicon)
+      unfilteredWordDict = json.loads(lexicon)
       wordCount = 0
 
       for commonWord in commonWords:
@@ -34,9 +33,9 @@ def makeGameDict(filename, languageCode):
         if (wordCount % 100 == 0):
           print(f'{wordCount // 100}% processed')
 
-        for word in unfilteredWordList:
-          if commonWord == word["word"]:
-            words[commonWord] = word
+        for word in unfilteredWordDict:
+          if commonWord == unfilteredWordDict[word]["word"]:
+            words[commonWord] = unfilteredWordDict[word]
             words[commonWord]["frequency"] = frequencyDict[commonWord]
 
             if eduWords:
@@ -54,7 +53,7 @@ def makeGameDict(filename, languageCode):
   return words
 
 if __name__ == "__main__":
-  words = makeGameDict("test_new_function_more_defs.json", 'en')
+  words = makeGameDict("en_draft_dict.json", 'en')
 
-  with open('test_freq_function_no_RW_filter.json', 'w', encoding='utf-8') as f:
+  with open('en_rough_dict_2.json', 'w', encoding='utf-8') as f:
     json.dump(words, f)
