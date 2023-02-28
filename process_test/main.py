@@ -1,26 +1,26 @@
-from utils.processWordDump import makeLearningDict
-from utils.makeDictionaryByFrequency import makeGameDict
+from utils.processWordDump import processWordDump
+from utils.processWordFrequencies import processWordFrequencies
 from utils.processRelatedWords import processRelatedWords
 import json
 
 def main(filename, wordsToExclude):
 
-  print('Creating draft list')
-  [draftList, langCode] = makeLearningDict(filename, wordsToExclude)
+  print('Creating draft dictionary')
+  [draftDict, langCode] = processWordDump(filename, wordsToExclude)
 
-  draft_file = f'{langCode}_draft_list.json'
+  draft_file = f'{langCode}_draft_dict.json'
   with open(draft_file, 'w', encoding='utf-8') as f_draft:
-    json.dump(draftList, f_draft)
+    json.dump(draftDict, f_draft)
 
-  print(f'Processing draft {langCode} list')
-  roughDict = makeGameDict(draft_file, langCode)
+  print(f'Processing rough {langCode} dict')
+  roughDict = processWordFrequencies(draft_file, langCode)
 
   rough_file = f'{langCode}_rough_dict.json'
   with open(rough_file, 'w', encoding='utf-8') as f_rough:
     json.dump(roughDict, f_rough)
   
   print(f'Smoothing related words in {langCode} game dictionary')
-  smoothDict = processRelatedWords(rough_file, langCode)
+  smoothDict = processRelatedWords(rough_file, draft_file, langCode)
 
   smooth_file = f'{langCode}_smooth_dict.json'
   with open(smooth_file, 'w', encoding='utf-8') as f_smooth:
@@ -40,4 +40,4 @@ wordsToExclude = [
             "script ", "greek", "phonetic"
           ]
 
-main('process_test\kaikki.org-dictionary-German.json', wordsToExclude)
+main('process_test\kaikki.org-dictionary-French.json', wordsToExclude)
