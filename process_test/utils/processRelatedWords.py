@@ -1,13 +1,10 @@
 import json
 import wordfreq as wf
 
-def processRelatedWords(filename, languageCode):
+def processRelatedWords(filename, bigFilename, languageCode):
   proccessedWords = {}
   wordCountBefore = 0
-  wordCountAfterFreqFilter = 0
-  wordCountAfterDefFilter = 0
-  wordsWithoutDefsAfter = 0
-  wordsWithoutDefs = []
+  wordCountAfter = 0
 
   def filterBadRW(type_word):
     if ' ' in type_word[1]:
@@ -17,48 +14,62 @@ def processRelatedWords(filename, languageCode):
       # For de, removing RW with freqeuncy threshold > 1/100000 results in too few words, but a few hundred more with 1/1000000 threshold
       return False
     return True
+  
+  def inCurrentDict(type_word):
+    if type_word[1] in proccessedWords:
+      return True
+    else:
+      return False
+    
+  def inBigDict(type_word):
+    with open(bigFilename, "r", encoding="utf-8") as big_file:
+      fullDictionary = json.load(big_file)
+      if type_word[1] in fullDictionary:
+        return fullDictionary[type_word[1]]["definitions"]
+      else:
+        return False
 
   with open(filename, "r", encoding="utf-8") as f:
     wordsToProccess = json.load(f)
     for word in wordsToProccess:
       wordCountBefore += 1
-      wordCountAfterFreqFilter += 1
+      if wordCountBefore % (len(wordsToProccess) // 100) == 0:
+        print(f'Initial filter: {wordCountBefore // (len(wordsToProccess) // 100)}%')
       proccessedWords[word] = wordsToProccess[word]
       proccessedWords[word]["related words"] = list(filter(filterBadRW, proccessedWords[word]["related words"]))
 
       if len(proccessedWords[word]["related words"]) < 5:
-        wordCountAfterFreqFilter -= 1
         del proccessedWords[word]
 
     for word in list(proccessedWords):
       # This goes through related words to make sure definitions are available
-      wordCountAfterDefFilter += 1
-      for related in proccessedWords[word]["related words"]:
-        if related[1] in proccessedWords: #definite in specific should have hit here
-          # If word is already in this dict, then I will grab it as the game runs
-          # print(f'{related[1]} for {word} is already in this dictionary')
-          pass
-        elif related[1] in wordsToProccess: #agriculture should have hit here
-          # If word is only in the unfiltered dict, add the definition to this one so it's easy to get in game
-          related.append(wordsToProccess[related[1]]["definitions"])
-          # print('Added def for RW: ', related[1], ' for word: ', word)
-        else: #singular for word specific should have hit here and grapefruit for hybrid
-          # Otherwise, remove the word
-          wordsWithoutDefs.append([word, related[1]])
-          # proccessedWords[word]["related words"].remove(related)
-          # print(f'Deleted RW {related[1]} for word {word}')
-      
-      if len(proccessedWords[word]["related words"]) < 5:
-        # Doing this again to make sure that all words have at least 5 related words with definitions
-        wordCountAfterDefFilter -= 1
-        del proccessedWords[word]
+      wordCountAfter += 1
+      if wordCountAfter % (len(proccessedWords) // 100) == 0:
+        print(f'Definition processing: {wordCountAfter // (len(proccessedWords) // 100)}%')
 
-  return proccessedWords, wordCountBefore, wordCountAfterFreqFilter, wordCountAfterDefFilter, wordsWithoutDefs
+      # proccessedWords[word]["related words"] = list(set(proccessedWords[word]["related words"])) # To remove duplicates
+
+      # Related words will have words in the current dict first
+      proccessedWords[word]["related words"].sort(key=inCurrentDict, reverse=True)
+
+      i = 0
+      while i < 5:
+        if i >= len(proccessedWords[word]["related words"]):
+          del proccessedWords[word]
+          break
+
+        if inCurrentDict(proccessedWords[word]["related words"][i]):
+          i += 1
+        elif defs := inBigDict(proccessedWords[word]["related words"][i]):
+          proccessedWords[word]["related words"][i].append(defs)
+          i += 1
+        else:
+           del proccessedWords[word]["related words"][i]
+
+  return proccessedWords
 
 if __name__ == "__main__":
-  [proccessedWords, wordCountBefore, wordCountAfterFreqFilter, wordCountAfterDefFilter, wordsWithoutDefs] = processRelatedWords('test_freq_function_no_RW_filter.json', 'en')
+  proccessedWords = processRelatedWords('fr_rough_dict.json', 'fr_draft_dict.json', 'fr')
 
-  print(wordsWithoutDefs[0:20])
-
-  with open('en_smooth_dict.json', 'w', encoding='utf-8') as f:
+  with open('fr_smooth_dict.json', 'w', encoding='utf-8') as f:
     json.dump(proccessedWords, f)
