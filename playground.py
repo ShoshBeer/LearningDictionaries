@@ -1,39 +1,31 @@
 import wordfreq as wf
 import json
 
-with open('extra_smooth_dict_de.json', 'r', encoding="utf-8") as f:
-  words = json.load(f)
-  count = 0
-  for word in words:
+processedWords = {}
+count = 0
+countWFilter = 0
+with open('de_rough_dict.json', "r", encoding="utf-8") as f:
+  wordsToProccess = json.load(f)
+
+  def filterBadRW(type_word):
+    if ' ' in type_word[1]:
+      return False
+    type_word.append(wf.word_frequency(type_word[1], "de"))
+    if type_word[2] < 0.000001:
+      return False
+    return True
+
+  for word in wordsToProccess:
     count += 1
+    # countWFilter += 1
+    processedWords[word] = wordsToProccess[word]
+    processedWords[word]["related words"] = list(filter(filterBadRW, processedWords[word]["related words"]))
 
-print(count)
-      
+    if len(processedWords[word]["related words"]) > 4:
+      countWFilter += 1
+      del processedWords[word]
 
-# processedWords = {}
-# # with open('fine_dict_de.json', 'r', encoding="utf-8") as b_f:
-# #   bigDict = json.load(b_f)
-# countBeforeDefs = 0
-# countAfterDefs = 0
-# with open('fine_dict_de.json', "r", encoding="utf-8") as f:
-#   wordsToProccess = json.load(f)
-
-#   def filterBadRW(type_word):
-#     if ' ' in type_word[1]:
-#       return False
-#     type_word.append(wf.word_frequency(type_word[1], "en"))
-#     if type_word[2] < 0.00001:
-#       return False
-#     return True
-
-#   for word in wordsToProccess:
-#     countBeforeDefs += 1
-#     processedWords[word] = wordsToProccess[word]
-#     processedWords[word]["related words"] = list(filter(filterBadRW, processedWords[word]["related words"]))
-
-#     if len(processedWords[word]["related words"]) < 5:
-#       countBeforeDefs -= 1
-#       del processedWords[word]
+  print(count, countWFilter)
 
   # for word in processedWords:
   #   countAfterDefs += 1
@@ -47,16 +39,16 @@ print(count)
   #       processedWords[word]["related words"].remove(relatedWord)
       
    
-    # if len(processedWords[word]["related words"]) < 5:
-    #   countAfterDefs -= 1
-    #   del processedWords[word]
+  #   if len(processedWords[word]["related words"]) < 5:
+  #     countAfterDefs -= 1
+  #     del processedWords[word]
     
     
 
 # with open('test_RW_defs.json', 'w', encoding="utf-8") as def_f:
 #   json.dump(processedWords, def_f)
 
-# print(countBeforeDefs, countAfterDefs)
+
 
 
       # for relatedWord in proccessedWords[word]["related words"]:

@@ -40,4 +40,4 @@ wordsToExclude = [
             "script ", "greek", "phonetic"
           ]
 
-main('process_test\kaikki.org-dictionary-German.json', wordsToExclude)
+main('process_test\kaikki.org-dictionary-Spanish.json', wordsToExclude)
