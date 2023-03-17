@@ -13,11 +13,8 @@ def main(filename, wordsToExclude):
     json.dump(draftDict, f_draft)
 
   print(f'Processing rough {langCode} dict')
-  roughDict = processWordFrequencies(draft_file, langCode)
-
   rough_file = f'{langCode}_rough_dict.json'
-  with open(rough_file, 'w', encoding='utf-8') as f_rough:
-    json.dump(roughDict, f_rough)
+  processWordFrequencies(draft_file, rough_file, langCode)
   
   print(f'Smoothing related words in {langCode} game dictionary')
   smoothDict = processRelatedWords(rough_file, draft_file, langCode)
@@ -40,4 +37,4 @@ wordsToExclude = [
             "script ", "greek", "phonetic"
           ]
 
-main('process_test\kaikki.org-dictionary-Spanish.json', wordsToExclude)
+main('process_test\kaikki.org-dictionary-Italian.json', wordsToExclude)

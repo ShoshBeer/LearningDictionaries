@@ -69,7 +69,7 @@ def processRelatedWords(filename, bigFilename, languageCode):
   return proccessedWords
 
 if __name__ == "__main__":
-  proccessedWords = processRelatedWords('fr_rough_dict.json', 'fr_draft_dict.json', 'fr')
+  proccessedWords = processRelatedWords('es_rough_dict.json', 'es_draft_dict.json', 'es')
 
-  with open('fr_smooth_dict.json', 'w', encoding='utf-8') as f:
+  with open('es_smooth_dict.json', 'w', encoding='utf-8') as f:
     json.dump(proccessedWords, f)
