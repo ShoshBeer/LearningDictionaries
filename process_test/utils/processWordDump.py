@@ -29,6 +29,9 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
           draftDict[data["word"]] = {"word": data["word"], "definitions": [], "related words": []}
 
         for sense in range(len(data["senses"])): 
+          if "tags" in data["senses"][sense] and any([x in data["senses"][sense]["tags"] for x in ["derogatory", "offensive", "vulgar"]]):
+            continue
+
           if "raw_glosses" in data["senses"][sense]:
             if not any([x in data["senses"][sense]["raw_glosses"][0].casefold() for x in wordsToExclude]):
               draftDict[data["word"]]["definitions"].append([data["pos"], data["senses"][sense]["raw_glosses"][0]])
@@ -47,6 +50,7 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
 
         if len(draftDict[data["word"]]["definitions"]) == 0:
           # These are some really weird and obscure words, so just going to filter these out (words without any glosses or raw_glosses in any sense for any POS)
+          # Also words with only offensive meanings
           del draftDict[data["word"]]
 
   return draftDict, langCode
