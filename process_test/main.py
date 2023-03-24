@@ -3,10 +3,10 @@ from utils.processWordFrequencies import processWordFrequencies
 from utils.processRelatedWords import processRelatedWords
 import json
 
-def main(filename, wordsToExclude):
+def main(filename, wordsToExclude, minWordLenth):
 
   print('Creating draft dictionary')
-  [draftDict, langCode] = processWordDump(filename, wordsToExclude)
+  [draftDict, langCode] = processWordDump(filename, wordsToExclude, minWordLenth)
 
   draft_file = f'{langCode}_draft_dict.json'
   with open(draft_file, 'w', encoding='utf-8') as f_draft:
@@ -37,4 +37,4 @@ wordsToExclude = [
             "script ", "greek", "phonetic"
           ]
 
-main('process_test\kaikki.org-dictionary-Italian.json', wordsToExclude)
+main('process_test\kaikki.org-dictionary-Korean.json', wordsToExclude, 2)
