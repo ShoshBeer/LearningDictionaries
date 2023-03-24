@@ -3,10 +3,10 @@ from utils.processWordFrequencies import processWordFrequencies
 from utils.processRelatedWords import processRelatedWords
 import json
 
-def main(filename, wordsToExclude):
+def main(filename, wordsToExclude, minWordLength):
 
   print('Creating draft dictionary')
-  [draftDict, langCode] = processWordDump(filename, wordsToExclude)
+  [draftDict, langCode] = processWordDump(filename, wordsToExclude, minWordLength)
 
   draft_file = f'{langCode}_draft_dict.json'
   with open(draft_file, 'w', encoding='utf-8') as f_draft:
@@ -27,14 +27,15 @@ wordsToExclude = [
             "obsolete", "rare", "archaic", 
             "regional", "dialectal",
             "abbreviation", "initialism", "colloquial", "slang", 
-            "simple past", "past participle", 
+            "inflection of", "simple past", "past participle", 
             "simple present", "present participle", 
             "future tense", "imperative", "first-person", "third-person",
             "plural of", "plural future", "singular present",
             "genitive", "dative", "accusative", "nominative", "all-case",
             "feminine", "masculine", "neuter", "all-gender",
-            "misspelling", "alternative form", "alternative spelling", "defective spelling", "alternative letter", 
+            "misspelling", "alternative form", "alternative spelling", 
+            "defective spelling", "alternative letter", 
             "script ", "greek", "phonetic"
           ]
 
-main('process_test\kaikki.org-dictionary-Italian.json', wordsToExclude)
+main('process_test\kaikki.org-dictionary-Portuguese.json', wordsToExclude, 3)
