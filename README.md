@@ -65,6 +65,7 @@ More information on the frequency data can be found on the [wordfreq GitHub repo
 ## How to Use
 
 1. Download the `process_dictionaries` folder from this repo.
+2. Install required modules and packages listed in requirements.txt with `pip install -r requirements.txt`.
 2. Go to [Kaikki.org](https://kaikki.org/dictionary/) and download a dictionary for one of the [40 languages supported by wordfreq](https://github.com/rspeer/wordfreq#sources-and-supported-languages) to the `process_dictionaries` folder.
 3. Open `main.py` and change the parameters at the bottom of the file:
    - Write the file name of the Kaikki dictionary you want to proces

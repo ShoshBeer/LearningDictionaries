@@ -43,4 +43,4 @@ def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclu
     json.dump(smoothDict, f_smooth)
 
 
-main('process_test\kaikki.org-dictionary-Portuguese.json')
+main('process_dictionaries\kaikki.org-dictionary-Arabic.json', ExcludeProfanity=False)

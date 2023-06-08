@@ -44,8 +44,9 @@ def processRelatedWords(filename, bigFilename, languageCode):
     for word in list(proccessedWords):
       # This goes through related words to make sure definitions are available
       wordCountAfter += 1
-      if wordCountAfter % (len(proccessedWords) // 100) == 0:
-        print(f'Definition processing: {wordCountAfter // (len(proccessedWords) // 100)}%')
+      if len(proccessedWords) // 100 >= 1:
+        if wordCountAfter % (len(proccessedWords) // 100) == 0:
+          print(f'Definition processing: {wordCountAfter // (len(proccessedWords) // 100)}%')
 
       # proccessedWords[word]["related words"] = list(set(proccessedWords[word]["related words"])) # To remove duplicates
 
