@@ -18,30 +18,36 @@ Definitions with a vulgar, derogatory, and offensive tag are filtered out by def
 
 ## Dictionary Format
 
-Three JSON files are created in the process of making the dictionary, each with more processing than the last. The final dictionary has the following format:
+Three JSON files are created in the process of making the dictionary, each with more processing than the last. An example entry in the final dictionary has the following format:
 
 ```
-"refuse": {
-  "word": "refuse", 
+"enterprise": {
+  "word": "enterprise", 
   "definitions": [
-    ["noun", def1], 
-    ["verb", def2]
+    [
+      "noun", 
+      "A company, business, organization, or other purposeful endeavor."
+    ], 
+    [
+      "verb", 
+      "(intransitive) To undertake an enterprise, or something hazardous or difficult."
+    ],
     ...
   ], 
   "related words": [
-    ["synonym", word1, word1_frequency], 
-    ["hypernym", word2, word2_freqeuncy], 
-    ["antonym", word3, word3_frequency, [
-      ["noun", word3_def1],
-      ["advective", word3_def2]
+    ["synonym", "business", 0.000363], 
+    ["hyponym", "corporation", 3.89e-05], 
+    ["meronym", "factory", 3.55e-05, [
+      ["noun", "A building or other place where manufacturing takes place."],
+      ["noun", "(programming) In a computer program or library, a function, method, etc. which creates an object."]
     ]],
     ...
   ]
-  "freqeuncy": refuse_freqeuncy
+  "freqeuncy": 2.39883291901949e-05
 }
 ```
 
-If the related word is not in the final dictionary, then an array of its definitions will be appended to the related word array, as seen in the third related word above.
+Since "factory" is not an entry in the final dictionary, an array of its definitions is appended to the related word array.
 
 More information on the frequency data can be found on the [wordfreq GitHub repository](https://github.com/rspeer/wordfreq).
 
@@ -53,7 +59,7 @@ More information on the frequency data can be found on the [wordfreq GitHub repo
 2. Go to [Kaikki.org](https://kaikki.org/dictionary/) and download a dictionary for one of the [40 languages supported by wordfreq](https://github.com/rspeer/wordfreq#sources-and-supported-languages) to the `process_dictionaries` folder.
 3. Open `main.py` and change the parameters at the bottom of the file:
    - Write the file name of the Kaikki dictionary you want to proces
-   - Optionally, add words to exclude, minimum word length, and parts of speech to include. See [How it Works Part 1](#part-1-remove-extraneous-data-from-kaikki-dictionary) for more information on these parameters.
+   - Optionally, add words to exclude, specify minimum word length and parts of speech, and include profanity. See [How it Works Part 1](#part-1-remove-extraneous-data-from-kaikki-dictionary) for more information on these parameters.
 4. Run `main.py`
 5. You now have three dictionaries with varying levels of processing applied.
 
@@ -92,10 +98,11 @@ Here is a thorough explanation of the processing done at the different stages, i
    - wordsToExclude - an array of terms which will exclude a word if one of them is found in its definition.
    - minWordLength - minimum number of characters a word needs to be included, default 3.
    - POStoInclude - a string with the parts of speech to include in the new dictionary. Parts of speech need to be as written in the "pos" keys of the Kaikki dictionary objects and separated by spaces. Default is nouns, verbs, and adjectives. 
+   - ExcludeProfanity - boolean to control if words with vulgar, derogatory, and offensive tags are removed. Default is True.
  - The following processing is done to return the new dictionary:
    - Remove phrases with spaces
    - Filter to specified parts of speech and words that meet minimum length
-   - Filter out word senses with vulgar, derogatory, or offensive tag
+   - Filter out word senses with vulgar, derogatory, or offensive tag if `ExcludeProfanity=True`
    - Words are added to the new dictionary with their definitions and related words
      - Related words are filtered if they contain or are contained by the entry word and duplicates are not added to the related words list
  - Returned dictionary is called the draft dictionary and has the form:

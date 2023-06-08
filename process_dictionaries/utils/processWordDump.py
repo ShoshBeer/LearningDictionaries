@@ -2,7 +2,7 @@ import json
 import wordfreq as wf
 import os
 
-def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 'noun verb adj'):
+def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 'noun verb adj', ExcludeProfanity=True):
   totalLines = sum(1 for line in open(filename, "r", encoding="utf-8")) # to print progress
 
   draftDict = {}
@@ -30,8 +30,9 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
           draftDict[data["word"]] = {"word": data["word"], "definitions": [], "related words": []}
 
         for sense in range(len(data["senses"])): 
-          if "tags" in data["senses"][sense] and any([x in data["senses"][sense]["tags"] for x in ["derogatory", "offensive", "vulgar"]]):
-            continue
+          if ExcludeProfanity:
+            if "tags" in data["senses"][sense] and any([x in data["senses"][sense]["tags"] for x in ["derogatory", "offensive", "vulgar"]]):
+              continue
 
           if "raw_glosses" in data["senses"][sense]:
             if not any([x in data["senses"][sense]["raw_glosses"][0].casefold() for x in wordsToExclude]):

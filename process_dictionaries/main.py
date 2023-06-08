@@ -4,10 +4,25 @@ from utils.processRelatedWords import processRelatedWords
 import json
 import os
 
-def main(filename, wordsToExclude, minWordLength):
+ExcludeTheseWords = [
+            "obsolete", "rare", "archaic", 
+            "regional", "dialectal",
+            "abbreviation", "initialism", "colloquial", "slang", 
+            "inflection of", "simple past", "past participle", 
+            "simple present", "present participle", 
+            "future tense", "imperative", "first-person", "third-person",
+            "plural of", "plural future", "singular present",
+            "genitive", "dative", "accusative", "nominative", "all-case",
+            "feminine", "masculine", "neuter", "all-gender",
+            "misspelling", "alternative form", "alternative spelling", 
+            "defective spelling", "alternative letter", 
+            "script ", "greek", "phonetic"
+          ]
+
+def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclude="noun verb adj", ExcludeProfanity=True):
 
   print('Creating draft dictionary')
-  [draftDict, langCode] = processWordDump(filename, wordsToExclude, minWordLength)
+  [draftDict, langCode] = processWordDump(filename, wordsToExclude, minWordLength, POStoInclude, ExcludeProfanity)
 
   if not os.path.exists(f'dictionaries/{langCode}'):
     os.makedirs(f'dictionaries/{langCode}')
@@ -27,19 +42,5 @@ def main(filename, wordsToExclude, minWordLength):
   with open(smooth_file_path, 'w', encoding='utf-8') as f_smooth:
     json.dump(smoothDict, f_smooth)
 
-wordsToExclude = [
-            "obsolete", "rare", "archaic", 
-            "regional", "dialectal",
-            "abbreviation", "initialism", "colloquial", "slang", 
-            "inflection of", "simple past", "past participle", 
-            "simple present", "present participle", 
-            "future tense", "imperative", "first-person", "third-person",
-            "plural of", "plural future", "singular present",
-            "genitive", "dative", "accusative", "nominative", "all-case",
-            "feminine", "masculine", "neuter", "all-gender",
-            "misspelling", "alternative form", "alternative spelling", 
-            "defective spelling", "alternative letter", 
-            "script ", "greek", "phonetic"
-          ]
 
-main('process_test\kaikki.org-dictionary-Portuguese.json', wordsToExclude, 3)
+main('process_test\kaikki.org-dictionary-Portuguese.json')

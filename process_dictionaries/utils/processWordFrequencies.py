@@ -88,4 +88,4 @@ def processWordFrequencies(draftFile, roughFile, languageCode):
 
 
 if __name__ == "__main__":
-  processWordFrequencies("es_draft_dict.json", 'es_rough_dict_write_test', 'es')
+  processWordFrequencies("dictionaries/es/es_draft_dict.json", 'dictionaries/es/es_rough_dict_write_test', 'es')
