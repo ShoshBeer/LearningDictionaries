@@ -1,6 +1,14 @@
 
 # Learning Dictionaries
 
+## Table of Contents
+
+1. [About](#about)
+2. [Dictionary Format](#dictionary-format)
+3. [How to Use](#how-to-use)
+4. [Citations](#citations)
+5. [How it Works](#how-it-works)
+
 ## About
 
 This project provides a method of getting dictionaries in different languages suitable for language learning and language games. I created it after failing to find a suitable resource for my project [Talking in Circles](https://shoshbeer.github.io/talking-circles/) ([GitHub](https://github.com/ShoshBeer/talking-circles)). 
@@ -39,10 +47,11 @@ Three JSON files are created in the process of making the dictionary, each with 
     ["hyponym", "corporation", 3.89e-05], 
     ["meronym", "factory", 3.55e-05, [
       ["noun", "A building or other place where manufacturing takes place."],
-      ["noun", "(programming) In a computer program or library, a function, method, etc. which creates an object."]
+      ["noun", "(programming) In a computer program or library, a function, method, etc. which creates an object."],
+      ...
     ]],
     ...
-  ]
+  ],
   "freqeuncy": 2.39883291901949e-05
 }
 ```
@@ -107,17 +116,23 @@ Here is a thorough explanation of the processing done at the different stages, i
      - Related words are filtered if they contain or are contained by the entry word and duplicates are not added to the related words list
  - Returned dictionary is called the draft dictionary and has the form:
     ```
-    "refuse": {
-      "word": "refuse", 
+    "enterprise": {
+      "word": "enterprise", 
       "definitions": [
-        ["noun", def1], 
-        ["verb", def2],
+        [
+          "noun", 
+          "A company, business, organization, or other purposeful endeavor."
+        ], 
+        [
+          "verb", 
+          "(intransitive) To undertake an enterprise, or something hazardous or difficult."
+        ],
         ...
       ], 
       "related words": [
-        ["synonym", word1], 
-        ["hypernym", word2], 
-        ["antonym", word3],
+        ["synonym", "business"], 
+        ["hyponym", "corporation"], 
+        ["meronym", "factory"],
         ...
       ]
     }
@@ -140,20 +155,26 @@ Here is a thorough explanation of the processing done at the different stages, i
        - If it's skipped then the word won't be added at all 
  - Returned dictionary, written to roughFile, is called the rough dictionary and has the form:
     ```
-    "refuse": {
-      "word": "refuse", 
+    "enterprise": {
+      "word": "enterprise", 
       "definitions": [
-        ["noun", def1], 
-        ["verb", def2],
+        [
+          "noun", 
+          "A company, business, organization, or other purposeful endeavor."
+        ], 
+        [
+          "verb", 
+          "(intransitive) To undertake an enterprise, or something hazardous or difficult."
+        ],
         ...
       ], 
       "related words": [
-        ["synonym", word1], 
-        ["hypernym", word2], 
-        ["antonym", word3],
+        ["synonym", "business"], 
+        ["hyponym", "corporation"], 
+        ["meronym", "factory"],
         ...
       ],
-      "frequency": frequency
+      "freqeuncy": 2.39883291901949e-05
     }
     ```
 
@@ -170,23 +191,30 @@ Here is a thorough explanation of the processing done at the different stages, i
      - Otherwise, if not in the draft dicitonary, remove the related word
  - Returned dictionary is called the smooth dictionary and has the form:
     ```
-    "refuse": {
-      "word": "refuse", 
+    "enterprise": {
+      "word": "enterprise", 
       "definitions": [
-        ["noun", def1], 
-        ["verb", def2]
+        [
+          "noun", 
+          "A company, business, organization, or other purposeful endeavor."
+        ], 
+        [
+          "verb", 
+          "(intransitive) To undertake an enterprise, or something hazardous or difficult."
+        ],
         ...
       ], 
       "related words": [
-        ["synonym", word1, word1_frequency], 
-        ["hypernym", word2, word2_freqeuncy], 
-        ["antonym", word3, word3_frequency, [
-          ["noun", word3_def1],
-          ["advective", word3_def2]
+        ["synonym", "business", 0.000363], 
+        ["hyponym", "corporation", 3.89e-05], 
+        ["meronym", "factory", 3.55e-05, [
+          ["noun", "A building or other place where manufacturing takes place."],
+          ["noun", "(programming) In a computer program or library, a function, method, etc. which creates an object."],
+          ...
         ]],
         ...
-      ]
-      "freqeuncy": refuse_freqeuncy
+      ],
+      "freqeuncy": 2.39883291901949e-05
     }
     ```
 
