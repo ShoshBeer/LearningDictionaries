@@ -1,0 +1,405 @@
+{
+  "אדום": {
+    "word": "אדום",
+    "definitions": [
+      [
+        "adj",
+        "red"
+      ],
+      [
+        "noun",
+        "red"
+      ]
+    ],
+    "related words": [
+      [
+        "relate",
+        "לָבָן",
+        0.000162
+      ],
+      [
+        "relate",
+        "אפור",
+        1.58e-05
+      ],
+      [
+        "relate",
+        "שחור",
+        0.00011
+      ],
+      [
+        "relate",
+        "שָׁחֹר",
+        4.37e-05
+      ],
+      [
+        "relate",
+        "אָדֹם",
+        0.000977
+      ],
+      [
+        "relate",
+        "כָּתֹם",
+        1.15e-05
+      ],
+      [
+        "relate",
+        "חוּם",
+        6.61e-05
+      ],
+      [
+        "relate",
+        "צהוב",
+        2.82e-05
+      ],
+      [
+        "relate",
+        "קרֶם",
+        1.7e-05
+      ],
+      [
+        "relate",
+        "ירוק",
+        4.68e-05
+      ],
+      [
+        "relate",
+        "תְּכֵלֶת",
+        1.1e-05
+      ],
+      [
+        "relate",
+        "כחול",
+        5.5e-05
+      ],
+      [
+        "relate",
+        "סגול",
+        1.48e-05
+      ],
+      [
+        "relate",
+        "סָגֹל",
+        5.13e-05
+      ],
+      [
+        "relate",
+        "ורוד",
+        1.48e-05
+      ],
+      [
+        "relate",
+        "וָרֹד",
+        1.15e-05
+      ]
+    ],
+    "frequency": 9.772372209558111e-05
+  },
+  "כחול": {
+    "word": "כחול",
+    "definitions": [
+      [
+        "adj",
+        "blue, a darker shade than תְּכֵלֶת (tchélet)"
+      ]
+    ],
+    "related words": [
+      [
+        "relate",
+        "לָבָן",
+        0.000162
+      ],
+      [
+        "relate",
+        "אפור",
+        1.58e-05
+      ],
+      [
+        "relate",
+        "שחור",
+        0.00011
+      ],
+      [
+        "relate",
+        "שָׁחֹר",
+        4.37e-05
+      ],
+      [
+        "relate",
+        "אדום",
+        9.77e-05
+      ],
+      [
+        "relate",
+        "אָדֹם",
+        0.000977
+      ],
+      [
+        "relate",
+        "כָּתֹם",
+        1.15e-05
+      ],
+      [
+        "relate",
+        "חוּם",
+        6.61e-05
+      ],
+      [
+        "relate",
+        "צהוב",
+        2.82e-05
+      ],
+      [
+        "relate",
+        "קרֶם",
+        1.7e-05
+      ],
+      [
+        "relate",
+        "ירוק",
+        4.68e-05
+      ],
+      [
+        "relate",
+        "תְּכֵלֶת",
+        1.1e-05
+      ],
+      [
+        "relate",
+        "סגול",
+        1.48e-05
+      ],
+      [
+        "relate",
+        "סָגֹל",
+        5.13e-05
+      ],
+      [
+        "relate",
+        "ורוד",
+        1.48e-05
+      ],
+      [
+        "relate",
+        "וָרֹד",
+        1.15e-05
+      ]
+    ],
+    "frequency": 5.495408738576248e-05
+  },
+  "צהוב": {
+    "word": "צהוב",
+    "definitions": [
+      [
+        "adj",
+        "yellow (color)"
+      ]
+    ],
+    "related words": [
+      [
+        "relate",
+        "לָבָן",
+        0.000162
+      ],
+      [
+        "relate",
+        "אפור",
+        1.58e-05
+      ],
+      [
+        "relate",
+        "שחור",
+        0.00011
+      ],
+      [
+        "relate",
+        "שָׁחֹר",
+        4.37e-05
+      ],
+      [
+        "relate",
+        "אדום",
+        9.77e-05
+      ],
+      [
+        "relate",
+        "אָדֹם",
+        0.000977
+      ],
+      [
+        "relate",
+        "כָּתֹם",
+        1.15e-05
+      ],
+      [
+        "relate",
+        "חוּם",
+        6.61e-05
+      ],
+      [
+        "relate",
+        "קרֶם",
+        1.7e-05
+      ],
+      [
+        "relate",
+        "ירוק",
+        4.68e-05
+      ],
+      [
+        "relate",
+        "תְּכֵלֶת",
+        1.1e-05
+      ],
+      [
+        "relate",
+        "כחול",
+        5.5e-05
+      ],
+      [
+        "relate",
+        "סגול",
+        1.48e-05
+      ],
+      [
+        "relate",
+        "סָגֹל",
+        5.13e-05
+      ],
+      [
+        "relate",
+        "ורוד",
+        1.48e-05
+      ],
+      [
+        "relate",
+        "וָרֹד",
+        1.15e-05
+      ]
+    ],
+    "frequency": 2.818382931264455e-05
+  },
+  "התפטר": {
+    "word": "התפטר",
+    "definitions": [
+      [
+        "verb",
+        "to quit, resign (from a job)"
+      ]
+    ],
+    "related words": [
+      [
+        "relate",
+        "פיטר",
+        3.89e-05
+      ],
+      [
+        "relate",
+        "פִּטֵּר",
+        1.12e-05
+      ],
+      [
+        "relate",
+        "פוטר",
+        2.4e-05
+      ],
+      [
+        "relate",
+        "פֻּטַּר",
+        1.12e-05
+      ],
+      [
+        "relate",
+        "הִתְפֻּטַּר",
+        1.23e-05
+      ]
+    ],
+    "frequency": 1.230268770812381e-05
+  },
+  "חרש": {
+    "word": "חרש",
+    "definitions": [
+      [
+        "verb",
+        "To plow, plough: עבד את האדמה במחרשה."
+      ],
+      [
+        "verb",
+        "To devise, forge: to plan evil"
+      ],
+      [
+        "verb",
+        "To travel a place or a land in it's whole, entirety or almost that."
+      ],
+      [
+        "verb",
+        "(slang) To study thoroughly."
+      ],
+      [
+        "verb",
+        "(archaic) To forge: to process metal, wood or stone."
+      ],
+      [
+        "noun",
+        "A craftsman."
+      ],
+      [
+        "verb",
+        "Not to hear."
+      ],
+      [
+        "verb",
+        "To be silent, not to speak, not to respond."
+      ],
+      [
+        "noun",
+        "defective spelling of חירש: A (male) deaf person, a non-hearing person."
+      ],
+      [
+        "noun",
+        "surreptitiously: לחש, דבר סוד, הנעשה בחשאי."
+      ],
+      [
+        "noun",
+        "defective spelling of חוֹרֶשׁ: a grove, a wood, a thicket: an area with many trees."
+      ],
+      [
+        "noun",
+        "(biblical) Alternative spelling of חֶרֶס (“clay, ceramics, earthenware”)."
+      ]
+    ],
+    "related words": [
+      [
+        "synonym",
+        "עִבֵּד",
+        0.000112
+      ],
+      [
+        "relate",
+        "אומן",
+        2e-05
+      ],
+      [
+        "relate",
+        "אֻמָּן",
+        7.76e-05
+      ],
+      [
+        "relate",
+        "נַפָּח",
+        1.48e-05
+      ],
+      [
+        "synonym",
+        "יַעַר",
+        2.34e-05
+      ],
+      [
+        "relate",
+        "עֵץ",
+        0.000123
+      ]
+    ],
+    "frequency": 1.1748975549395302e-05
+  }
+}
