@@ -5,7 +5,7 @@
 
 This project provides a method of getting dictionaries in different languages suitable for language learning and language games. I created it after failing to find a suitable resource for my project [Talking in Circles](https://shoshbeer.github.io/talking-circles/) ([GitHub](https://github.com/ShoshBeer/talking-circles)). 
 
-To create this project, I made use of a few wonderful, resources: 
+To create this project, I made use of a few wonderful resources: 
  - [kaikki.org](https://kaikki.org/index.html) provides dictionaries in many languages extracted from [Wikitionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) and includes related words and other metadata
  - [wordfreq](https://github.com/rspeer/wordfreq) provides word frequency data for many languages and has a few super helpful functions for this project
  - [PyMultiDictionary](https://pypi.org/project/PyMultiDictionary/) provides extra synonyms in many languages by making use of [educalingo.com](https://educalingo.com/en/dic-en) 
@@ -49,8 +49,8 @@ More information on the frequency data can be found on the [wordfreq GitHub repo
 
 ## How to Use
 
-1. Download the `process_test` folder from this repo.
-2. Go to [Kaikki.org](https://kaikki.org/dictionary/) and download a dictionary of your choice to the `process_test` folder.
+1. Download the `process_dictionaries` folder from this repo.
+2. Go to [Kaikki.org](https://kaikki.org/dictionary/) and download a dictionary for one of the [40 languages supported by wordfreq](https://github.com/rspeer/wordfreq#sources-and-supported-languages) to the `process_dictionaries` folder.
 3. Open `main.py` and change the parameters at the bottom of the file:
    - Write the file name of the Kaikki dictionary you want to proces
    - Optionally, add words to exclude, minimum word length, and parts of speech to include. See [How it Works Part 1](#part-1-remove-extraneous-data-from-kaikki-dictionary) for more information on these parameters.
