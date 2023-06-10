@@ -257,9 +257,11 @@ The process could theoretically work with many more languages still, as long as 
 
 I would like the dictionaries to have definitions in the language of the dictionary, not just in English. 
 
-[Lexicala](https://api.lexicala.com/) has an excellent API which offers definitions for words in many languages, but the usage restrictions are not compatible with this project unless I purchase the data outright. 
+[Lexicala](https://api.lexicala.com/) has an excellent API which offers definitions for words in many languages, but the usage restrictions are not compatible with this project unless I purchase the data outright. Therefore, it is not be suitable for creating these dictionaries unless I get some funding. I may still use it in my [Talking in Circles](https://github.com/ShoshBeer/talking-circles) project by fetching the definitions directly from the app.
 
-So it's a matter of either finding another resource with definitions in many languages that are free to save, or finding free dictionaries for individual languages and setting the program to run according to the language. Or having more money, I guess.
+> Sidenote: I reached out to Lexicala to ask a question and they were very responsive and incredibly helpful!
+
+So it's a matter of either finding another resource with definitions in many languages that are free to save, or finding free dictionaries for individual languages and setting the program to run according to the language. Or acquiring funding.
 
 ### More Related Words
 
@@ -267,6 +269,6 @@ For many languages, the smooth dictionary is empty or has very few words. This i
 
  - One option is to look for language specific resources. For example, [datamuse](https://www.datamuse.com/api/) is fantastic for getting related words and supports English and Spanish. 
 
- - Another option is a resource with support for many languages. This would be ideal. [Lexicala](https://api.lexicala.com/) is a resource I looked into which has a lot of excellent functionality. However, the free use API does not allow caching of any data so it would not be suitable for creating these dictionaries unless I had some funding.
+ - Another option is a resource with support for many languages. This would be ideal. [Lexicala](https://api.lexicala.com/) also has a new synonym functionality, but is not suitable for the same reasons as for native definitions.
 
  - Another idea I had is if the native definitions are added, then I could extract nouns, verbs, and adjectives from the definitions and add them to the related words. They would likely need more filtering and processing to acquire the base forms of the words. That should be doable with the raw Kaikki dictionary as I believe entries have metadata on the base forms.
