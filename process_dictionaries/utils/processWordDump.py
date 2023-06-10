@@ -42,7 +42,7 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
             if not any([x in data["senses"][sense]["glosses"][0].casefold() for x in wordsToExclude]):
               draftDict[data["word"]]["definitions"].append([data["pos"], data["senses"][sense]["glosses"][0]])
 
-          for relationship in ["synonyms", "hypermyns", "hyponyms", "meronyms", "antonyms", "related"]:
+          for relationship in ["synonyms", "hypernyms", "hyponyms", "meronyms", "antonyms", "related"]:
             if relationship in data["senses"][sense]:
               for relatedWord in data["senses"][sense][relationship]:
                 if relatedWord["word"].casefold() not in draftDict[data["word"]]["word"] and \
