@@ -261,7 +261,7 @@ I would like the dictionaries to have definitions in the language of the diction
 
 > Sidenote: I reached out to Lexicala to ask a question and they were very responsive and incredibly helpful!
 
-So it's a matter of either finding another resource with definitions in many languages that are free to save, or finding free dictionaries for individual languages and setting the program to run according to the language. Or acquiring funding.
+So it's a matter of either finding another resource with definitions in many languages that are free to save, or finding free dictionaries for individual languages and setting the program to run according to the language, or acquiring funding.
 
 ### More Related Words
 
