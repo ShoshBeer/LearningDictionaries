@@ -59,7 +59,7 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
 
 if __name__ == "__main__":
   excluded = [
-            "obsolete", "rare", "archaic", 
+            "obsolete", "rare", "archaic", "dated"
             "regional", "dialectal",
             "abbreviation", "initialism", "colloquial", "slang", 
             "simple past", "past participle", 

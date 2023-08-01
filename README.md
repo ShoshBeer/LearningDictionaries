@@ -153,7 +153,7 @@ Here is a thorough explanation of the processing done at the different stages, i
 ### Part 2: Apply Frequency Filters to Dictionary
 
  - The function in `processWordFrequencies.py` takes the draft dictionary file created in Part 1 and creates a new JSON file with a single dictionary, called the rough file.
- - The new dictionary will only include words if they are in the 10,000 most common words are will be sorted from most common to least common. Each word will also have a frequency value. If the language is supported by PyMultiDictionary, then it will attempt to get more synonyms for each word.
+ - The new dictionary will only include words if they are among the 10,000 most common words in their language and will be sorted from most common to least common. Each word will also have a frequency value. If the language is supported by PyMultiDictionary, then it will attempt to get more synonyms for each word.
  - The following processing is done to return the new dictionary:
    - If `roughFile` is empty, an empty dictionary is created in it.
    - Read in the contents of `roughFile` (empty dictionary if this is the first attempt)

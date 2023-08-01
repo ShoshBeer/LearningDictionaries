@@ -5,7 +5,7 @@ import json
 import os
 
 ExcludeTheseWords = [
-            "obsolete", "rare", "archaic", 
+            "obsolete", "rare", "archaic", "dated"
             "regional", "dialectal",
             "abbreviation", "initialism", "colloquial", "slang", 
             "inflection of", "simple past", "past participle", 
@@ -42,5 +42,24 @@ def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclu
   with open(smooth_file_path, 'w', encoding='utf-8') as f_smooth:
     json.dump(smoothDict, f_smooth)
 
+  print(f'{len(smoothDict)} words in the smooth {langCode} file')
 
-main('process_dictionaries\kaikki.org-dictionary-Arabic.json', ExcludeProfanity=False)
+  # Update settings.json file with parameters used to create the dictionary
+
+  settings_file = open('dictionaries/settings.json', 'r', encoding="utf-8")
+  settings = json.load(settings_file)
+  settings_file.close()
+
+  settings[langCode] = {
+    "excluded_words": ExcludeTheseWords,
+    "min_length": minWordLength,
+    "POS_included": POStoInclude,
+    "exclude_profanity": ExcludeProfanity
+  }
+
+  settings_file = open('dictionaries/settings.json', 'w+', encoding="utf-8")
+  json.dump(settings, settings_file)
+  settings_file.close()
+
+
+main('process_dictionaries\kaikki.org-dictionary-German.json')
