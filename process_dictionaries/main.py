@@ -54,7 +54,8 @@ def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclu
     "excluded_words": ExcludeTheseWords,
     "min_length": minWordLength,
     "POS_included": POStoInclude,
-    "exclude_profanity": ExcludeProfanity
+    "exclude_profanity": ExcludeProfanity,
+    "smooth_dict_length": len(smoothDict)
   }
 
   settings_file = open('dictionaries/settings.json', 'w+', encoding="utf-8")
