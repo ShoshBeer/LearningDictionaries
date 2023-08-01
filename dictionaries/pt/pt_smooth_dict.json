@@ -1446,14 +1446,6 @@
           [
             "noun",
             "instalment"
-          ],
-          [
-            "verb",
-            "inflection of parcelar:\n"
-          ],
-          [
-            "verb",
-            "inflection of parcelar:\n"
           ]
         ]
       ],
@@ -2019,14 +2011,6 @@
           [
             "verb",
             "(intransitive) to count; to matter (be of significance)"
-          ],
-          [
-            "verb",
-            "inflection of contar:\n"
-          ],
-          [
-            "verb",
-            "inflection of contar:\n"
           ]
         ]
       ],
@@ -2284,14 +2268,6 @@
           [
             "verb",
             "(intransitive with a locational adverb phrase) to end up (to be in a place or situation, after something having happened)"
-          ],
-          [
-            "verb",
-            "inflection of parar:\n"
-          ],
-          [
-            "verb",
-            "inflection of parar:\n"
           ]
         ]
       ],
@@ -2307,14 +2283,6 @@
           [
             "verb",
             "(intransitive) to abide, reside"
-          ],
-          [
-            "verb",
-            "inflection of permanecer:\n"
-          ],
-          [
-            "verb",
-            "inflection of permanecer:\n"
           ]
         ]
       ]
@@ -2564,14 +2532,6 @@
           [
             "noun",
             "scenery, atmosphere"
-          ],
-          [
-            "verb",
-            "inflection of ambientar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ambientar:\n"
           ]
         ]
       ],
@@ -2792,14 +2752,6 @@
           [
             "verb",
             "to express"
-          ],
-          [
-            "verb",
-            "inflection of manifestar:\n"
-          ],
-          [
-            "verb",
-            "inflection of manifestar:\n"
           ]
         ]
       ]
@@ -4289,23 +4241,18 @@
       ],
       [
         "synonym",
-        "grana",
-        1.55e-05,
+        "moeda",
+        3.31e-05,
         [
           [
-            "verb",
-            "inflection of granar:\n"
+            "noun",
+            "coin"
           ],
           [
-            "verb",
-            "inflection of granar:\n"
+            "noun",
+            "currency"
           ]
         ]
-      ],
-      [
-        "synonym",
-        "moeda",
-        3.31e-05
       ],
       [
         "synonym",
@@ -4542,14 +4489,6 @@
           [
             "noun",
             "vanguard (forefront of any group or movement)"
-          ],
-          [
-            "verb",
-            "inflection of vanguardar:\n"
-          ],
-          [
-            "verb",
-            "inflection of vanguardar:\n"
           ]
         ]
       ]
@@ -5263,14 +5202,6 @@
           [
             "verb",
             "(takes a reflexive pronoun, transitive with em) to let oneself be controlled by; to put oneself in the hands of; to indulge in"
-          ],
-          [
-            "verb",
-            "inflection of abandonar:\n"
-          ],
-          [
-            "verb",
-            "inflection of abandonar:\n"
           ]
         ]
       ],
@@ -6568,14 +6499,6 @@
           [
             "noun",
             "grid"
-          ],
-          [
-            "verb",
-            "inflection of gradar:\n"
-          ],
-          [
-            "verb",
-            "inflection of gradar:\n"
           ]
         ]
       ],
@@ -7590,14 +7513,6 @@
           [
             "verb",
             "(Brazil, card games, intransitive) to lead (begin a game, round, or trick)"
-          ],
-          [
-            "verb",
-            "inflection of sair:\n"
-          ],
-          [
-            "verb",
-            "inflection of sair:\n"
           ]
         ]
       ],
@@ -7819,14 +7734,6 @@
           [
             "adj",
             "joyful"
-          ],
-          [
-            "verb",
-            "inflection of alegrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of alegrar:\n"
           ]
         ]
       ],
@@ -8190,14 +8097,6 @@
           [
             "verb",
             "to meditate"
-          ],
-          [
-            "verb",
-            "inflection of meditar:\n"
-          ],
-          [
-            "verb",
-            "inflection of meditar:\n"
           ]
         ]
       ],
@@ -8907,14 +8806,6 @@
           [
             "noun",
             "suit"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
           ]
         ]
       ],
@@ -9127,14 +9018,6 @@
           [
             "noun",
             "voucher, coupon"
-          ],
-          [
-            "verb",
-            "inflection of valer:\n"
-          ],
-          [
-            "verb",
-            "inflection of valer:\n"
           ]
         ]
       ],
@@ -9312,14 +9195,6 @@
           [
             "noun",
             "sheet (of paper)"
-          ],
-          [
-            "verb",
-            "inflection of folhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of folhar:\n"
           ]
         ]
       ],
@@ -9614,14 +9489,6 @@
           [
             "verb",
             "(transitive) to start, begin, initiate"
-          ],
-          [
-            "verb",
-            "inflection of iniciar:\n"
-          ],
-          [
-            "verb",
-            "inflection of iniciar:\n"
           ]
         ]
       ],
@@ -9645,14 +9512,6 @@
           [
             "verb",
             "(intransitive, mixed martial arts) to submit"
-          ],
-          [
-            "verb",
-            "inflection of finalizar:\n"
-          ],
-          [
-            "verb",
-            "inflection of finalizar:\n"
           ]
         ]
       ]
@@ -9858,21 +9717,6 @@
       ],
       [
         "synonym",
-        "basta",
-        7.76e-05,
-        [
-          [
-            "verb",
-            "inflection of bastar:\n"
-          ],
-          [
-            "verb",
-            "inflection of bastar:\n"
-          ]
-        ]
-      ],
-      [
-        "synonym",
         "cima",
         0.000166,
         [
@@ -9908,7 +9752,13 @@
       [
         "synonym",
         "cimo",
-        1.62e-06
+        1.62e-06,
+        [
+          [
+            "noun",
+            "top (uppermost part)"
+          ]
+        ]
       ],
       [
         "synonym",
@@ -10263,14 +10113,6 @@
           [
             "noun",
             "annex (addition or extension to a building)"
-          ],
-          [
-            "verb",
-            "inflection of anexar:\n"
-          ],
-          [
-            "verb",
-            "inflection of anexar:\n"
           ]
         ]
       ],
@@ -11825,14 +11667,6 @@
           [
             "verb",
             "(transitive) to follow"
-          ],
-          [
-            "verb",
-            "inflection of acompanhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of acompanhar:\n"
           ]
         ]
       ],
@@ -11848,14 +11682,6 @@
           [
             "verb",
             "(transitive) to surpass, exceed"
-          ],
-          [
-            "verb",
-            "inflection of avan\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of avan\u00e7ar:\n"
           ]
         ]
       ],
@@ -11867,14 +11693,6 @@
           [
             "verb",
             "to proceed"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
           ]
         ]
       ],
@@ -11894,14 +11712,6 @@
           [
             "verb",
             "(of a problem or disease) to become worse, more serious"
-          ],
-          [
-            "verb",
-            "inflection of progredir:\n"
-          ],
-          [
-            "verb",
-            "inflection of progredir:\n"
           ]
         ]
       ]
@@ -12421,14 +12231,6 @@
           [
             "verb",
             "(computing) to make a screen capture"
-          ],
-          [
-            "verb",
-            "inflection of capturar:\n"
-          ],
-          [
-            "verb",
-            "inflection of capturar:\n"
           ]
         ]
       ],
@@ -12488,14 +12290,6 @@
           [
             "verb",
             "to transform"
-          ],
-          [
-            "verb",
-            "inflection of transformar:\n"
-          ],
-          [
-            "verb",
-            "inflection of transformar:\n"
           ]
         ]
       ],
@@ -13079,83 +12873,6 @@
     ],
     "frequency": 0.0001548816618912481
   },
-  "luta": {
-    "word": "luta",
-    "definitions": [
-      [
-        "noun",
-        "fight (physical conflict between two parties)"
-      ],
-      [
-        "noun",
-        "fight; striving (great effort in pursuing something)"
-      ],
-      [
-        "verb",
-        "inflection of lutar:\n"
-      ],
-      [
-        "verb",
-        "inflection of lutar:\n"
-      ]
-    ],
-    "related words": [
-      [
-        "synonym",
-        "briga",
-        3.02e-05
-      ],
-      [
-        "synonym",
-        "combate",
-        6.92e-05
-      ],
-      [
-        "synonym",
-        "conflito",
-        4.37e-05
-      ],
-      [
-        "synonym",
-        "disputa",
-        4.37e-05,
-        [
-          [
-            "verb",
-            "inflection of disputar:\n"
-          ],
-          [
-            "verb",
-            "inflection of disputar:\n"
-          ]
-        ]
-      ],
-      [
-        "synonym",
-        "rixa",
-        1.45e-06,
-        [
-          [
-            "noun",
-            "feud (a state of long-standing mutual hostility)"
-          ],
-          [
-            "noun",
-            "brawl; fight; quarrel"
-          ],
-          [
-            "verb",
-            "inflection of rixar:\n"
-          ],
-          [
-            "verb",
-            "inflection of rixar:\n"
-          ]
-        ]
-      ]
-    ],
-    "frequency": 0.00015135612484362088
-  },
   "mensagem": {
     "word": "mensagem",
     "definitions": [
@@ -13288,14 +13005,6 @@
           [
             "verb",
             "(takes a reflexive pronoun, auxiliary with a and a verb in the impersonal infinitive) to risk (to make the risky attempt of)"
-          ],
-          [
-            "verb",
-            "inflection of aventurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of aventurar:\n"
           ]
         ]
       ],
@@ -13398,14 +13107,6 @@
           [
             "verb",
             "(transitive, informal) to prevent something from being made public or known; to suppress; to smother"
-          ],
-          [
-            "verb",
-            "inflection of abafar:\n"
-          ],
-          [
-            "verb",
-            "inflection of abafar:\n"
           ]
         ]
       ],
@@ -13569,14 +13270,6 @@
           [
             "adj",
             "frequent; common"
-          ],
-          [
-            "verb",
-            "inflection of frequentar:\n"
-          ],
-          [
-            "verb",
-            "inflection of frequentar:\n"
           ]
         ]
       ],
@@ -13849,22 +13542,6 @@
           [
             "noun",
             "gift, present"
-          ],
-          [
-            "verb",
-            "inflection of prender:\n"
-          ],
-          [
-            "verb",
-            "inflection of prender:\n"
-          ],
-          [
-            "verb",
-            "inflection of prendar:\n"
-          ],
-          [
-            "verb",
-            "inflection of prendar:\n"
           ]
         ]
       ],
@@ -14087,14 +13764,6 @@
           [
             "verb",
             "(transitive) to generate"
-          ],
-          [
-            "verb",
-            "inflection of gerar:\n"
-          ],
-          [
-            "verb",
-            "inflection of gerar:\n"
           ]
         ]
       ],
@@ -14572,14 +14241,6 @@
           [
             "noun",
             "power"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
           ]
         ]
       ]
@@ -14730,14 +14391,6 @@
           [
             "verb",
             "to militate"
-          ],
-          [
-            "verb",
-            "inflection of militar:\n"
-          ],
-          [
-            "verb",
-            "inflection of militar:\n"
           ]
         ]
       ],
@@ -15145,14 +14798,6 @@
           [
             "verb",
             "(intransitive) to abide, reside"
-          ],
-          [
-            "verb",
-            "inflection of permanecer:\n"
-          ],
-          [
-            "verb",
-            "inflection of permanecer:\n"
           ]
         ]
       ],
@@ -15168,14 +14813,6 @@
           [
             "verb",
             "(transitive) to surpass, exceed"
-          ],
-          [
-            "verb",
-            "inflection of avan\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of avan\u00e7ar:\n"
           ]
         ]
       ],
@@ -15187,14 +14824,6 @@
           [
             "verb",
             "to proceed"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
           ]
         ]
       ],
@@ -15608,14 +15237,6 @@
           [
             "verb",
             "(transitive) to get physical with (make physical contact sexually)"
-          ],
-          [
-            "verb",
-            "inflection of agarrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of agarrar:\n"
           ]
         ]
       ],
@@ -15841,14 +15462,6 @@
           [
             "verb",
             "(computing) to make a screen capture"
-          ],
-          [
-            "verb",
-            "inflection of capturar:\n"
-          ],
-          [
-            "verb",
-            "inflection of capturar:\n"
           ]
         ]
       ],
@@ -15879,14 +15492,6 @@
           [
             "verb",
             "(transitive) to use (to consume habitually)"
-          ],
-          [
-            "verb",
-            "inflection of usar:\n"
-          ],
-          [
-            "verb",
-            "inflection of usar:\n"
           ]
         ]
       ],
@@ -15902,10 +15507,6 @@
           [
             "verb",
             "(intransitive)"
-          ],
-          [
-            "verb",
-            "inflection of utilizar:\n"
           ]
         ]
       ],
@@ -15983,14 +15584,6 @@
           [
             "adj",
             "illustrious"
-          ],
-          [
-            "verb",
-            "inflection of ilustrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ilustrar:\n"
           ]
         ]
       ],
@@ -16237,14 +15830,6 @@
           [
             "noun",
             "search"
-          ],
-          [
-            "verb",
-            "inflection of catar:\n"
-          ],
-          [
-            "verb",
-            "inflection of catar:\n"
           ]
         ]
       ],
@@ -16268,14 +15853,6 @@
           [
             "noun",
             "fighter (military aircraft designed to attack other aircraft)"
-          ],
-          [
-            "verb",
-            "inflection of ca\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ca\u00e7ar:\n"
           ]
         ]
       ],
@@ -16579,14 +16156,6 @@
           [
             "noun",
             "female libertine"
-          ],
-          [
-            "verb",
-            "inflection of devassar:\n"
-          ],
-          [
-            "verb",
-            "inflection of devassar:\n"
           ]
         ]
       ]
@@ -17834,14 +17403,6 @@
           [
             "noun",
             "(uncountable) infamy"
-          ],
-          [
-            "verb",
-            "inflection of afrontar:\n"
-          ],
-          [
-            "verb",
-            "inflection of afrontar:\n"
           ]
         ]
       ],
@@ -18250,14 +17811,6 @@
           [
             "verb",
             "(Brazil, used with se, intransitive, persons) to do something by oneself or without help"
-          ],
-          [
-            "verb",
-            "inflection of virar:\n"
-          ],
-          [
-            "verb",
-            "inflection of virar:\n"
           ]
         ]
       ],
@@ -18669,14 +18222,6 @@
           [
             "verb",
             "to appoint, nominate"
-          ],
-          [
-            "verb",
-            "inflection of designar:\n"
-          ],
-          [
-            "verb",
-            "inflection of designar:\n"
           ]
         ]
       ]
@@ -18905,14 +18450,6 @@
           [
             "noun",
             "guide (written explanation)"
-          ],
-          [
-            "verb",
-            "inflection of guiar:\n"
-          ],
-          [
-            "verb",
-            "inflection of guiar:\n"
           ]
         ]
       ],
@@ -19278,14 +18815,6 @@
           [
             "verb",
             "(transitive) to throw, shoot (with force)"
-          ],
-          [
-            "verb",
-            "inflection of lan\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of lan\u00e7ar:\n"
           ]
         ]
       ],
@@ -19578,14 +19107,6 @@
           [
             "noun",
             "sublime"
-          ],
-          [
-            "verb",
-            "inflection of sublimar:\n"
-          ],
-          [
-            "verb",
-            "inflection of sublimar:\n"
           ]
         ]
       ]
@@ -19759,14 +19280,6 @@
           [
             "noun",
             "(Brazil) a type of strong kick with the tip of one's foot striking the adversary"
-          ],
-          [
-            "verb",
-            "inflection of bicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of bicar:\n"
           ]
         ]
       ],
@@ -19915,14 +19428,6 @@
           [
             "verb",
             "(transitive, figurative) to hurt; to pain (cause emotional pain)"
-          ],
-          [
-            "verb",
-            "inflection of doer:\n"
-          ],
-          [
-            "verb",
-            "inflection of doer:\n"
           ]
         ]
       ],
@@ -20023,14 +19528,6 @@
           [
             "noun",
             "doctrine"
-          ],
-          [
-            "verb",
-            "inflection of doutrinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of doutrinar:\n"
           ]
         ]
       ],
@@ -20107,14 +19604,6 @@
           [
             "noun",
             "(figurative) flame (great zeal or passion)"
-          ],
-          [
-            "verb",
-            "inflection of chamar:\n"
-          ],
-          [
-            "verb",
-            "inflection of chamar:\n"
           ]
         ]
       ],
@@ -20141,14 +19630,6 @@
           [
             "noun",
             "burn; burning (the act of burning)"
-          ],
-          [
-            "verb",
-            "inflection of queimar:\n"
-          ],
-          [
-            "verb",
-            "inflection of queimar:\n"
           ]
         ]
       ],
@@ -20516,14 +19997,6 @@
           [
             "noun",
             "(politics) ministry; portfolio (responsibilities of a government department)"
-          ],
-          [
-            "verb",
-            "inflection of pastar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pastar:\n"
           ]
         ]
       ],
@@ -20668,14 +20141,6 @@
           [
             "noun",
             "pyre (heap on which corpses are burned)"
-          ],
-          [
-            "verb",
-            "inflection of pirar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pirar:\n"
           ]
         ]
       ],
@@ -21095,14 +20560,6 @@
           [
             "noun",
             "swap; exchange (the act of changing or exchanging one thing for another)"
-          ],
-          [
-            "verb",
-            "inflection of trocar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trocar:\n"
           ]
         ]
       ]
@@ -21433,14 +20890,6 @@
           [
             "noun",
             "(historical) palaestra (public area in ancient Greece and Rome dedicated to the teaching and practice of wrestling and other sports)"
-          ],
-          [
-            "verb",
-            "inflection of palestrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of palestrar:\n"
           ]
         ]
       ],
@@ -22160,14 +21609,6 @@
           [
             "verb",
             "(Brazil, idiomatic) to stand (someone) up (to miss an appointment or date without prior notification)"
-          ],
-          [
-            "verb",
-            "inflection of furar:\n"
-          ],
-          [
-            "verb",
-            "inflection of furar:\n"
           ]
         ]
       ],
@@ -22326,14 +21767,6 @@
           [
             "noun",
             "diploma"
-          ],
-          [
-            "verb",
-            "inflection of diplomar:\n"
-          ],
-          [
-            "verb",
-            "inflection of diplomar:\n"
           ]
         ]
       ],
@@ -22581,14 +22014,6 @@
           [
             "verb",
             "(transitive) to assassinate"
-          ],
-          [
-            "verb",
-            "inflection of assassinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of assassinar:\n"
           ]
         ]
       ],
@@ -23035,14 +22460,6 @@
           [
             "adj",
             "(Portugal, informal) cool, awesome"
-          ],
-          [
-            "verb",
-            "inflection of fixar:\n"
-          ],
-          [
-            "verb",
-            "inflection of fixar:\n"
           ]
         ]
       ],
@@ -23204,14 +22621,6 @@
           [
             "noun",
             "stripe (long, straight region of a colour); parting (of the hair)"
-          ],
-          [
-            "verb",
-            "inflection of riscar:\n"
-          ],
-          [
-            "verb",
-            "inflection of riscar:\n"
           ]
         ]
       ],
@@ -23882,14 +23291,6 @@
           [
             "verb",
             "(ditransitive, with the indirect object taking por) to charge (to assign a given price to something)"
-          ],
-          [
-            "verb",
-            "inflection of pedir:\n"
-          ],
-          [
-            "verb",
-            "inflection of pedir:\n"
           ]
         ]
       ],
@@ -24103,14 +23504,6 @@
           [
             "noun",
             "lust"
-          ],
-          [
-            "verb",
-            "inflection of cobi\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cobi\u00e7ar:\n"
           ]
         ]
       ]
@@ -24805,14 +24198,6 @@
           [
             "verb",
             "(transitive) to accelerate"
-          ],
-          [
-            "verb",
-            "inflection of acelerar:\n"
-          ],
-          [
-            "verb",
-            "inflection of acelerar:\n"
           ]
         ]
       ],
@@ -25424,14 +24809,6 @@
           [
             "noun",
             "lust"
-          ],
-          [
-            "verb",
-            "inflection of cobi\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cobi\u00e7ar:\n"
           ]
         ]
       ],
@@ -25919,14 +25296,6 @@
           [
             "noun",
             "an object that belongs to someone; property, item"
-          ],
-          [
-            "verb",
-            "inflection of pertencer:\n"
-          ],
-          [
-            "verb",
-            "inflection of pertencer:\n"
           ]
         ]
       ],
@@ -26384,14 +25753,6 @@
           [
             "noun",
             "suit"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
           ]
         ]
       ],
@@ -26567,14 +25928,6 @@
           [
             "noun",
             "slit, crack, cleft"
-          ],
-          [
-            "verb",
-            "inflection of fender:\n"
-          ],
-          [
-            "verb",
-            "inflection of fender:\n"
           ]
         ]
       ],
@@ -26853,14 +26206,6 @@
           [
             "noun",
             "(soccer) free kick"
-          ],
-          [
-            "verb",
-            "inflection of livrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of livrar:\n"
           ]
         ]
       ],
@@ -27093,14 +26438,6 @@
           [
             "verb",
             "to name (mention, specify, choose)"
-          ],
-          [
-            "verb",
-            "inflection of eleger:\n"
-          ],
-          [
-            "verb",
-            "inflection of eleger:\n"
           ]
         ]
       ],
@@ -27131,14 +26468,6 @@
           [
             "noun",
             "the act of choosing"
-          ],
-          [
-            "verb",
-            "inflection of escolher:\n"
-          ],
-          [
-            "verb",
-            "inflection of escolher:\n"
           ]
         ]
       ],
@@ -27154,14 +26483,6 @@
           [
             "verb",
             "to appoint, nominate"
-          ],
-          [
-            "verb",
-            "inflection of designar:\n"
-          ],
-          [
-            "verb",
-            "inflection of designar:\n"
           ]
         ]
       ],
@@ -27674,14 +26995,6 @@
           [
             "noun",
             "suit"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
           ]
         ]
       ],
@@ -27811,14 +27124,24 @@
         6.92e-05
       ],
       [
-        "synonym",
-        "luta",
-        0.000151
-      ],
-      [
         "relate",
         "bater",
         5.25e-05
+      ],
+      [
+        "synonym",
+        "luta",
+        0.000151,
+        [
+          [
+            "noun",
+            "fight (physical conflict between two parties)"
+          ],
+          [
+            "noun",
+            "fight; striving (great effort in pursuing something)"
+          ]
+        ]
       ],
       [
         "synonym",
@@ -27854,87 +27177,6 @@
         "synonym",
         "guerra",
         0.000302
-      ]
-    ],
-    "frequency": 6.918309709189363e-05
-  },
-  "combate": {
-    "word": "combate",
-    "definitions": [
-      [
-        "noun",
-        "combat; fighting; conflict"
-      ],
-      [
-        "noun",
-        "combat; fighting; conflict"
-      ],
-      [
-        "noun",
-        "combat; fighting; conflict"
-      ],
-      [
-        "verb",
-        "inflection of combater:\n"
-      ],
-      [
-        "verb",
-        "inflection of combater:\n"
-      ]
-    ],
-    "related words": [
-      [
-        "synonym",
-        "batalha",
-        6.92e-05
-      ],
-      [
-        "synonym",
-        "luta",
-        0.000151
-      ],
-      [
-        "synonym",
-        "briga",
-        3.02e-05
-      ],
-      [
-        "synonym",
-        "disputa",
-        4.37e-05,
-        [
-          [
-            "verb",
-            "inflection of disputar:\n"
-          ],
-          [
-            "verb",
-            "inflection of disputar:\n"
-          ]
-        ]
-      ],
-      [
-        "synonym",
-        "rixa",
-        1.45e-06,
-        [
-          [
-            "noun",
-            "feud (a state of long-standing mutual hostility)"
-          ],
-          [
-            "noun",
-            "brawl; fight; quarrel"
-          ],
-          [
-            "verb",
-            "inflection of rixar:\n"
-          ],
-          [
-            "verb",
-            "inflection of rixar:\n"
-          ]
-        ]
       ]
     ],
     "frequency": 6.918309709189363e-05
@@ -28247,14 +27489,6 @@
           [
             "noun",
             "an oath"
-          ],
-          [
-            "verb",
-            "inflection of jurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of jurar:\n"
           ]
         ]
       ],
@@ -28968,14 +28202,6 @@
           [
             "verb",
             "to witness"
-          ],
-          [
-            "verb",
-            "inflection of presenciar:\n"
-          ],
-          [
-            "verb",
-            "inflection of presenciar:\n"
           ]
         ]
       ],
@@ -29353,14 +28579,6 @@
           [
             "verb",
             "to deliberate"
-          ],
-          [
-            "verb",
-            "inflection of decidir:\n"
-          ],
-          [
-            "verb",
-            "inflection of decidir:\n"
           ]
         ]
       ],
@@ -29436,14 +28654,6 @@
           [
             "verb",
             "(transitive) to look for"
-          ],
-          [
-            "verb",
-            "inflection of pesquisar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pesquisar:\n"
           ]
         ]
       ],
@@ -29467,14 +28677,6 @@
           [
             "verb",
             "(intransitive) to work as a procurator (attorney or agent)"
-          ],
-          [
-            "verb",
-            "inflection of procurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of procurar:\n"
           ]
         ]
       ],
@@ -29867,14 +29069,6 @@
           [
             "verb",
             "(transitive) to shut up (to stop someone from talking or something from making noise)"
-          ],
-          [
-            "verb",
-            "inflection of calar:\n"
-          ],
-          [
-            "verb",
-            "inflection of calar:\n"
           ]
         ]
       ],
@@ -29936,14 +29130,6 @@
           [
             "verb",
             "(transitive) to thwart, frustrate"
-          ],
-          [
-            "verb",
-            "inflection of contrariar:\n"
-          ],
-          [
-            "verb",
-            "inflection of contrariar:\n"
           ]
         ]
       ]
@@ -29989,14 +29175,6 @@
           [
             "noun",
             "scenery, atmosphere"
-          ],
-          [
-            "verb",
-            "inflection of ambientar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ambientar:\n"
           ]
         ]
       ],
@@ -30069,14 +29247,6 @@
           [
             "noun",
             "(proscribed) Synonym of perda"
-          ],
-          [
-            "verb",
-            "inflection of perder:\n"
-          ],
-          [
-            "verb",
-            "inflection of perder:\n"
           ]
         ]
       ],
@@ -30568,14 +29738,6 @@
           [
             "noun",
             "limitation; limit"
-          ],
-          [
-            "verb",
-            "inflection of limitar:\n"
-          ],
-          [
-            "verb",
-            "inflection of limitar:\n"
           ]
         ]
       ],
@@ -30745,14 +29907,6 @@
           [
             "noun",
             "(Brazil, journalism) assignment"
-          ],
-          [
-            "verb",
-            "inflection of pautar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pautar:\n"
           ]
         ]
       ],
@@ -32124,14 +31278,6 @@
           [
             "verb",
             "to meditate"
-          ],
-          [
-            "verb",
-            "inflection of meditar:\n"
-          ],
-          [
-            "verb",
-            "inflection of meditar:\n"
           ]
         ]
       ],
@@ -32511,14 +31657,6 @@
           [
             "verb",
             "to coincide"
-          ],
-          [
-            "verb",
-            "inflection of acertar:\n"
-          ],
-          [
-            "verb",
-            "inflection of acertar:\n"
           ]
         ]
       ],
@@ -32538,14 +31676,6 @@
           [
             "verb",
             "(intransitive, takes a reflexive pronoun) to match, suit, harmonize (clothes, tastes etc.)"
-          ],
-          [
-            "verb",
-            "inflection of combinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of combinar:\n"
           ]
         ]
       ],
@@ -32572,14 +31702,6 @@
           [
             "verb",
             "to proceed"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
           ]
         ]
       ],
@@ -32870,14 +31992,6 @@
           [
             "noun",
             "(informal, vocative) wretch!"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
           ]
         ]
       ],
@@ -32904,14 +32018,6 @@
           [
             "noun",
             "hoax (anything deliberately intended to deceive or trick)"
-          ],
-          [
-            "verb",
-            "inflection of fraudar:\n"
-          ],
-          [
-            "verb",
-            "inflection of fraudar:\n"
           ]
         ]
       ],
@@ -32989,14 +32095,6 @@
           [
             "noun",
             "(figuratively, politics) opposition; resistance"
-          ],
-          [
-            "verb",
-            "inflection of embater:\n"
-          ],
-          [
-            "verb",
-            "inflection of embater:\n"
           ]
         ]
       ],
@@ -33181,14 +32279,6 @@
           [
             "verb",
             "(transitive) to connect (join two or more pieces)"
-          ],
-          [
-            "verb",
-            "inflection of conectar:\n"
-          ],
-          [
-            "verb",
-            "inflection of conectar:\n"
           ]
         ]
       ],
@@ -33200,14 +32290,6 @@
           [
             "verb",
             "(transitive) to separate"
-          ],
-          [
-            "verb",
-            "inflection of separar:\n"
-          ],
-          [
-            "verb",
-            "inflection of separar:\n"
           ]
         ]
       ],
@@ -33427,14 +32509,6 @@
           [
             "noun",
             "(agriculture) cutting (piece of a branch removed from a plant and cultivated to grow a new plant)"
-          ],
-          [
-            "verb",
-            "inflection of estacar:\n"
-          ],
-          [
-            "verb",
-            "inflection of estacar:\n"
           ]
         ]
       ],
@@ -33512,14 +32586,6 @@
           [
             "noun",
             "purchase (that which is obtained for a price in money or its equivalent)"
-          ],
-          [
-            "verb",
-            "inflection of comprar:\n"
-          ],
-          [
-            "verb",
-            "inflection of comprar:\n"
           ]
         ]
       ],
@@ -33781,14 +32847,6 @@
           [
             "verb",
             "(Brazil, informal) to appear at a specific place"
-          ],
-          [
-            "verb",
-            "inflection of brotar:\n"
-          ],
-          [
-            "verb",
-            "inflection of brotar:\n"
           ]
         ]
       ],
@@ -34042,10 +33100,6 @@
           [
             "verb",
             "(intransitive)"
-          ],
-          [
-            "verb",
-            "inflection of arrebentar:\n"
           ]
         ]
       ],
@@ -34686,14 +33740,6 @@
           [
             "verb",
             "(transitive) to supplement"
-          ],
-          [
-            "verb",
-            "inflection of completar:\n"
-          ],
-          [
-            "verb",
-            "inflection of completar:\n"
           ]
         ]
       ],
@@ -34766,14 +33812,6 @@
           [
             "verb",
             "to earn (to receive payment for work)"
-          ],
-          [
-            "verb",
-            "inflection of ganhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ganhar:\n"
           ]
         ]
       ],
@@ -34835,14 +33873,6 @@
           [
             "verb",
             "(transitive, informal) to prevent something from being made public or known; to suppress; to smother"
-          ],
-          [
-            "verb",
-            "inflection of abafar:\n"
-          ],
-          [
-            "verb",
-            "inflection of abafar:\n"
           ]
         ]
       ],
@@ -34870,14 +33900,6 @@
           [
             "verb",
             "(transitive) to reduce"
-          ],
-          [
-            "verb",
-            "inflection of abater:\n"
-          ],
-          [
-            "verb",
-            "inflection of abater:\n"
           ]
         ]
       ],
@@ -35551,23 +34573,22 @@
       ],
       [
         "synonym",
-        "estampa",
-        2.51e-06,
+        "gravura",
+        1.35e-06,
         [
           [
-            "verb",
-            "inflection of estampar:\n"
+            "noun",
+            "picture"
           ],
           [
-            "verb",
-            "inflection of estampar:\n"
+            "noun",
+            "engraving"
+          ],
+          [
+            "noun",
+            "gravure"
           ]
         ]
-      ],
-      [
-        "synonym",
-        "gravura",
-        1.35e-06
       ],
       [
         "synonym",
@@ -35744,14 +34765,6 @@
           [
             "noun",
             "ill will (aversion towards someone)"
-          ],
-          [
-            "verb",
-            "inflection of ganir:\n"
-          ],
-          [
-            "verb",
-            "inflection of ganir:\n"
           ]
         ]
       ],
@@ -35936,14 +34949,6 @@
           [
             "verb",
             "(transitive, intransitive) to debate; to argue (put forth arguments)"
-          ],
-          [
-            "verb",
-            "inflection of argumentar:\n"
-          ],
-          [
-            "verb",
-            "inflection of argumentar:\n"
           ]
         ]
       ],
@@ -36297,14 +35302,6 @@
           [
             "noun",
             "flyleaf (blank page at the front or back of a book)"
-          ],
-          [
-            "verb",
-            "inflection of guardar:\n"
-          ],
-          [
-            "verb",
-            "inflection of guardar:\n"
           ]
         ]
       ],
@@ -36358,14 +35355,6 @@
           [
             "noun",
             "pose (position, arrangement (especially of the human body))"
-          ],
-          [
-            "verb",
-            "inflection of posar:\n"
-          ],
-          [
-            "verb",
-            "inflection of posar:\n"
           ]
         ]
       ],
@@ -36517,14 +35506,6 @@
           [
             "noun",
             "(Portugal) kay (name of the Latin letter K, k)"
-          ],
-          [
-            "verb",
-            "inflection of capar:\n"
-          ],
-          [
-            "verb",
-            "inflection of capar:\n"
           ]
         ]
       ],
@@ -36802,14 +35783,6 @@
           [
             "noun",
             "(law) deed (legal document)"
-          ],
-          [
-            "verb",
-            "inflection of escriturar:\n"
-          ],
-          [
-            "verb",
-            "inflection of escriturar:\n"
           ]
         ]
       ],
@@ -37007,14 +35980,6 @@
           [
             "verb",
             "(transitive) to supplement"
-          ],
-          [
-            "verb",
-            "inflection of completar:\n"
-          ],
-          [
-            "verb",
-            "inflection of completar:\n"
           ]
         ]
       ],
@@ -37041,14 +36006,6 @@
           [
             "verb",
             "(transitive) to surround"
-          ],
-          [
-            "verb",
-            "inflection of cercar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cercar:\n"
           ]
         ]
       ],
@@ -37213,14 +36170,6 @@
           [
             "noun",
             "frame (rigid, generally rectangular mounting for a painting)"
-          ],
-          [
-            "verb",
-            "inflection of moldurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of moldurar:\n"
           ]
         ]
       ],
@@ -37369,14 +36318,6 @@
           [
             "verb",
             "to administer"
-          ],
-          [
-            "verb",
-            "inflection of ministrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ministrar:\n"
           ]
         ]
       ],
@@ -37541,14 +36482,6 @@
           [
             "noun",
             "power"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
           ]
         ]
       ],
@@ -37647,6 +36580,10 @@
           [
             "noun",
             "a jot"
+          ],
+          [
+            "noun",
+            "(Portugal, regional) espresso with milk, similar to a cortado"
           ],
           [
             "noun",
@@ -38062,14 +36999,6 @@
           [
             "noun",
             "chiefdom, leadership, government"
-          ],
-          [
-            "verb",
-            "inflection of chefiar:\n"
-          ],
-          [
-            "verb",
-            "inflection of chefiar:\n"
           ]
         ]
       ]
@@ -38223,14 +37152,6 @@
           [
             "verb",
             "(transitive) to generate"
-          ],
-          [
-            "verb",
-            "inflection of gerar:\n"
-          ],
-          [
-            "verb",
-            "inflection of gerar:\n"
           ]
         ]
       ],
@@ -38377,13 +37298,23 @@
     "related words": [
       [
         "synonym",
-        "luta",
-        0.000151
+        "briga",
+        3.02e-05
       ],
       [
         "synonym",
-        "briga",
-        3.02e-05
+        "luta",
+        0.000151,
+        [
+          [
+            "noun",
+            "fight (physical conflict between two parties)"
+          ],
+          [
+            "noun",
+            "fight; striving (great effort in pursuing something)"
+          ]
+        ]
       ],
       [
         "synonym",
@@ -38677,14 +37608,6 @@
           [
             "verb",
             "to work; to function"
-          ],
-          [
-            "verb",
-            "inflection of funcionar:\n"
-          ],
-          [
-            "verb",
-            "inflection of funcionar:\n"
           ]
         ]
       ],
@@ -38726,14 +37649,6 @@
           [
             "verb",
             "to proceed"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
-          ],
-          [
-            "verb",
-            "inflection of proceder:\n"
           ]
         ]
       ],
@@ -38887,14 +37802,6 @@
           [
             "verb",
             "(transitive) to command; to lead; to head; to lead (to be in charge of)"
-          ],
-          [
-            "verb",
-            "inflection of comandar:\n"
-          ],
-          [
-            "verb",
-            "inflection of comandar:\n"
           ]
         ]
       ],
@@ -38949,14 +37856,6 @@
           [
             "verb",
             "(transitive) to explain"
-          ],
-          [
-            "verb",
-            "inflection of explicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of explicar:\n"
           ]
         ]
       ],
@@ -38983,14 +37882,6 @@
           [
             "verb",
             "to instruct, teach"
-          ],
-          [
-            "verb",
-            "inflection of instruir:\n"
-          ],
-          [
-            "verb",
-            "inflection of instruir:\n"
           ]
         ]
       ],
@@ -39469,14 +38360,6 @@
           [
             "verb",
             "(transitive) to build, erect"
-          ],
-          [
-            "verb",
-            "inflection of erguer:\n"
-          ],
-          [
-            "verb",
-            "inflection of erguer:\n"
           ]
         ]
       ],
@@ -39883,14 +38766,6 @@
           [
             "verb",
             "to descend, to go down"
-          ],
-          [
-            "verb",
-            "inflection of descer:\n"
-          ],
-          [
-            "verb",
-            "inflection of descer:\n"
           ]
         ]
       ],
@@ -40237,14 +39112,6 @@
           [
             "noun",
             "annex (addition or extension to a building)"
-          ],
-          [
-            "verb",
-            "inflection of anexar:\n"
-          ],
-          [
-            "verb",
-            "inflection of anexar:\n"
           ]
         ]
       ],
@@ -40636,14 +39503,6 @@
           [
             "verb",
             "(Brazil, used with se, intransitive, persons) to do something by oneself or without help"
-          ],
-          [
-            "verb",
-            "inflection of virar:\n"
-          ],
-          [
-            "verb",
-            "inflection of virar:\n"
           ]
         ]
       ],
@@ -40996,14 +39855,6 @@
           [
             "noun",
             "(Brazil) schism (split or separation within a group)"
-          ],
-          [
-            "verb",
-            "inflection of rachar:\n"
-          ],
-          [
-            "verb",
-            "inflection of rachar:\n"
           ]
         ]
       ],
@@ -41099,14 +39950,6 @@
           [
             "noun",
             "roe (fish eggs)"
-          ],
-          [
-            "verb",
-            "inflection of ovar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ovar:\n"
           ]
         ]
       ],
@@ -41122,14 +39965,6 @@
           [
             "noun",
             "catch (the amount of fish caught)"
-          ],
-          [
-            "verb",
-            "inflection of pescar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pescar:\n"
           ]
         ]
       ],
@@ -41164,14 +39999,6 @@
           [
             "verb",
             "(informal) to understand"
-          ],
-          [
-            "verb",
-            "inflection of pescar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pescar:\n"
           ]
         ]
       ]
@@ -41249,14 +40076,6 @@
           [
             "noun",
             "border"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
           ]
         ]
       ],
@@ -41407,14 +40226,6 @@
           [
             "verb",
             "to intercept"
-          ],
-          [
-            "verb",
-            "inflection of captar:\n"
-          ],
-          [
-            "verb",
-            "inflection of captar:\n"
           ]
         ]
       ],
@@ -42057,14 +40868,6 @@
           [
             "noun",
             "(Brazil) power plant (industrial complex where electricity is produced)"
-          ],
-          [
-            "verb",
-            "inflection of usinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of usinar:\n"
           ]
         ]
       ],
@@ -42940,14 +41743,6 @@
           [
             "noun",
             "(figurative) a small benefit or help given to someone in need"
-          ],
-          [
-            "verb",
-            "inflection of esmolar:\n"
-          ],
-          [
-            "verb",
-            "inflection of esmolar:\n"
           ]
         ]
       ]
@@ -43197,14 +41992,6 @@
           [
             "noun",
             "(Alentejo) a rural property or group of farm buildings"
-          ],
-          [
-            "verb",
-            "inflection of montar:\n"
-          ],
-          [
-            "verb",
-            "inflection of montar:\n"
           ]
         ]
       ],
@@ -43893,14 +42680,6 @@
           [
             "noun",
             "(figurative) act breaking one's word"
-          ],
-          [
-            "verb",
-            "inflection of desfalcar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desfalcar:\n"
           ]
         ]
       ],
@@ -44077,14 +42856,6 @@
           [
             "verb",
             "(Brazil, in gerund) to be up to something"
-          ],
-          [
-            "verb",
-            "inflection of aprontar:\n"
-          ],
-          [
-            "verb",
-            "inflection of aprontar:\n"
           ]
         ]
       ],
@@ -44111,14 +42882,6 @@
           [
             "verb",
             "(transitive) to cause, induce, provoke"
-          ],
-          [
-            "verb",
-            "inflection of motivar:\n"
-          ],
-          [
-            "verb",
-            "inflection of motivar:\n"
           ]
         ]
       ],
@@ -44332,14 +43095,6 @@
           [
             "verb",
             "to descend, to go down"
-          ],
-          [
-            "verb",
-            "inflection of descer:\n"
-          ],
-          [
-            "verb",
-            "inflection of descer:\n"
           ]
         ]
       ],
@@ -44605,14 +43360,6 @@
           [
             "noun",
             "border"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
           ]
         ]
       ]
@@ -44655,14 +43402,6 @@
           [
             "verb",
             "to live, reside (have permanent residence)"
-          ],
-          [
-            "verb",
-            "inflection of viver:\n"
-          ],
-          [
-            "verb",
-            "inflection of viver:\n"
           ]
         ]
       ],
@@ -44674,14 +43413,6 @@
           [
             "verb",
             "to last, endure"
-          ],
-          [
-            "verb",
-            "inflection of durar:\n"
-          ],
-          [
-            "verb",
-            "inflection of durar:\n"
           ]
         ]
       ],
@@ -45087,14 +43818,6 @@
           [
             "noun",
             "(law) amendment"
-          ],
-          [
-            "verb",
-            "inflection of emendar:\n"
-          ],
-          [
-            "verb",
-            "inflection of emendar:\n"
           ]
         ]
       ],
@@ -45353,10 +44076,6 @@
           [
             "verb",
             "(intransitive)"
-          ],
-          [
-            "verb",
-            "inflection of arrebentar:\n"
           ]
         ]
       ],
@@ -45534,14 +44253,6 @@
           [
             "verb",
             "to criticize (evaluate)"
-          ],
-          [
-            "verb",
-            "inflection of criticar:\n"
-          ],
-          [
-            "verb",
-            "inflection of criticar:\n"
           ]
         ]
       ],
@@ -45608,14 +44319,6 @@
           [
             "noun",
             "fossa (Cryptoprocta ferox)"
-          ],
-          [
-            "verb",
-            "inflection of fossar:\n"
-          ],
-          [
-            "verb",
-            "inflection of fossar:\n"
           ]
         ]
       ],
@@ -45696,14 +44399,6 @@
           [
             "verb",
             "to enjoy"
-          ],
-          [
-            "verb",
-            "inflection of apreciar:\n"
-          ],
-          [
-            "verb",
-            "inflection of apreciar:\n"
           ]
         ]
       ],
@@ -45809,14 +44504,6 @@
           [
             "verb",
             "to limit, confine, demarcate"
-          ],
-          [
-            "verb",
-            "inflection of limitar:\n"
-          ],
-          [
-            "verb",
-            "inflection of limitar:\n"
           ]
         ]
       ],
@@ -46251,11 +44938,6 @@
     "related words": [
       [
         "synonym",
-        "luta",
-        0.000151
-      ],
-      [
-        "synonym",
         "conflito",
         4.37e-05
       ],
@@ -46271,6 +44953,21 @@
       ],
       [
         "synonym",
+        "luta",
+        0.000151,
+        [
+          [
+            "noun",
+            "fight (physical conflict between two parties)"
+          ],
+          [
+            "noun",
+            "fight; striving (great effort in pursuing something)"
+          ]
+        ]
+      ],
+      [
+        "synonym",
         "rixa",
         1.45e-06,
         [
@@ -46281,14 +44978,6 @@
           [
             "noun",
             "brawl; fight; quarrel"
-          ],
-          [
-            "verb",
-            "inflection of rixar:\n"
-          ],
-          [
-            "verb",
-            "inflection of rixar:\n"
           ]
         ]
       ],
@@ -46568,14 +45257,6 @@
           [
             "noun",
             "(figuratively, politics) opposition; resistance"
-          ],
-          [
-            "verb",
-            "inflection of embater:\n"
-          ],
-          [
-            "verb",
-            "inflection of embater:\n"
           ]
         ]
       ],
@@ -47452,14 +46133,6 @@
           [
             "noun",
             "sole (of a shoe or boot)"
-          ],
-          [
-            "verb",
-            "inflection of solar:\n"
-          ],
-          [
-            "verb",
-            "inflection of solar:\n"
           ]
         ]
       ],
@@ -47541,14 +46214,6 @@
           [
             "verb",
             "(transitive, poetic) to awake (excite or to stir up something latent)"
-          ],
-          [
-            "verb",
-            "inflection of despertar:\n"
-          ],
-          [
-            "verb",
-            "inflection of despertar:\n"
           ]
         ]
       ],
@@ -47696,14 +46361,6 @@
           [
             "verb",
             "to invade"
-          ],
-          [
-            "verb",
-            "inflection of invadir:\n"
-          ],
-          [
-            "verb",
-            "inflection of invadir:\n"
           ]
         ]
       ],
@@ -47931,14 +46588,6 @@
           [
             "verb",
             "(transitive) to advise, notify, warn"
-          ],
-          [
-            "verb",
-            "inflection of avisar:\n"
-          ],
-          [
-            "verb",
-            "inflection of avisar:\n"
           ]
         ]
       ],
@@ -48253,14 +46902,6 @@
           [
             "noun",
             "fighter (military aircraft designed to attack other aircraft)"
-          ],
-          [
-            "verb",
-            "inflection of ca\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ca\u00e7ar:\n"
           ]
         ]
       ],
@@ -48376,16 +47017,6 @@
       ],
       [
         "synonym",
-        "luta",
-        0.000151
-      ],
-      [
-        "synonym",
-        "combate",
-        6.92e-05
-      ],
-      [
-        "synonym",
         "perda",
         6.31e-05
       ],
@@ -48397,7 +47028,31 @@
       [
         "synonym",
         "caminho",
-        0.000174
+        0.000174,
+        [
+          [
+            "noun",
+            "path"
+          ],
+          [
+            "noun",
+            "way, route"
+          ],
+          [
+            "noun",
+            "(by extension) means"
+          ]
+        ]
+      ],
+      [
+        "synonym",
+        "luta",
+        0.000151
+      ],
+      [
+        "synonym",
+        "combate",
+        6.92e-05
       ],
       [
         "synonym",
@@ -48756,14 +47411,6 @@
           [
             "verb",
             "to damn, denounce"
-          ],
-          [
-            "verb",
-            "inflection of condenar:\n"
-          ],
-          [
-            "verb",
-            "inflection of condenar:\n"
           ]
         ]
       ],
@@ -48846,14 +47493,6 @@
           [
             "verb",
             "to cooperate (work together)"
-          ],
-          [
-            "verb",
-            "inflection of cooperar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cooperar:\n"
           ]
         ]
       ],
@@ -49070,27 +47709,14 @@
       ],
       [
         "synonym",
-        "limpa",
-        2.88e-05,
+        "higieniza\u00e7\u00e3o",
+        1.15e-06,
         [
           [
-            "verb",
-            "inflection of limpar:\n"
-          ],
-          [
-            "verb",
-            "inflection of limpar:\n"
-          ],
-          [
-            "verb",
-            "inflection of limpar:\n"
+            "noun",
+            "sanitation, cleaning"
           ]
         ]
-      ],
-      [
-        "synonym",
-        "higieniza\u00e7\u00e3o",
-        1.15e-06
       ],
       [
         "synonym",
@@ -49856,14 +48482,6 @@
           [
             "verb",
             "to work; to function"
-          ],
-          [
-            "verb",
-            "inflection of funcionar:\n"
-          ],
-          [
-            "verb",
-            "inflection of funcionar:\n"
           ]
         ]
       ],
@@ -49969,14 +48587,6 @@
           [
             "noun",
             "self-interest, especially when pretending to like someone to attain some benefit for oneself"
-          ],
-          [
-            "verb",
-            "inflection of interessar:\n"
-          ],
-          [
-            "verb",
-            "inflection of interessar:\n"
           ]
         ]
       ],
@@ -50048,14 +48658,6 @@
           [
             "noun",
             "etiquette (ceremonial code of polite society)"
-          ],
-          [
-            "verb",
-            "inflection of etiquetar:\n"
-          ],
-          [
-            "verb",
-            "inflection of etiquetar:\n"
           ]
         ]
       ],
@@ -50383,14 +48985,6 @@
           [
             "verb",
             "(transitive) to set up (a tent, a hammock, a folding table or similar)"
-          ],
-          [
-            "verb",
-            "inflection of armar:\n"
-          ],
-          [
-            "verb",
-            "inflection of armar:\n"
           ]
         ]
       ],
@@ -50976,14 +49570,6 @@
           [
             "noun",
             "(nautical) route (course travelled by a ship)"
-          ],
-          [
-            "verb",
-            "inflection of derrotar:\n"
-          ],
-          [
-            "verb",
-            "inflection of derrotar:\n"
           ]
         ]
       ],
@@ -51003,14 +49589,6 @@
           [
             "noun",
             "guide (written explanation)"
-          ],
-          [
-            "verb",
-            "inflection of guiar:\n"
-          ],
-          [
-            "verb",
-            "inflection of guiar:\n"
           ]
         ]
       ],
@@ -51286,14 +49864,6 @@
           [
             "verb",
             "(transitive) to administer"
-          ],
-          [
-            "verb",
-            "inflection of administrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of administrar:\n"
           ]
         ]
       ],
@@ -51630,14 +50200,6 @@
           [
             "noun",
             "border"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
           ]
         ]
       ],
@@ -51917,14 +50479,6 @@
           [
             "noun",
             "sheet (of paper)"
-          ],
-          [
-            "verb",
-            "inflection of folhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of folhar:\n"
           ]
         ]
       ],
@@ -52035,14 +50589,6 @@
           [
             "verb",
             "to cooperate (work together)"
-          ],
-          [
-            "verb",
-            "inflection of cooperar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cooperar:\n"
           ]
         ]
       ]
@@ -52548,14 +51094,6 @@
           [
             "verb",
             "(transitive, figuratively) to join, unite"
-          ],
-          [
-            "verb",
-            "inflection of casar:\n"
-          ],
-          [
-            "verb",
-            "inflection of casar:\n"
           ]
         ]
       ],
@@ -52995,14 +51533,6 @@
           [
             "noun",
             "pose (position, arrangement (especially of the human body))"
-          ],
-          [
-            "verb",
-            "inflection of posar:\n"
-          ],
-          [
-            "verb",
-            "inflection of posar:\n"
           ]
         ]
       ],
@@ -53121,14 +51651,6 @@
           [
             "verb",
             "(Portugal, computing) to run a program"
-          ],
-          [
-            "verb",
-            "inflection of correr:\n"
-          ],
-          [
-            "verb",
-            "inflection of correr:\n"
           ]
         ]
       ],
@@ -53193,14 +51715,6 @@
           [
             "verb",
             "(transitive) to separate"
-          ],
-          [
-            "verb",
-            "inflection of separar:\n"
-          ],
-          [
-            "verb",
-            "inflection of separar:\n"
           ]
         ]
       ],
@@ -53641,14 +52155,6 @@
           [
             "noun",
             "an oath"
-          ],
-          [
-            "verb",
-            "inflection of jurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of jurar:\n"
           ]
         ]
       ],
@@ -53783,14 +52289,6 @@
           [
             "verb",
             "(idiomatic) to die"
-          ],
-          [
-            "verb",
-            "inflection of embarcar:\n"
-          ],
-          [
-            "verb",
-            "inflection of embarcar:\n"
           ]
         ]
       ],
@@ -54033,14 +52531,6 @@
           [
             "noun",
             "tent"
-          ],
-          [
-            "verb",
-            "inflection of tender:\n"
-          ],
-          [
-            "verb",
-            "inflection of tender:\n"
           ]
         ]
       ],
@@ -54060,14 +52550,6 @@
           [
             "noun",
             "(Brazil) power plant (industrial complex where electricity is produced)"
-          ],
-          [
-            "verb",
-            "inflection of usinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of usinar:\n"
           ]
         ]
       ]
@@ -54246,14 +52728,6 @@
           [
             "verb",
             "(ditransitive, with the indirect object taking a or para (uncommon)) to dedicate (to address or inscribe (a literary work, for example) to another as a mark of respect or affection)"
-          ],
-          [
-            "verb",
-            "inflection of dedicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of dedicar:\n"
           ]
         ]
       ],
@@ -54449,14 +52923,6 @@
           [
             "noun",
             "clone (group of identical cells derived from a single cell)"
-          ],
-          [
-            "verb",
-            "inflection of clonar:\n"
-          ],
-          [
-            "verb",
-            "inflection of clonar:\n"
           ]
         ]
       ],
@@ -55363,14 +53829,6 @@
           [
             "noun",
             "sheet (of paper)"
-          ],
-          [
-            "verb",
-            "inflection of folhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of folhar:\n"
           ]
         ]
       ],
@@ -55989,14 +54447,6 @@
           [
             "noun",
             "obstinacy; stubbornness (insistence in doing something, especially something that is likely not to work out)"
-          ],
-          [
-            "verb",
-            "inflection of cismar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cismar:\n"
           ]
         ]
       ],
@@ -56179,14 +54629,6 @@
           [
             "noun",
             "skyscraper"
-          ],
-          [
-            "verb",
-            "inflection of torrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of torrar:\n"
           ]
         ]
       ],
@@ -56507,14 +54949,6 @@
           [
             "verb",
             "to enjoy"
-          ],
-          [
-            "verb",
-            "inflection of apreciar:\n"
-          ],
-          [
-            "verb",
-            "inflection of apreciar:\n"
           ]
         ]
       ],
@@ -57059,14 +55493,6 @@
           [
             "verb",
             "to criticize (evaluate)"
-          ],
-          [
-            "verb",
-            "inflection of criticar:\n"
-          ],
-          [
-            "verb",
-            "inflection of criticar:\n"
           ]
         ]
       ],
@@ -57078,14 +55504,6 @@
           [
             "verb",
             "to elucidate (make clear)"
-          ],
-          [
-            "verb",
-            "inflection of elucidar:\n"
-          ],
-          [
-            "verb",
-            "inflection of elucidar:\n"
           ]
         ]
       ],
@@ -57686,14 +56104,6 @@
           [
             "verb",
             "to seduce (win over or attract someone)"
-          ],
-          [
-            "verb",
-            "inflection of seduzir:\n"
-          ],
-          [
-            "verb",
-            "inflection of seduzir:\n"
           ]
         ]
       ]
@@ -57753,14 +56163,6 @@
           [
             "noun",
             "wave (sudden unusually large amount of something)"
-          ],
-          [
-            "verb",
-            "inflection of levar:\n"
-          ],
-          [
-            "verb",
-            "inflection of levar:\n"
           ]
         ]
       ],
@@ -58924,14 +57326,6 @@
           [
             "verb",
             "to enjoy"
-          ],
-          [
-            "verb",
-            "inflection of apreciar:\n"
-          ],
-          [
-            "verb",
-            "inflection of apreciar:\n"
           ]
         ]
       ],
@@ -59216,14 +57610,6 @@
           [
             "noun",
             "(informal, vocative) wretch!"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
           ]
         ]
       ],
@@ -59737,14 +58123,6 @@
           [
             "noun",
             "den, burrow"
-          ],
-          [
-            "verb",
-            "inflection of tocar:\n"
-          ],
-          [
-            "verb",
-            "inflection of tocar:\n"
           ]
         ]
       ],
@@ -59790,14 +58168,6 @@
           [
             "noun",
             "slit, crack, cleft"
-          ],
-          [
-            "verb",
-            "inflection of fender:\n"
-          ],
-          [
-            "verb",
-            "inflection of fender:\n"
           ]
         ]
       ],
@@ -59987,14 +58357,6 @@
           [
             "noun",
             "suit"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
           ]
         ]
       ],
@@ -60680,14 +59042,6 @@
           [
             "noun",
             "gear (of a vehicle)"
-          ],
-          [
-            "verb",
-            "inflection of marchar:\n"
-          ],
-          [
-            "verb",
-            "inflection of marchar:\n"
           ]
         ]
       ]
@@ -61166,14 +59520,6 @@
           [
             "noun",
             "(uncountable) infamy"
-          ],
-          [
-            "verb",
-            "inflection of afrontar:\n"
-          ],
-          [
-            "verb",
-            "inflection of afrontar:\n"
           ]
         ]
       ],
@@ -61592,10 +59938,6 @@
           [
             "verb",
             "(intransitive)"
-          ],
-          [
-            "verb",
-            "inflection of estabilizar:\n"
           ]
         ]
       ]
@@ -61961,14 +60303,6 @@
           [
             "noun",
             "power"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
           ]
         ]
       ],
@@ -63542,14 +61876,6 @@
           [
             "noun",
             "tranquility"
-          ],
-          [
-            "verb",
-            "inflection of calmar:\n"
-          ],
-          [
-            "verb",
-            "inflection of calmar:\n"
           ]
         ]
       ],
@@ -63631,14 +61957,6 @@
           [
             "verb",
             "to militate"
-          ],
-          [
-            "verb",
-            "inflection of militar:\n"
-          ],
-          [
-            "verb",
-            "inflection of militar:\n"
           ]
         ]
       ],
@@ -63878,23 +62196,7 @@
           ],
           [
             "verb",
-            "inflection of atentar:\n"
-          ],
-          [
-            "verb",
-            "inflection of atentar:\n"
-          ],
-          [
-            "verb",
             "to pay attention to something"
-          ],
-          [
-            "verb",
-            "inflection of atentar:\n"
-          ],
-          [
-            "verb",
-            "inflection of atentar:\n"
           ],
           [
             "verb",
@@ -63903,14 +62205,6 @@
           [
             "verb",
             "(informal) to bother; to irritate; to annoy"
-          ],
-          [
-            "verb",
-            "inflection of atentar:\n"
-          ],
-          [
-            "verb",
-            "inflection of atentar:\n"
           ]
         ]
       ],
@@ -64090,14 +62384,6 @@
           [
             "verb",
             "(transitive) to connect (join two or more pieces)"
-          ],
-          [
-            "verb",
-            "inflection of conectar:\n"
-          ],
-          [
-            "verb",
-            "inflection of conectar:\n"
           ]
         ]
       ],
@@ -64174,21 +62460,6 @@
       ],
       [
         "synonym",
-        "avaria",
-        1.66e-06,
-        [
-          [
-            "verb",
-            "inflection of avariar:\n"
-          ],
-          [
-            "verb",
-            "inflection of avariar:\n"
-          ]
-        ]
-      ],
-      [
-        "synonym",
         "estrago",
         4.9e-06,
         [
@@ -64235,7 +62506,21 @@
       [
         "synonym",
         "preju\u00edzo",
-        9.55e-06
+        9.55e-06,
+        [
+          [
+            "noun",
+            "harm, injury"
+          ],
+          [
+            "noun",
+            "prejudice, bias"
+          ],
+          [
+            "noun",
+            "(finance) loss"
+          ]
+        ]
       ]
     ],
     "frequency": 1.62181009735893e-05
@@ -64315,14 +62600,6 @@
           [
             "verb",
             "(transitive) to set up (a tent, a hammock, a folding table or similar)"
-          ],
-          [
-            "verb",
-            "inflection of armar:\n"
-          ],
-          [
-            "verb",
-            "inflection of armar:\n"
           ]
         ]
       ],
@@ -64634,14 +62911,6 @@
           [
             "verb",
             "(transitive) to separate"
-          ],
-          [
-            "verb",
-            "inflection of separar:\n"
-          ],
-          [
-            "verb",
-            "inflection of separar:\n"
           ]
         ]
       ],
@@ -64735,14 +63004,6 @@
           [
             "noun",
             "doctrine"
-          ],
-          [
-            "verb",
-            "inflection of doutrinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of doutrinar:\n"
           ]
         ]
       ],
@@ -64766,95 +63027,6 @@
         "synonym",
         "organiza\u00e7\u00e3o",
         0.000151
-      ]
-    ],
-    "frequency": 1.584893192461114e-05
-  },
-  "dobro": {
-    "word": "dobro",
-    "definitions": [
-      [
-        "noun",
-        "double"
-      ]
-    ],
-    "related words": [
-      [
-        "relate",
-        "duplo",
-        1.91e-05
-      ],
-      [
-        "relate",
-        "dobrar",
-        5.13e-06,
-        [
-          [
-            "verb",
-            "(transitive) to double, multiply by two"
-          ],
-          [
-            "verb",
-            "(transitive) to fold, bend over"
-          ],
-          [
-            "verb",
-            "(transitive) to increase, make larger"
-          ],
-          [
-            "verb",
-            "(transitive) to subdue, overcome, bring under control"
-          ],
-          [
-            "verb",
-            "(transitive, Portugal) to dub (replace a soundtrack with a synchronized translation)"
-          ],
-          [
-            "verb",
-            "(intransitive)"
-          ]
-        ]
-      ],
-      [
-        "relate",
-        "dobre",
-        1.17e-06,
-        [
-          [
-            "verb",
-            "inflection of dobrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of dobrar:\n"
-          ]
-        ]
-      ],
-      [
-        "relate",
-        "dupla",
-        4.37e-05,
-        [
-          [
-            "noun",
-            "pair, duo"
-          ],
-          [
-            "noun",
-            "(tennis) doubles"
-          ]
-        ]
-      ],
-      [
-        "relate",
-        "dublagem",
-        3.16e-06,
-        [
-          [
-            "noun",
-            "(Brazil) dubbing (replacement of voice in film, usually into a different language)"
-          ]
-        ]
       ]
     ],
     "frequency": 1.584893192461114e-05
@@ -65015,14 +63187,6 @@
           [
             "noun",
             "(informal, vocative) wretch!"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
           ]
         ]
       ],
@@ -65981,14 +64145,6 @@
           [
             "verb",
             "to rely on"
-          ],
-          [
-            "verb",
-            "inflection of confiar:\n"
-          ],
-          [
-            "verb",
-            "inflection of confiar:\n"
           ]
         ]
       ],
@@ -66098,14 +64254,6 @@
           [
             "verb",
             "(dated, transitive) to copy (something written/drawn on paper) using a mimeograph"
-          ],
-          [
-            "verb",
-            "inflection of rodar:\n"
-          ],
-          [
-            "verb",
-            "inflection of rodar:\n"
           ]
         ]
       ],
@@ -66181,14 +64329,6 @@
           [
             "verb",
             "(Portugal, computing) to run a program"
-          ],
-          [
-            "verb",
-            "inflection of correr:\n"
-          ],
-          [
-            "verb",
-            "inflection of correr:\n"
           ]
         ]
       ],
@@ -66452,14 +64592,6 @@
           [
             "noun",
             "(typography) printing mould"
-          ],
-          [
-            "verb",
-            "inflection of moldar:\n"
-          ],
-          [
-            "verb",
-            "inflection of moldar:\n"
           ]
         ]
       ]
@@ -66735,14 +64867,6 @@
           [
             "verb",
             "(intransitive with a locational adverb phrase) to end up (to be in a place or situation, after something having happened)"
-          ],
-          [
-            "verb",
-            "inflection of parar:\n"
-          ],
-          [
-            "verb",
-            "inflection of parar:\n"
           ]
         ]
       ],
@@ -67099,14 +65223,6 @@
           [
             "verb",
             "(transitive) to scatter"
-          ],
-          [
-            "verb",
-            "inflection of dispersar:\n"
-          ],
-          [
-            "verb",
-            "inflection of dispersar:\n"
           ]
         ]
       ],
@@ -67149,14 +65265,6 @@
           [
             "verb",
             "(transitive) to promulgate"
-          ],
-          [
-            "verb",
-            "inflection of disseminar:\n"
-          ],
-          [
-            "verb",
-            "inflection of disseminar:\n"
           ]
         ]
       ],
@@ -67384,14 +65492,6 @@
           [
             "verb",
             "(transitive) to cite, quote (refer to a statement that has been made by someone else)"
-          ],
-          [
-            "verb",
-            "inflection of citar:\n"
-          ],
-          [
-            "verb",
-            "inflection of citar:\n"
           ]
         ]
       ],
@@ -67427,14 +65527,6 @@
           [
             "verb",
             "(intransitive) to count; to matter (be of significance)"
-          ],
-          [
-            "verb",
-            "inflection of contar:\n"
-          ],
-          [
-            "verb",
-            "inflection of contar:\n"
           ]
         ]
       ],
@@ -67750,14 +65842,6 @@
           [
             "noun",
             "sip (small mouthful of drink)"
-          ],
-          [
-            "verb",
-            "inflection of pingar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pingar:\n"
           ]
         ]
       ],
@@ -68461,6 +66545,10 @@
           [
             "noun",
             "(Hinduism) Bhat (Brahmin who has learned all the four Vedas)"
+          ],
+          [
+            "noun",
+            "(regional) wineskin, water skin (container for liquids made out of animal hide)"
           ]
         ]
       ],
@@ -68600,14 +66688,6 @@
           [
             "noun",
             "censorship"
-          ],
-          [
-            "verb",
-            "inflection of censurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of censurar:\n"
           ]
         ]
       ],
@@ -69185,14 +67265,6 @@
           [
             "noun",
             "(informal, vocative) wretch!"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
           ]
         ]
       ],
@@ -69466,14 +67538,6 @@
             "(figuratively, transitive) to nurture (encourage the development of)"
           ],
           [
-            "verb",
-            "inflection of alimentar:\n"
-          ],
-          [
-            "verb",
-            "inflection of alimentar:\n"
-          ],
-          [
             "adj",
             "(relational) food, nutrition"
           ]
@@ -69617,14 +67681,6 @@
           [
             "noun",
             "intrigue, plot"
-          ],
-          [
-            "verb",
-            "inflection of tramar:\n"
-          ],
-          [
-            "verb",
-            "inflection of tramar:\n"
           ]
         ]
       ],
@@ -69948,14 +68004,6 @@
           [
             "verb",
             "to advise"
-          ],
-          [
-            "verb",
-            "inflection of indicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of indicar:\n"
           ]
         ]
       ],
@@ -69971,14 +68019,6 @@
           [
             "verb",
             "to appear"
-          ],
-          [
-            "verb",
-            "inflection of surgir:\n"
-          ],
-          [
-            "verb",
-            "inflection of surgir:\n"
           ]
         ]
       ],
@@ -70525,14 +68565,6 @@
           [
             "verb",
             "(Brazil, card games, intransitive) to lead (begin a game, round, or trick)"
-          ],
-          [
-            "verb",
-            "inflection of sair:\n"
-          ],
-          [
-            "verb",
-            "inflection of sair:\n"
           ]
         ]
       ],
@@ -70730,14 +68762,6 @@
           [
             "noun",
             "(Brazil) a type of strong kick with the tip of one's foot striking the adversary"
-          ],
-          [
-            "verb",
-            "inflection of bicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of bicar:\n"
           ]
         ]
       ],
@@ -71171,14 +69195,6 @@
           [
             "verb",
             "(intransitive) to roam (wander or travel freely and with no specific destination)"
-          ],
-          [
-            "verb",
-            "inflection of errar:\n"
-          ],
-          [
-            "verb",
-            "inflection of errar:\n"
           ]
         ]
       ],
@@ -71595,14 +69611,6 @@
           [
             "noun",
             "exchange (an act of exchanging or trading)"
-          ],
-          [
-            "verb",
-            "inflection of permutar:\n"
-          ],
-          [
-            "verb",
-            "inflection of permutar:\n"
           ]
         ]
       ],
@@ -71614,14 +69622,6 @@
           [
             "noun",
             "swap; exchange (the act of changing or exchanging one thing for another)"
-          ],
-          [
-            "verb",
-            "inflection of trocar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trocar:\n"
           ]
         ]
       ],
@@ -72287,14 +70287,6 @@
           [
             "verb",
             "to cooperate (work together)"
-          ],
-          [
-            "verb",
-            "inflection of cooperar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cooperar:\n"
           ]
         ]
       ],
@@ -72554,14 +70546,6 @@
           [
             "noun",
             "freebie (giveaway)"
-          ],
-          [
-            "verb",
-            "inflection of brindar:\n"
-          ],
-          [
-            "verb",
-            "inflection of brindar:\n"
           ]
         ]
       ],
@@ -72639,14 +70623,6 @@
           [
             "verb",
             "to hug, embrace"
-          ],
-          [
-            "verb",
-            "inflection of abra\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of abra\u00e7ar:\n"
           ]
         ]
       ],
@@ -72774,14 +70750,6 @@
           [
             "verb",
             "(transitive) to throw, shoot (with force)"
-          ],
-          [
-            "verb",
-            "inflection of lan\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of lan\u00e7ar:\n"
           ]
         ]
       ],
@@ -73233,14 +71201,6 @@
           [
             "verb",
             "to militate"
-          ],
-          [
-            "verb",
-            "inflection of militar:\n"
-          ],
-          [
-            "verb",
-            "inflection of militar:\n"
           ]
         ]
       ],
@@ -73660,14 +71620,6 @@
           [
             "noun",
             "intrigue, plot"
-          ],
-          [
-            "verb",
-            "inflection of tramar:\n"
-          ],
-          [
-            "verb",
-            "inflection of tramar:\n"
           ]
         ]
       ],
@@ -73702,14 +71654,6 @@
           [
             "noun",
             "intrigue (a complicated or clandestine plot or scheme intended to effect some purpose by secret artifice)"
-          ],
-          [
-            "verb",
-            "inflection of intrigar:\n"
-          ],
-          [
-            "verb",
-            "inflection of intrigar:\n"
           ]
         ]
       ],
@@ -73909,14 +71853,6 @@
             "(emergency medicine, transitive) to resuscitate (to restore conscience to)"
           ],
           [
-            "verb",
-            "inflection of animar:\n"
-          ],
-          [
-            "verb",
-            "inflection of animar:\n"
-          ],
-          [
             "noun",
             "Eye dialect spelling of animal, representing Caipira Portuguese."
           ]
@@ -73941,14 +71877,6 @@
           [
             "verb",
             "to incite (rouse, stir up or excite)"
-          ],
-          [
-            "verb",
-            "inflection of incitar:\n"
-          ],
-          [
-            "verb",
-            "inflection of incitar:\n"
           ]
         ]
       ],
@@ -74028,14 +71956,6 @@
           [
             "verb",
             "(takes a reflexive pronoun, transitive with em) to let oneself be controlled by; to put oneself in the hands of; to indulge in"
-          ],
-          [
-            "verb",
-            "inflection of abandonar:\n"
-          ],
-          [
-            "verb",
-            "inflection of abandonar:\n"
           ]
         ]
       ],
@@ -74855,14 +72775,6 @@
           [
             "noun",
             "obstinacy; stubbornness (insistence in doing something, especially something that is likely not to work out)"
-          ],
-          [
-            "verb",
-            "inflection of cismar:\n"
-          ],
-          [
-            "verb",
-            "inflection of cismar:\n"
           ]
         ]
       ],
@@ -75051,14 +72963,6 @@
           [
             "noun",
             "(economics) demand (amount of a good or service that consumers are willing to buy at a particular price)"
-          ],
-          [
-            "verb",
-            "inflection of procurar:\n"
-          ],
-          [
-            "verb",
-            "inflection of procurar:\n"
           ]
         ]
       ]
@@ -75428,14 +73332,6 @@
           [
             "noun",
             "highlight, prominence"
-          ],
-          [
-            "verb",
-            "inflection of destacar:\n"
-          ],
-          [
-            "verb",
-            "inflection of destacar:\n"
           ]
         ]
       ],
@@ -75488,14 +73384,6 @@
           [
             "noun",
             "intrigue, plot"
-          ],
-          [
-            "verb",
-            "inflection of tramar:\n"
-          ],
-          [
-            "verb",
-            "inflection of tramar:\n"
           ]
         ]
       ],
@@ -75630,14 +73518,6 @@
           [
             "verb",
             "(transitive) to advise, counsel"
-          ],
-          [
-            "verb",
-            "inflection of aconselhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of aconselhar:\n"
           ]
         ]
       ],
@@ -75653,14 +73533,6 @@
           [
             "verb",
             "to intimate"
-          ],
-          [
-            "verb",
-            "inflection of insinuar:\n"
-          ],
-          [
-            "verb",
-            "inflection of insinuar:\n"
           ]
         ]
       ],
@@ -75680,14 +73552,6 @@
           [
             "verb",
             "to manage, oversee"
-          ],
-          [
-            "verb",
-            "inflection of orientar:\n"
-          ],
-          [
-            "verb",
-            "inflection of orientar:\n"
           ]
         ]
       ],
@@ -76448,14 +74312,6 @@
           [
             "verb",
             "to fight; to combat"
-          ],
-          [
-            "verb",
-            "inflection of combater:\n"
-          ],
-          [
-            "verb",
-            "inflection of combater:\n"
           ]
         ]
       ],
@@ -76575,14 +74431,6 @@
           [
             "verb",
             "(transitive) to accredit (bring into credit)"
-          ],
-          [
-            "verb",
-            "inflection of acreditar:\n"
-          ],
-          [
-            "verb",
-            "inflection of acreditar:\n"
           ]
         ]
       ],
@@ -76753,14 +74601,6 @@
           [
             "noun",
             "skyscraper"
-          ],
-          [
-            "verb",
-            "inflection of torrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of torrar:\n"
           ]
         ]
       ],
@@ -77217,14 +75057,6 @@
           [
             "verb",
             "(transitive) to supplement"
-          ],
-          [
-            "verb",
-            "inflection of completar:\n"
-          ],
-          [
-            "verb",
-            "inflection of completar:\n"
           ]
         ]
       ],
@@ -77331,23 +75163,14 @@
       ],
       [
         "synonym",
-        "vadia",
-        1.55e-05,
+        "vagabunda",
+        4.79e-06,
         [
           [
-            "verb",
-            "inflection of vadiar:\n"
-          ],
-          [
-            "verb",
-            "inflection of vadiar:\n"
+            "noun",
+            "female equivalent of vagabundo"
           ]
         ]
-      ],
-      [
-        "synonym",
-        "vagabunda",
-        4.79e-06
       ]
     ],
     "frequency": 1.0471285480508985e-05
@@ -77544,14 +75367,6 @@
           [
             "verb",
             "(transitive) to advise, counsel"
-          ],
-          [
-            "verb",
-            "inflection of aconselhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of aconselhar:\n"
           ]
         ]
       ],
@@ -77751,14 +75566,6 @@
           [
             "noun",
             "vanguard (forefront of any group or movement)"
-          ],
-          [
-            "verb",
-            "inflection of vanguardar:\n"
-          ],
-          [
-            "verb",
-            "inflection of vanguardar:\n"
           ]
         ]
       ]
@@ -77931,14 +75738,6 @@
           [
             "noun",
             "(figurative) act breaking one's word"
-          ],
-          [
-            "verb",
-            "inflection of desfalcar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desfalcar:\n"
           ]
         ]
       ],
@@ -78300,14 +76099,6 @@
           [
             "verb",
             "to displease"
-          ],
-          [
-            "verb",
-            "inflection of ofender:\n"
-          ],
-          [
-            "verb",
-            "inflection of ofender:\n"
           ]
         ]
       ],
@@ -78334,14 +76125,6 @@
           [
             "verb",
             "to stomp"
-          ],
-          [
-            "verb",
-            "inflection of pisar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pisar:\n"
           ]
         ]
       ]
@@ -78595,14 +76378,6 @@
             "(emergency medicine, transitive) to resuscitate (to restore conscience to)"
           ],
           [
-            "verb",
-            "inflection of animar:\n"
-          ],
-          [
-            "verb",
-            "inflection of animar:\n"
-          ],
-          [
             "noun",
             "Eye dialect spelling of animal, representing Caipira Portuguese."
           ]
@@ -78746,14 +76521,6 @@
           [
             "verb",
             "(transitive) to administer"
-          ],
-          [
-            "verb",
-            "inflection of administrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of administrar:\n"
           ]
         ]
       ],
@@ -78769,14 +76536,6 @@
           [
             "verb",
             "(transitive) to command; to lead; to head; to lead (to be in charge of)"
-          ],
-          [
-            "verb",
-            "inflection of comandar:\n"
-          ],
-          [
-            "verb",
-            "inflection of comandar:\n"
           ]
         ]
       ],
@@ -78828,14 +76587,6 @@
           [
             "noun",
             "den, burrow"
-          ],
-          [
-            "verb",
-            "inflection of tocar:\n"
-          ],
-          [
-            "verb",
-            "inflection of tocar:\n"
           ]
         ]
       ],
@@ -79264,14 +77015,6 @@
           [
             "noun",
             "a game where players have to throw hoops or horseshoes towards a pin on the ground"
-          ],
-          [
-            "verb",
-            "inflection of malhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of malhar:\n"
           ]
         ]
       ],
@@ -79295,14 +77038,6 @@
           [
             "noun",
             "appearance, look"
-          ],
-          [
-            "verb",
-            "inflection of pintar:\n"
-          ],
-          [
-            "verb",
-            "inflection of pintar:\n"
           ],
           [
             "noun",
@@ -79345,14 +77080,6 @@
           [
             "noun",
             "(informal, vocative) wretch!"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desgra\u00e7ar:\n"
           ]
         ]
       ],
@@ -79846,14 +77573,6 @@
           [
             "noun",
             "fossa (Cryptoprocta ferox)"
-          ],
-          [
-            "verb",
-            "inflection of fossar:\n"
-          ],
-          [
-            "verb",
-            "inflection of fossar:\n"
           ]
         ]
       ]
@@ -80753,14 +78472,6 @@
           [
             "noun",
             "annex (addition or extension to a building)"
-          ],
-          [
-            "verb",
-            "inflection of anexar:\n"
-          ],
-          [
-            "verb",
-            "inflection of anexar:\n"
           ]
         ]
       ],
@@ -81965,14 +79676,6 @@
           [
             "verb",
             "to find"
-          ],
-          [
-            "verb",
-            "inflection of encontrar:\n"
-          ],
-          [
-            "verb",
-            "inflection of encontrar:\n"
           ]
         ]
       ],
@@ -82170,14 +79873,6 @@
           [
             "verb",
             "(ditransitive, with the indirect object taking em favor de) to give up (abdicate) something in favour of someone"
-          ],
-          [
-            "verb",
-            "inflection of abdicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of abdicar:\n"
           ]
         ]
       ],
@@ -82492,14 +80187,6 @@
           [
             "noun",
             "power"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
-          ],
-          [
-            "verb",
-            "inflection of for\u00e7ar:\n"
           ]
         ]
       ],
@@ -82905,14 +80592,6 @@
           [
             "noun",
             "suit"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
-          ],
-          [
-            "verb",
-            "inflection of trajar:\n"
           ]
         ]
       ],
@@ -83067,14 +80746,6 @@
           [
             "verb",
             "(transitive) to start, begin, initiate"
-          ],
-          [
-            "verb",
-            "inflection of iniciar:\n"
-          ],
-          [
-            "verb",
-            "inflection of iniciar:\n"
           ]
         ]
       ],
@@ -83090,14 +80761,6 @@
           [
             "verb",
             "(transitive) to uproot (pull a plant by the roots)"
-          ],
-          [
-            "verb",
-            "inflection of erradicar:\n"
-          ],
-          [
-            "verb",
-            "inflection of erradicar:\n"
           ]
         ]
       ],
@@ -83239,14 +80902,6 @@
           [
             "verb",
             "to accuse"
-          ],
-          [
-            "verb",
-            "inflection of acusar:\n"
-          ],
-          [
-            "verb",
-            "inflection of acusar:\n"
           ]
         ]
       ],
@@ -84206,14 +81861,6 @@
           [
             "noun",
             "slit, crack, cleft"
-          ],
-          [
-            "verb",
-            "inflection of fender:\n"
-          ],
-          [
-            "verb",
-            "inflection of fender:\n"
           ]
         ]
       ],
@@ -84233,14 +81880,6 @@
           [
             "noun",
             "(informal) vagina (woman's genitalia)"
-          ],
-          [
-            "verb",
-            "inflection of gretar:\n"
-          ],
-          [
-            "verb",
-            "inflection of gretar:\n"
           ]
         ]
       ],
@@ -84333,14 +81972,6 @@
           [
             "noun",
             "border"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
-          ],
-          [
-            "verb",
-            "inflection of orlar:\n"
           ]
         ]
       ]
@@ -84545,14 +82176,6 @@
           [
             "verb",
             "(transitive) to turn; to rotate (change the orientation of something)"
-          ],
-          [
-            "verb",
-            "inflection of girar:\n"
-          ],
-          [
-            "verb",
-            "inflection of girar:\n"
           ]
         ]
       ],
@@ -84580,14 +82203,6 @@
           [
             "verb",
             "(Brazil, used with se, intransitive, persons) to do something by oneself or without help"
-          ],
-          [
-            "verb",
-            "inflection of virar:\n"
-          ],
-          [
-            "verb",
-            "inflection of virar:\n"
           ]
         ]
       ],
@@ -84895,14 +82510,6 @@
           [
             "verb",
             "to limit, confine, demarcate"
-          ],
-          [
-            "verb",
-            "inflection of limitar:\n"
-          ],
-          [
-            "verb",
-            "inflection of limitar:\n"
           ]
         ]
       ],
@@ -85136,14 +82743,6 @@
           [
             "noun",
             "voucher, coupon"
-          ],
-          [
-            "verb",
-            "inflection of valer:\n"
-          ],
-          [
-            "verb",
-            "inflection of valer:\n"
           ]
         ]
       ],
@@ -85503,14 +83102,6 @@
           [
             "noun",
             "doctrine"
-          ],
-          [
-            "verb",
-            "inflection of doutrinar:\n"
-          ],
-          [
-            "verb",
-            "inflection of doutrinar:\n"
           ]
         ]
       ],
@@ -85692,14 +83283,6 @@
           [
             "noun",
             "fossa (Cryptoprocta ferox)"
-          ],
-          [
-            "verb",
-            "inflection of fossar:\n"
-          ],
-          [
-            "verb",
-            "inflection of fossar:\n"
           ]
         ]
       ],
@@ -85867,14 +83450,6 @@
           [
             "verb",
             "(transitive) to restore, renovate (bring back to a previous condition, e.g. a building or painting)"
-          ],
-          [
-            "verb",
-            "inflection of recuperar:\n"
-          ],
-          [
-            "verb",
-            "inflection of recuperar:\n"
           ]
         ]
       ],
@@ -86068,14 +83643,6 @@
           [
             "noun",
             "adjustment"
-          ],
-          [
-            "verb",
-            "inflection of ajustar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ajustar:\n"
           ]
         ]
       ],
@@ -86315,14 +83882,6 @@
           [
             "noun",
             "(Alentejo) a rural property or group of farm buildings"
-          ],
-          [
-            "verb",
-            "inflection of montar:\n"
-          ],
-          [
-            "verb",
-            "inflection of montar:\n"
           ]
         ]
       ],
@@ -86408,11 +83967,6 @@
       ],
       [
         "synonym",
-        "luta",
-        0.000151
-      ],
-      [
-        "synonym",
         "volume",
         5.5e-05
       ],
@@ -86439,6 +83993,21 @@
           [
             "noun",
             "roller"
+          ]
+        ]
+      ],
+      [
+        "synonym",
+        "luta",
+        0.000151,
+        [
+          [
+            "noun",
+            "fight (physical conflict between two parties)"
+          ],
+          [
+            "noun",
+            "fight; striving (great effort in pursuing something)"
           ]
         ]
       ],
@@ -86756,14 +84325,6 @@
           [
             "noun",
             "soda (sweet, carbonated drink)"
-          ],
-          [
-            "verb",
-            "inflection of sodar:\n"
-          ],
-          [
-            "verb",
-            "inflection of sodar:\n"
           ]
         ]
       ],
@@ -86828,14 +84389,6 @@
           [
             "verb",
             "(transitive) to punish"
-          ],
-          [
-            "verb",
-            "inflection of punir:\n"
-          ],
-          [
-            "verb",
-            "inflection of punir:\n"
           ]
         ]
       ],
@@ -86870,14 +84423,6 @@
           [
             "verb",
             "to enrich"
-          ],
-          [
-            "verb",
-            "inflection of enriquecer:\n"
-          ],
-          [
-            "verb",
-            "inflection of enriquecer:\n"
           ]
         ]
       ],
@@ -87074,14 +84619,6 @@
           [
             "verb",
             "(intransitive) to count; to matter (be of significance)"
-          ],
-          [
-            "verb",
-            "inflection of contar:\n"
-          ],
-          [
-            "verb",
-            "inflection of contar:\n"
           ]
         ]
       ],
@@ -87097,14 +84634,6 @@
           [
             "verb",
             "to express"
-          ],
-          [
-            "verb",
-            "inflection of manifestar:\n"
-          ],
-          [
-            "verb",
-            "inflection of manifestar:\n"
           ]
         ]
       ],
@@ -87627,14 +85156,6 @@
           [
             "verb",
             "to draw"
-          ],
-          [
-            "verb",
-            "inflection of desenhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of desenhar:\n"
           ]
         ]
       ],
@@ -87650,14 +85171,6 @@
           [
             "verb",
             "to project"
-          ],
-          [
-            "verb",
-            "inflection of projetar:\n"
-          ],
-          [
-            "verb",
-            "inflection of projetar:\n"
           ]
         ]
       ],
@@ -87669,14 +85182,6 @@
           [
             "verb",
             "to program (write software)"
-          ],
-          [
-            "verb",
-            "inflection of programar:\n"
-          ],
-          [
-            "verb",
-            "inflection of programar:\n"
           ]
         ]
       ],
@@ -88111,14 +85616,6 @@
           [
             "verb",
             "to resist"
-          ],
-          [
-            "verb",
-            "inflection of resistir:\n"
-          ],
-          [
-            "verb",
-            "inflection of resistir:\n"
           ]
         ]
       ],
@@ -88487,14 +85984,6 @@
           [
             "verb",
             "(transitive with a or with no preposition) to understand"
-          ],
-          [
-            "verb",
-            "inflection of atingir:\n"
-          ],
-          [
-            "verb",
-            "inflection of atingir:\n"
           ]
         ]
       ],
@@ -88529,14 +86018,6 @@
           [
             "verb",
             "to earn (to receive payment for work)"
-          ],
-          [
-            "verb",
-            "inflection of ganhar:\n"
-          ],
-          [
-            "verb",
-            "inflection of ganhar:\n"
           ]
         ]
       ],

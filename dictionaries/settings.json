@@ -1,0 +1,95 @@
+{
+  "ar": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "de": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "en": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "es": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "fr": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "he": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "it": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "nup": {
+    "excluded_words": [],
+    "min_length": 3,
+    "POS_included": "",
+    "exclude_profanity": false
+  },
+  "pt": {
+    "excluded_words": [
+      "obsolete",
+      "rare",
+      "archaic",
+      "datedregional",
+      "dialectal",
+      "abbreviation",
+      "initialism",
+      "colloquial",
+      "slang",
+      "inflection of",
+      "simple past",
+      "past participle",
+      "simple present",
+      "present participle",
+      "future tense",
+      "imperative",
+      "first-person",
+      "third-person",
+      "plural of",
+      "plural future",
+      "singular present",
+      "genitive",
+      "dative",
+      "accusative",
+      "nominative",
+      "all-case",
+      "feminine",
+      "masculine",
+      "neuter",
+      "all-gender",
+      "misspelling",
+      "alternative form",
+      "alternative spelling",
+      "defective spelling",
+      "alternative letter",
+      "script ",
+      "greek",
+      "phonetic"
+    ],
+    "min_length": 3,
+    "POS_included": "noun verb adj",
+    "exclude_profanity": true
+  }
+}
