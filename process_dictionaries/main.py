@@ -46,9 +46,12 @@ def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclu
 
   # Update settings.json file with parameters used to create the dictionary
 
-  settings_file = open('dictionaries/settings.json', 'r', encoding="utf-8")
-  settings = json.load(settings_file)
-  settings_file.close()
+  if os.path.exists(f'dictionaries/settings.json'):
+    settings_file = open('dictionaries/settings.json', 'r', encoding="utf-8")
+    settings = json.load(settings_file)
+    settings_file.close()
+  else:
+    settings = {}
 
   settings[langCode] = {
     "excluded_words": ExcludeTheseWords,
@@ -63,4 +66,4 @@ def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclu
   settings_file.close()
 
 
-main('process_dictionaries\kaikki.org-dictionary-German.json')
+main('process_dictionaries\kaikki.org-dictionary-Spanish.json')

@@ -21,7 +21,11 @@ To create this project, I made use of a few wonderful resources:
 
 The result of this method is a dictionary in a specified language with English definitions, frequencies, and related words of the most common words. The method can easily be adjusted to customize the frequency threshold, the parts of speech, and other parameters. 
 
-Definitions with a vulgar, derogatory, and offensive tag are filtered out by default, but can be included. **Note: if a word has a clean definition then it will be included with its clean definition even if it has other inappropriate definitions.**
+### Note About Swear Words
+
+Definitions with a vulgar, derogatory, or offensive tag are filtered out by default, but can be included. 
+
+If a word has multiple definitions and only some are tagged as vulgar/derogatory/offensive, then the clean definitions will still be included. From looking at some example entries in the English dictionary, it seems that all the definitions of a vulgar word should have the vulgar tag, but be prepared to have the occassional swear word in the dictionary in case the pattern doesn't hold. 
 
 ---
 
@@ -78,7 +82,7 @@ More information on the frequency data can be found on the [wordfreq GitHub repo
 
 ### Download an Already Made Dictionary
 
-*Note: The dictionaries I have processed are available for download in this repo, but they have not been recreated after each feature addition or bug fix. Therefore, the ready-made dictionaries may not fit the format exactly, may not have all the words expected, may have more words than expected, may have duplicates, and may have other issues.*
+*Note: The dictionaries I have processed are available for download in this repo, but they are not necessarily recreated after each feature addition or bug fix. See `dictionaries/settings.json` for information on the parameters used to create each dictionary.*
 
 1. Find the language(s) you want in the `dictionaries/` folder, organized by language code.
 2. Download the files you want.
