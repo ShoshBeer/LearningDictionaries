@@ -11,6 +11,8 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
   draftDict = {}
   relationships = ["synonyms", "holonyms", "hypernyms", "hyponyms", "meronyms", "antonyms", "troponyms", "related"]
   badWord = None
+  prevWord = None
+  clean = True
 
   # Kaikki files have one JSON object per line
   # The file as a whole is NOT valid JSON
@@ -24,72 +26,58 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
         kaikkiEntry = json.loads(line)
 
         # For easier reading
-        kaikkiWord = kaikkiEntry["word"]
+        currentWord = kaikkiEntry["word"]
         senses = kaikkiEntry["senses"]
 
-        if badWord == kaikkiWord:
+        # print(f"prevWord: {prevWord}, currentWord: {currentWord}")
+
+        if ' ' in currentWord or len(currentWord) < minWordLength or kaikkiEntry["pos"] not in POStoInclude or badWord == currentWord:
           continue
 
-        if ' ' in kaikkiWord or len(kaikkiWord) < minWordLength or kaikkiEntry["pos"] not in POStoInclude:
-          # Skip multi-word phrases
-          # By default, only take nouns, verbs, adjectives
-          continue
+        if not prevWord or prevWord != currentWord:
+          # do some checks on the previous entry and maybe delete
+          if prevWord and len(draftEntry["definitions"]) == 0 or not clean:
+            del draftDict[prevWord] # Dirty words or words without definitions
+          # add current word to draftDict
+          draftDict[currentWord] = {"word": currentWord, "definitions": [], "related words": []}
+          draftEntry = draftDict[currentWord]
+          prevWord = currentWord
 
-        else:
-          clean = True
+        wordRelationships = (relationship for relationship in relationships if relationship in kaikkiEntry)
+        for wordRelationship in wordRelationships:
+          for count in kaikkiEntry[wordRelationship]:
+            wordToAdd = wordNotInList(count["word"], draftEntry["related words"], nested=True)
+            if wordToAdd:
+              draftEntry["related words"].append([wordRelationship[:-1], wordToAdd])
 
-          if kaikkiWord == "יווני":
-            print(draftDict)
+        clean = True
 
-          if kaikkiWord not in draftDict:
-            print(f"adding {kaikkiWord} to draftdict")
-            draftDict[kaikkiWord] = {"word": kaikkiWord, "definitions": [], "related words": []}
-            draftEntry = draftDict[kaikkiWord]
+        for sense in senses: 
 
-          for sense in senses: 
-
-            if ExcludeProfanity and "tags" in sense:
-              print("exclude profanity block")
-              for profanity in ["derogatory", "offensive", "vulgar"]:
-                clean = wordNotInList(profanity, sense["tags"])
-                if not clean:
-                  badWord = kaikkiWord
-                  break
+          if ExcludeProfanity and "tags" in sense:
+            for profanity in ["derogatory", "offensive", "vulgar"]:
+              clean = wordNotInList(profanity, sense["tags"])
               if not clean:
+                badWord = currentWord
                 break
+            if not clean:
+              break
 
-            for gloss_type in ["raw_glosses", "glosses"]:
-              if gloss_type in sense:
-                print("Adding definition unless excluded word contained")
-                print(sense[gloss_type][0])
-                if not any([x in sense[gloss_type][0].casefold() for x in wordsToExclude]):
-                  draftEntry["definitions"].append([kaikkiEntry["pos"], sense[gloss_type][0]])
-                break
-            else:
-              break # Skip to next sense if this one has no definitions
+          for gloss_type in ["glosses", "raw_glosses"]:
+            if gloss_type in sense:
+              if not any([x in sense[gloss_type][0].casefold() for x in wordsToExclude]):
+                draftEntry["definitions"].append([kaikkiEntry["pos"], sense[gloss_type][0]])
+              break
+          else:
+            continue # Skip to next sense if this one has no definitions
 
-            senseRelationships = (relationship for relationship in relationships if relationship in sense)
+          senseRelationships = (relationship for relationship in relationships if relationship in sense)
 
-            for senseRelationship in senseRelationships:
-              for count in range(len(sense[senseRelationship])):
-                wordToAdd = wordNotInList(sense[senseRelationship][count]["word"], draftEntry["related words"], nested=True)
-                if wordToAdd:
-                  draftEntry["related words"].append([senseRelationship[:-1], wordToAdd])
-
-          if len(draftEntry["definitions"]) == 0 or not clean:
-            print(f"deleting this entry: {draftEntry['word']}")
-            print(draftEntry["definitions"])
-            print(clean)
-            del draftEntry # Dirty words or words without definitions
-
-        # KaikkiEntry could also have synonyms, antonyms, etc.
-        if kaikkiWord in draftDict:
-          wordRelationships = (relationship for relationship in relationships if relationship in kaikkiEntry)
-          for wordRelationship in wordRelationships:
-            for count in range(len(kaikkiEntry[wordRelationship])):
-              wordToAdd = wordNotInList(kaikkiEntry[wordRelationship][count]["word"], draftEntry["related words"], nested=True)
+          for senseRelationship in senseRelationships:
+            for count in sense[senseRelationship]:
+              wordToAdd = wordNotInList(count["word"], draftEntry["related words"], nested=True)
               if wordToAdd:
-                draftEntry["related words"].append([wordRelationship[:-1], wordToAdd])
+                draftEntry["related words"].append([senseRelationship[:-1], wordToAdd])
 
         bar()
 
