@@ -10,7 +10,11 @@
 # If no defs, delete word
 import re
 
-def wordNotInList(word, listOfWords, nested=False):
+def wordNotInList(word, listOfWords, targetWord=None, nested=False, excludedChars=[]):
+  if targetWord and word.casefold() == targetWord.casefold():
+    return False
+  if any(excludedChar in word for excludedChar in excludedChars):
+    return False
   if nested:
     if any(word.casefold() == wordFromList[1].casefold() for wordFromList in listOfWords):
       return False
@@ -21,13 +25,6 @@ def wordNotInList(word, listOfWords, nested=False):
       return False
     else:
       return word.casefold()
-  # for wordFromList in listOfWords:
-  #   if word.casefold() == wordFromList.casefold():
-  #     return False
-  #   else:
-  #     continue
-  
-  # return word.casefold()
 
 def wordInString(word, sentence):
   wordList = re.findall(r'\w+', sentence)
@@ -50,11 +47,11 @@ if __name__ == "__main__":
   testList4 = ["here", "bUtt", "booty"] # Expect False
   testList5 = ["one", "butt./"] # Expect butt
 
-  print(wordNotInList(testWord1, testList1))
-  print(wordNotInList(testWord1, testList2))
-  print(wordNotInList(testWord1, testList3))
-  print(wordNotInList(testWord1, testList4))
-  print(wordNotInList(testWord1, testList5))
+  print(wordNotInList(testWord1, testList1, excludedChars=['-', ' ']))
+  print(wordNotInList(testWord1, testList2, excludedChars=['-', ' ']))
+  print(wordNotInList(testWord1, testList3, excludedChars=['-', ' ']))
+  print(wordNotInList(testWord1, testList4, excludedChars=['-', ' ']))
+  print(wordNotInList(testWord1, testList5, excludedChars=['-', ' ']))
 
   # wordInString
   testSentence1 = "Don't look at my bUtt" # Expect True

@@ -29,24 +29,22 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
         currentWord = kaikkiEntry["word"]
         senses = kaikkiEntry["senses"]
 
-        # print(f"prevWord: {prevWord}, currentWord: {currentWord}")
-
-        if ' ' in currentWord or len(currentWord) < minWordLength or kaikkiEntry["pos"] not in POStoInclude or badWord == currentWord:
+        if ' ' in currentWord or '-' in currentWord or len(currentWord) < minWordLength or kaikkiEntry["pos"] not in POStoInclude or badWord == currentWord:
+          bar()
           continue
 
         if not prevWord or prevWord != currentWord:
-          # do some checks on the previous entry and maybe delete
           if prevWord and len(draftEntry["definitions"]) == 0 or not clean:
-            del draftDict[prevWord] # Dirty words or words without definitions
-          # add current word to draftDict
-          draftDict[currentWord] = {"word": currentWord, "definitions": [], "related words": []}
+            del draftDict[prevWord]
+          
+          draftDict[currentWord] = {"word": currentWord, "definitions": [], "related words": []} # add current word to draftDict
           draftEntry = draftDict[currentWord]
           prevWord = currentWord
 
         wordRelationships = (relationship for relationship in relationships if relationship in kaikkiEntry)
         for wordRelationship in wordRelationships:
           for count in kaikkiEntry[wordRelationship]:
-            wordToAdd = wordNotInList(count["word"], draftEntry["related words"], nested=True)
+            wordToAdd = wordNotInList(count["word"], draftEntry["related words"], targetWord=currentWord, nested=True, excludedChars=['-', ' '])
             if wordToAdd:
               draftEntry["related words"].append([wordRelationship[:-1], wordToAdd])
 
@@ -75,7 +73,7 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
 
           for senseRelationship in senseRelationships:
             for count in sense[senseRelationship]:
-              wordToAdd = wordNotInList(count["word"], draftEntry["related words"], nested=True)
+              wordToAdd = wordNotInList(count["word"], draftEntry["related words"], targetWord=currentWord, nested=True, excludedChars=['-', ' '])
               if wordToAdd:
                 draftEntry["related words"].append([senseRelationship[:-1], wordToAdd])
 
@@ -94,11 +92,11 @@ if __name__ == "__main__":
             "plural of", "plural future", "singular present",
             "genitive", "dative", "accusative", "nominative", "all-case",
             "feminine", "masculine", "neuter", "all-gender",
-            "misspelling", "alternative form", "alternative spelling", "defective spelling", "alternative letter", 
+            "misspelling", "alternative form", "alternative spelling", "defective spelling", "spelling of", "alternative letter", 
             "script ", "greek", "phonetic"
           ]
 
-  [draftDict, langCode] = processWordDump("process_dictionaries\kaikki.org-dictionary-Hebrew.json", excluded)
+  [draftDict, langCode] = processWordDump("process_dictionaries\kaikki.org-dictionary-English.json", excluded)
 
   if not os.path.exists(f'dictionaries/test/{langCode}'):
     os.makedirs(f'dictionaries/test/{langCode}')
