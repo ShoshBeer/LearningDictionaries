@@ -1,7 +1,7 @@
 import json
 import os
 from alive_progress import alive_bar
-from filterAction import wordNotInList, wordInString
+from filterAction import wordNotInList, findRelationships, wordInString
 
 def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 'noun verb adj', ExcludeProfanity=True):
 
@@ -9,7 +9,6 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
   totalLines = sum(1 for line in open(filename, "r", encoding="utf-8"))
 
   draftDict = {}
-  relationships = ["synonyms", "holonyms", "hypernyms", "hyponyms", "meronyms", "antonyms", "troponyms", "related"]
   badWord = None
   prevWord = None
   clean = True
@@ -41,12 +40,11 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
           draftEntry = draftDict[currentWord]
           prevWord = currentWord
 
-        wordRelationships = (relationship for relationship in relationships if relationship in kaikkiEntry)
-        for wordRelationship in wordRelationships:
-          for count in kaikkiEntry[wordRelationship]:
+        for relationship in findRelationships(kaikkiEntry):
+          for count in kaikkiEntry[relationship]:
             wordToAdd = wordNotInList(count["word"], draftEntry["related words"], targetWord=currentWord, nested=True, excludedChars=['-', ' '])
             if wordToAdd:
-              draftEntry["related words"].append([wordRelationship[:-1], wordToAdd])
+              draftEntry["related words"].append([relationship[:-1], wordToAdd])
 
         clean = True
 
@@ -69,13 +67,11 @@ def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 
           else:
             continue # Skip to next sense if this one has no definitions
 
-          senseRelationships = (relationship for relationship in relationships if relationship in sense)
-
-          for senseRelationship in senseRelationships:
-            for count in sense[senseRelationship]:
+          for relationship in findRelationships(sense):
+            for count in sense[relationship]:
               wordToAdd = wordNotInList(count["word"], draftEntry["related words"], targetWord=currentWord, nested=True, excludedChars=['-', ' '])
               if wordToAdd:
-                draftEntry["related words"].append([senseRelationship[:-1], wordToAdd])
+                draftEntry["related words"].append([relationship[:-1], wordToAdd])
 
         bar()
 
@@ -88,7 +84,7 @@ if __name__ == "__main__":
             "abbreviation", "initialism", "colloquial", "slang", 
             "simple past", "past participle", 
             "simple present", "present participle", 
-            "future tense", "imperative", "first-person", "third-person",
+            "future tense", "imperative", "subjunctive", "preterite", "gerund of", "first-person", "third-person", "second-person",
             "plural of", "plural future", "singular present",
             "genitive", "dative", "accusative", "nominative", "all-case",
             "feminine", "masculine", "neuter", "all-gender",
@@ -96,7 +92,7 @@ if __name__ == "__main__":
             "script ", "greek", "phonetic"
           ]
 
-  [draftDict, langCode] = processWordDump("process_dictionaries\kaikki.org-dictionary-English.json", excluded)
+  [draftDict, langCode] = processWordDump("process_dictionaries\kaikki.org-dictionary-German.json", excluded)
 
   if not os.path.exists(f'dictionaries/test/{langCode}'):
     os.makedirs(f'dictionaries/test/{langCode}')
