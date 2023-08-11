@@ -1,7 +1,10 @@
 import json
 import os
+
 from alive_progress import alive_bar
-from filterAction import wordNotInList, findRelationships
+
+# from helpers.filterAction import wordNotInList, findRelationships # to run from here
+from utils.helpers.filterAction import wordNotInList, findRelationships # to run from main.py
 
 def processWordDump(filename, wordsToExclude, minWordLength = 3, POStoInclude = 'noun verb adj', ExcludeProfanity=True):
 
