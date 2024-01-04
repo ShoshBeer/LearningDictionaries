@@ -188,7 +188,8 @@
       "obsolete",
       "rare",
       "archaic",
-      "datedregional",
+      "dated",
+      "regional",
       "dialectal",
       "abbreviation",
       "initialism",
@@ -201,8 +202,12 @@
       "present participle",
       "future tense",
       "imperative",
+      "subjunctive",
+      "preterite",
+      "gerund of",
       "first-person",
       "third-person",
+      "second-person",
       "plural of",
       "plural future",
       "singular present",
@@ -219,6 +224,7 @@
       "alternative form",
       "alternative spelling",
       "defective spelling",
+      "spelling of",
       "alternative letter",
       "script ",
       "greek",
@@ -227,7 +233,7 @@
     "min_length": 3,
     "POS_included": "noun verb adj",
     "exclude_profanity": true,
-    "smooth_dict_length": 3522
+    "smooth_dict_length": 3523
   },
   "pt": {
     "excluded_words": [

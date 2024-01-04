@@ -1,76 +1,54 @@
 import json
-import wordfreq as wf
+from functools import partial
+
+from alive_progress import alive_bar
+
+# from helpers.relatedWordsHelpers import filterBadRW, inCurrentDict, inBigDict # to run from here
+from utils.helpers.relatedWordsHelpers import filterBadRW, inCurrentDict, inBigDict # to run from main.py
 
 def processRelatedWords(filename, bigFilename, languageCode):
-  proccessedWords = {}
-  wordCountBefore = 0
-  wordCountAfter = 0
-
-  def filterBadRW(type_word):
-    if ' ' in type_word[1]:
-      return False
-    type_word.append(wf.word_frequency(type_word[1], languageCode))
-    if type_word[2] < 0.000001:
-      # For de, removing RW with freqeuncy threshold > 1/100000 results in too few words, but a few hundred more with 1/1000000 threshold
-      return False
-    return True
-  
-  def inCurrentDict(type_word):
-    if type_word[1] in proccessedWords:
-      return True
-    else:
-      return False
-    
-  def inBigDict(type_word):
-    with open(bigFilename, "r", encoding="utf-8") as big_file:
-      fullDictionary = json.load(big_file)
-      if type_word[1] in fullDictionary:
-        return fullDictionary[type_word[1]]["definitions"]
-      else:
-        return False
+  processedWords = {}
 
   with open(filename, "r", encoding="utf-8") as f:
-    wordsToProccess = json.load(f)
-    for word in wordsToProccess:
-      wordCountBefore += 1
-      if wordCountBefore % (len(wordsToProccess) // 100) == 0:
-        print(f'Initial filter: {wordCountBefore // (len(wordsToProccess) // 100)}%')
-      proccessedWords[word] = wordsToProccess[word]
-      proccessedWords[word]["related words"] = list(filter(filterBadRW, proccessedWords[word]["related words"]))
+    wordsToProcess = json.load(f)
 
-      if len(proccessedWords[word]["related words"]) < 5:
-        del proccessedWords[word]
+    with alive_bar(len(wordsToProcess), title="Filtering related words", stats=False) as bar:
+      for word in wordsToProcess:
+        processedWords[word] = wordsToProcess[word]
+        processedWords[word]["related words"] = list(filter(lambda RW: filterBadRW(RW, languageCode), processedWords[word]["related words"]))
 
-    for word in list(proccessedWords):
-      # This goes through related words to make sure definitions are available
-      wordCountAfter += 1
-      if len(proccessedWords) // 100 >= 1:
-        if wordCountAfter % (len(proccessedWords) // 100) == 0:
-          print(f'Definition processing: {wordCountAfter // (len(proccessedWords) // 100)}%')
+        if len(processedWords[word]["related words"]) < 5:
+          del processedWords[word]
+        
+        bar()
 
-      # proccessedWords[word]["related words"] = list(set(proccessedWords[word]["related words"])) # To remove duplicates
+    with alive_bar(len(processedWords), title="Sorting related words", stats=False) as bar:
+      for word in list(processedWords):
+        # This goes through related words to make sure definitions are available
 
-      # Related words will have words in the current dict first
-      proccessedWords[word]["related words"].sort(key=inCurrentDict, reverse=True)
+        # Related words will have words in the current dict first
+        processedWords[word]["related words"].sort(key=partial(inCurrentDict, processed=processedWords), reverse=True)
 
-      i = 0
-      while i < 5:
-        if i >= len(proccessedWords[word]["related words"]):
-          del proccessedWords[word]
-          break
+        i = 0
+        while i < 5:
+          if i >= len(processedWords[word]["related words"]):
+            del processedWords[word]
+            break
 
-        if inCurrentDict(proccessedWords[word]["related words"][i]):
-          i += 1
-        elif defs := inBigDict(proccessedWords[word]["related words"][i]):
-          proccessedWords[word]["related words"][i].append(defs)
-          i += 1
-        else:
-           del proccessedWords[word]["related words"][i]
+          if inCurrentDict(processedWords[word]["related words"][i], processedWords):
+            i += 1
+          elif defs := inBigDict(processedWords[word]["related words"][i], bigFilename):
+            processedWords[word]["related words"][i].append(defs)
+            i += 1
+          else:
+            del processedWords[word]["related words"][i]
 
-  return proccessedWords
+        bar()
+
+  return processedWords
 
 if __name__ == "__main__":
-  proccessedWords = processRelatedWords('dictionaries/es/es_rough_dict.json', 'dictionaries/es/es_draft_dict.json', 'es')
+  processedWords = processRelatedWords('dictionaries/es/es_rough_dict.json', 'dictionaries/es/es_draft_dict.json', 'es')
 
   with open('dictionaries/es/es_smooth_dict.json', 'w', encoding='utf-8') as f:
-    json.dump(proccessedWords, f)
+    json.dump(processedWords, f)

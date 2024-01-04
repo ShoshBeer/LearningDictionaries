@@ -1,23 +1,13 @@
-from utils.processWordDump import processWordDump
-from utils.processWordFrequencies import processWordFrequencies
-from utils.processRelatedWords import processRelatedWords
 import json
 import os
 
+from utils.processWordDump import processWordDump
+from utils.processWordFrequencies import processWordFrequencies
+from utils.processRelatedWords import processRelatedWords
+
 ExcludeTheseWords = [
-            "obsolete", "rare", "archaic", "dated"
-            "regional", "dialectal",
-            "abbreviation", "initialism", "colloquial", "slang", 
-            "inflection of", "simple past", "past participle", 
-            "simple present", "present participle", 
-            "future tense", "imperative", "first-person", "third-person",
-            "plural of", "plural future", "singular present",
-            "genitive", "dative", "accusative", "nominative", "all-case",
-            "feminine", "masculine", "neuter", "all-gender",
-            "misspelling", "alternative form", "alternative spelling", 
-            "defective spelling", "alternative letter", 
-            "script ", "greek", "phonetic"
-          ]
+  "obsolete", "rare", "archaic", "dated", "regional", "dialectal", "abbreviation", "initialism", "colloquial", "slang", "inflection of", "simple past", "past participle", "simple present", "present participle", "future tense", "imperative", "subjunctive", "preterite", "gerund of", "first-person", "third-person", "second-person", "plural of", "plural future", "singular present", "genitive", "dative", "accusative", "nominative", "all-case", "feminine", "masculine", "neuter", "all-gender", "misspelling", "alternative form", "alternative spelling", "defective spelling", "spelling of", "alternative letter", "script ", "greek", "phonetic"
+]
 
 def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclude="noun verb adj", ExcludeProfanity=True):
 
@@ -66,4 +56,4 @@ def main(filename, wordsToExclude=ExcludeTheseWords, minWordLength=3, POStoInclu
   settings_file.close()
 
 
-main('process_dictionaries\kaikki.org-dictionary-Spanish.json')
+main('process_dictionaries\kaikki.org-dictionary-Italian.json')
